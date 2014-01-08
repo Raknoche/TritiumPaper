@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  2 JAN 2014 12:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  6 JAN 2014 14:27
 entering extended mode
 **Tritium.tex
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Tritium.tex"
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -326,7 +326,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\block.tss"
 File: block.tss 2011/12/15
 )
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Tritium.aux"
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.aux
 
 LaTeX Warning: Label `fig:Removal' multiply defined.
 
@@ -414,8 +414,8 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 48.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Abstract.tex")
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Introduction.tex"
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Abstract.tex)
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Introduction.tex
 <lux.jpg, id=1, 531.9875pt x 433.62pt>
 File: lux.jpg Graphic file (type jpg)
  <use lux.jpg>
@@ -424,159 +424,68 @@ Package pdftex.def Info: lux.jpg used on input line 7.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/lux.jpg>]
+ <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/lux.jpg>]
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
 )
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\UMDExperiments.tex"
-<GasSystem.png, id=11, 561.59813pt x 864.22874pt>
-File: GasSystem.png Graphic file (type png)
- <use GasSystem.png>
-Package pdftex.def Info: GasSystem.png used on input line 13.
-(pdftex.def)             Requested size: 168.48073pt x 259.27061pt.
- [2]
-<Figone.png, id=17, 845.40843pt x 509.65407pt>
-File: Figone.png Graphic file (type png)
- <use Figone.png>
-Package pdftex.def Info: Figone.png used on input line 26.
-(pdftex.def)             Requested size: 169.07869pt x 101.929pt.
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\UMDExperiments.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<Figfour.png, id=19, 794.2172pt x 527.72156pt>
-File: Figfour.png Graphic file (type png)
- <use Figfour.png>
-Package pdftex.def Info: Figfour.png used on input line 35.
-(pdftex.def)             Requested size: 158.84062pt x 105.54243pt.
+ [2])
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Simulations_new.tex
+[3]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 25.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 25.
+Package epstopdf Info: Source file: <LUXfig_INJvar_time_new.eps>
+(epstopdf)                    date: 2014-01-06 14:09:12
+(epstopdf)                    size: 13225 bytes
+(epstopdf)             Output file: <LUXfig_INJvar_time_new-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-01-06 14:11:53
+(epstopdf)                    size: 4826 bytes
+(epstopdf)             Command: <epstopdf --outfile=LUXfig_INJvar_time_new-eps-
+converted-to.pdf LUXfig_INJvar_time_new.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
 
-Overfull \hbox (273.23856pt too wide) has occurred while \output is active
-[] []|[] []
- []
+<LUXfig_INJvar_time_new-eps-converted-to.pdf, id=23, 827.09pt x 483.8075pt>
+File: LUXfig_INJvar_time_new-eps-converted-to.pdf Graphic file (type pdf)
 
-[3 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/GasSystem.png> <C:/U
-sers/Richard/Desktop/Work/Tritium Paper/TritiumSVN/Figone.png>]
-<UMDInjectionSys.png, id=24, 423.83344pt x 465.23813pt>
-File: UMDInjectionSys.png Graphic file (type png)
+<use LUXfig_INJvar_time_new-eps-converted-to.pdf>
+Package pdftex.def Info: LUXfig_INJvar_time_new-eps-converted-to.pdf used on in
+put line 29.
+(pdftex.def)             Requested size: 206.77199pt x 120.95157pt.
+)
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Hardware.tex
+[4 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/LUXfig_INJvar_tim
+e_new-eps-converted-to.pdf>])
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\InjectionStrategy.te
+x
+Package epstopdf Info: Source file: <CH4_injection.eps>
+(epstopdf)                    date: 2013-11-07 17:57:30
+(epstopdf)                    size: 20368 bytes
+(epstopdf)             Output file: <CH4_injection-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-12-16 13:58:00
+(epstopdf)                    size: 17087 bytes
+(epstopdf)             Command: <epstopdf --outfile=CH4_injection-eps-converted
+-to.pdf CH4_injection.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+ <CH4_injection-eps-converted-to.pdf, id=34, 513.92pt x 433.62pt>
+File: CH4_injection-eps-converted-to.pdf Graphic file (type pdf)
 
-<use UMDInjectionSys.png>
-Package pdftex.def Info: UMDInjectionSys.png used on input line 46.
-(pdftex.def)             Requested size: 169.53036pt x 186.09195pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<cryo.png, id=25, 219.82124pt x 416.30531pt>
-File: cryo.png Graphic file (type png)
- <use cryo.png>
-Package pdftex.def Info: cryo.png used on input line 57.
-(pdftex.def)             Requested size: 109.91034pt x 208.15215pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+<use CH4_injection-eps-converted-to.pdf>
+Package pdftex.def Info: CH4_injection-eps-converted-to.pdf used on input line 
+10.
+(pdftex.def)             Requested size: 227.62204pt x 192.05714pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/Figfour.png> <C:/Us
-ers/Richard/Desktop/Work/Tritium Paper/TritiumSVN/UMDInjectionSys.png>]
-Overfull \hbox (78.48427pt too wide) in paragraph at lines 94--95
- [][] 
- []
-
-[5 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/cryo.png>] [6
-
-]
-<spectra.png, id=39, 727.518pt x 277.035pt>
-File: spectra.png Graphic file (type png)
- <use spectra.png>
-Package pdftex.def Info: spectra.png used on input line 101.
-(pdftex.def)             Requested size: 181.87906pt x 69.25858pt.
-
-<ResidualBackgroundCorrected_SystemErr.png, id=40, 1204.5pt x 409.53pt>
-File: ResidualBackgroundCorrected_SystemErr.png Graphic file (type png)
-
-<use ResidualBackgroundCorrected_SystemErr.png>
-Package pdftex.def Info: ResidualBackgroundCorrected_SystemErr.png used on inpu
-t line 111.
-(pdftex.def)             Requested size: 180.6672pt x 61.42683pt.
-)
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Simulations_new.tex"
-Underfull \vbox (badness 1635) has occurred while \output is active []
-
- [7
-
- <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/spectra.png> <C:/Users
-/Richard/Desktop/Work/Tritium Paper/TritiumSVN/ResidualBackgroundCorrected_Syst
-emErr.png (PNG copy)>] <Outgassing_TimeHisto_Log.png, id=46, 864.22874pt x 571.
-38469pt>
-File: Outgassing_TimeHisto_Log.png Graphic file (type png)
-
-<use Outgassing_TimeHisto_Log.png>
-Package pdftex.def Info: Outgassing_TimeHisto_Log.png used on input line 34.
-(pdftex.def)             Requested size: 172.84268pt x 114.2749pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] <Steps_Overlay.png, id=54, 698.61pt x 473.77pt>
-File: Steps_Overlay.png Graphic file (type png)
- <use Steps_Overlay.png>
-Package pdftex.def Info: Steps_Overlay.png used on input line 43.
-(pdftex.def)             Requested size: 174.65207pt x 118.4422pt.
-
-<Cesium_Combined_Fit.png, id=55, 608.2725pt x 623.32875pt>
-File: Cesium_Combined_Fit.png Graphic file (type png)
-
-<use Cesium_Combined_Fit.png>
-Package pdftex.def Info: Cesium_Combined_Fit.png used on input line 52.
-(pdftex.def)             Requested size: 182.48315pt x 187.00006pt.
- [9 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/Outgassing_TimeHist
-o_Log.png> <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/Steps_Overla
-y.png> <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/Cesium_Combined_
-Fit.png>]
-<StepsandNoSteps.png, id=60, 470.50781pt x 445.665pt>
-File: StepsandNoSteps.png Graphic file (type png)
-
-<use StepsandNoSteps.png>
-Package pdftex.def Info: StepsandNoSteps.png used on input line 61.
-(pdftex.def)             Requested size: 188.19978pt x 178.26283pt.
- [10 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/StepsandNoSteps.pn
-g>]
-<LUXActivityOverTime_new.png, id=64, 1284.8pt x 624.3325pt>
-File: LUXActivityOverTime_new.png Graphic file (type png)
-
-<use LUXActivityOverTime_new.png>
-Package pdftex.def Info: LUXActivityOverTime_new.png used on input line 94.
-(pdftex.def)             Requested size: 192.71169pt x 93.64583pt.
-)
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Hardware.tex" [11 <C:/
-Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/LUXActivityOverTime_new.png
- (PNG copy)>] <BottleSetup.png, id=68, 655.69969pt x 306.39468pt>
-File: BottleSetup.png Graphic file (type png)
-
-<use BottleSetup.png>
-Package pdftex.def Info: BottleSetup.png used on input line 11.
-(pdftex.def)             Requested size: 196.71143pt x 91.91911pt.
-
-<TritiumPlumbingUpdated.png, id=69, 630.85687pt x 438.13687pt>
-File: TritiumPlumbingUpdated.png Graphic file (type png)
-
-<use TritiumPlumbingUpdated.png>
-Package pdftex.def Info: TritiumPlumbingUpdated.png used on input line 23.
-(pdftex.def)             Requested size: 189.25851pt x 131.44206pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/BottleSetup.png>])
-
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\InjectionStrategy.tex"
-<CH4_injection.png, id=73, 513.92pt x 433.62pt>
-File: CH4_injection.png Graphic file (type png)
- <use CH4_injection.png>
-Package pdftex.def Info: CH4_injection.png used on input line 11.
-(pdftex.def)             Requested size: 154.17719pt x 130.087pt.
-
-[13 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/TritiumPlumbingUpda
-ted.png> <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH4_injection.
-png>]
+ [5]
 Package epstopdf Info: Source file: <CH3T_Rate_fid_150_lux10_20130813T1120_note
 .eps>
 (epstopdf)                    date: 2013-12-16 15:01:24
@@ -588,18 +497,18 @@ Package epstopdf Info: Source file: <CH3T_Rate_fid_150_lux10_20130813T1120_note
 (epstopdf)             Command: <epstopdf --outfile=CH3T_Rate_fid_150_lux10_201
 30813T1120_note-eps-converted-to.pdf CH3T_Rate_fid_150_lux10_20130813T1120_note
 .eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Rate_fid_150_lux10_20130813T1120_note-eps-converted-to.pdf, id=79, 561.09
+<CH3T_Rate_fid_150_lux10_20130813T1120_note-eps-converted-to.pdf, id=38, 561.09
 625pt x 421.575pt>
 File: CH3T_Rate_fid_150_lux10_20130813T1120_note-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use CH3T_Rate_fid_150_lux10_20130813T1120_note-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Rate_fid_150_lux10_20130813T1120_note-eps-convert
-ed-to.pdf used on input line 23.
-(pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
+ed-to.pdf used on input line 24.
+(pdftex.def)             Requested size: 140.27371pt x 105.39348pt.
 Package epstopdf Info: Source file: <CH3T_Rate_fid_500_lux10_20130813T1120.eps>
 
 (epstopdf)                    date: 2013-12-14 14:03:46
@@ -610,46 +519,18 @@ converted-to.pdf>
 (epstopdf)                    size: 30925 bytes
 (epstopdf)             Command: <epstopdf --outfile=CH3T_Rate_fid_500_lux10_201
 30813T1120-eps-converted-to.pdf CH3T_Rate_fid_500_lux10_20130813T1120.eps>
-(epstopdf)             \includegraphics on input line 24.
+(epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Rate_fid_500_lux10_20130813T1120-eps-converted-to.pdf, id=80, 561.09625pt
+<CH3T_Rate_fid_500_lux10_20130813T1120-eps-converted-to.pdf, id=39, 561.09625pt
  x 420.57124pt>
 File: CH3T_Rate_fid_500_lux10_20130813T1120-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use CH3T_Rate_fid_500_lux10_20130813T1120-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Rate_fid_500_lux10_20130813T1120-eps-converted-to
-.pdf used on input line 24.
-(pdftex.def)             Requested size: 227.62204pt x 170.61278pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package epstopdf Info: Source file: <CH4_injection.eps>
-(epstopdf)                    date: 2013-11-07 17:57:30
-(epstopdf)                    size: 20368 bytes
-(epstopdf)             Output file: <CH4_injection-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-12-16 13:58:00
-(epstopdf)                    size: 17087 bytes
-(epstopdf)             Command: <epstopdf --outfile=CH4_injection-eps-converted
--to.pdf CH4_injection.eps>
-(epstopdf)             \includegraphics on input line 30.
-Package epstopdf Info: Output file is already uptodate.
-
-<CH4_injection-eps-converted-to.pdf, id=81, 513.92pt x 433.62pt>
-File: CH4_injection-eps-converted-to.pdf Graphic file (type pdf)
-
-<use CH4_injection-eps-converted-to.pdf>
-Package pdftex.def Info: CH4_injection-eps-converted-to.pdf used on input line 
-30.
-(pdftex.def)             Requested size: 227.62204pt x 192.05714pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_Rate_fid_150_
-lux10_20130813T1120_note-eps-converted-to.pdf> <C:/Users/Richard/Desktop/Work/T
-ritium Paper/TritiumSVN/CH3T_Rate_fid_500_lux10_20130813T1120-eps-converted-to.
-pdf>]
+.pdf used on input line 25.
+(pdftex.def)             Requested size: 140.27371pt x 105.14255pt.
 Package epstopdf Info: Source file: <CH3T_fid_30_before_100_18_lux10_20130813T1
 120_cp05328_note.eps>
 (epstopdf)                    date: 2013-12-14 14:10:08
@@ -661,19 +542,19 @@ Package epstopdf Info: Source file: <CH3T_fid_30_before_100_18_lux10_20130813T1
 (epstopdf)             Command: <epstopdf --outfile=CH3T_fid_30_before_100_18_l
 ux10_20130813T1120_cp05328_note-eps-converted-to.pdf CH3T_fid_30_before_100_18_
 lux10_20130813T1120_cp05328_note.eps>
-(epstopdf)             \includegraphics on input line 37.
+(epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
 <CH3T_fid_30_before_100_18_lux10_20130813T1120_cp05328_note-eps-converted-to.pd
-f, id=105, 561.09625pt x 420.57124pt>
+f, id=40, 561.09625pt x 420.57124pt>
 File: CH3T_fid_30_before_100_18_lux10_20130813T1120_cp05328_note-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use CH3T_fid_30_before_100_18_lux10_20130813T1120_cp05328_note-eps-converted-t
 o.pdf>
 Package pdftex.def Info: CH3T_fid_30_before_100_18_lux10_20130813T1120_cp05328_
-note-eps-converted-to.pdf used on input line 37.
-(pdftex.def)             Requested size: 227.62204pt x 170.61278pt.
+note-eps-converted-to.pdf used on input line 32.
+(pdftex.def)             Requested size: 140.27371pt x 105.14255pt.
 Package epstopdf Info: Source file: <CH3T_fid_30_after_100_18_afterlux10_201308
 13T1120_cp05328_note.eps>
 (epstopdf)                    date: 2013-12-14 14:11:08
@@ -685,29 +566,29 @@ Package epstopdf Info: Source file: <CH3T_fid_30_after_100_18_afterlux10_201308
 (epstopdf)             Command: <epstopdf --outfile=CH3T_fid_30_after_100_18_af
 terlux10_20130813T1120_cp05328_note-eps-converted-to.pdf CH3T_fid_30_after_100_
 18_afterlux10_20130813T1120_cp05328_note.eps>
-(epstopdf)             \includegraphics on input line 38.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
 <CH3T_fid_30_after_100_18_afterlux10_20130813T1120_cp05328_note-eps-converted-t
-o.pdf, id=106, 561.09625pt x 420.57124pt>
+o.pdf, id=41, 561.09625pt x 420.57124pt>
 File: CH3T_fid_30_after_100_18_afterlux10_20130813T1120_cp05328_note-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
 <use CH3T_fid_30_after_100_18_afterlux10_20130813T1120_cp05328_note-eps-convert
 ed-to.pdf>
 Package pdftex.def Info: CH3T_fid_30_after_100_18_afterlux10_20130813T1120_cp05
-328_note-eps-converted-to.pdf used on input line 38.
-(pdftex.def)             Requested size: 227.62204pt x 170.61278pt.
+328_note-eps-converted-to.pdf used on input line 33.
+(pdftex.def)             Requested size: 140.27371pt x 105.14255pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Tritium_Results_Sectio
-n.tex" [15 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH4_injectio
-n-eps-converted-to.pdf> <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN
-/CH3T_fid_30_before_100_18_lux10_20130813T1120_cp05328_note-eps-converted-to.pd
-f> <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_fid_30_after_10
-0_18_afterlux10_20130813T1120_cp05328_note-eps-converted-to.pdf>]
+ [6 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH4_injection-ep
+s-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/
+CH3T_Rate_fid_150_lux10_20130813T1120_note-eps-converted-to.pdf> <C:/Users/Rich
+ard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_Rate_fid_500_lux10_20130813T1
+120-eps-converted-to.pdf>])
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium_Results_Sect
+ion.tex
 Package epstopdf Info: Source file: <CH3T_Leakage_fid_30_lux10_20130813T1120_cp
 05328_wo200cut_note.eps>
 (epstopdf)                    date: 2013-12-14 20:03:04
@@ -723,7 +604,7 @@ Package epstopdf Info: Source file: <CH3T_Leakage_fid_30_lux10_20130813T1120_cp
 Package epstopdf Info: Output file is already uptodate.
 
 <CH3T_Leakage_fid_30_lux10_20130813T1120_cp05328_wo200cut_note-eps-converted-to
-.pdf, id=138, 561.09625pt x 421.575pt>
+.pdf, id=75, 561.09625pt x 421.575pt>
 File: CH3T_Leakage_fid_30_lux10_20130813T1120_cp05328_wo200cut_note-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -747,7 +628,7 @@ _cp05328_wo200cut_note.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <CH3T_fid_30_lux10_20130813T1120_cp05328_wo200cut_note-eps-converted-to.pdf, id
-=139, 561.09625pt x 421.575pt>
+=76, 561.09625pt x 421.575pt>
 File: CH3T_fid_30_lux10_20130813T1120_cp05328_wo200cut_note-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -771,7 +652,7 @@ Package epstopdf Info: Source file: <CH3T_fid_30_zoom_lux10_20130813T1120_cp053
 Package epstopdf Info: Output file is already uptodate.
 
 <CH3T_fid_30_zoom_lux10_20130813T1120_cp05328_wo200cut_note-eps-converted-to.pd
-f, id=140, 561.09625pt x 421.575pt>
+f, id=77, 561.09625pt x 421.575pt>
 File: CH3T_fid_30_zoom_lux10_20130813T1120_cp05328_wo200cut_note-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -783,16 +664,12 @@ note-eps-converted-to.pdf used on input line 15.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [7 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_fid_30_befo
+re_100_18_lux10_20130813T1120_cp05328_note-eps-converted-to.pdf> <C:/Users/Rich
+ard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_fid_30_after_100_18_afterlux1
+0_20130813T1120_cp05328_note-eps-converted-to.pdf>]
+Overfull \vbox (99.08334pt too high) has occurred while \output is active []
 
-Overfull \vbox (113.58334pt too high) has occurred while \output is active []
-
-
-[16 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_Leakage_fid_30
-_lux10_20130813T1120_cp05328_wo200cut_note-eps-converted-to.pdf> <C:/Users/Rich
-ard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_fid_30_lux10_20130813T1120_cp053
-28_wo200cut_note-eps-converted-to.pdf> <C:/Users/Richard/Desktop/Work/Tritium P
-aper/TritiumSVN/CH3T_fid_30_zoom_lux10_20130813T1120_cp05328_wo200cut_note-eps-
-converted-to.pdf>]
 Package epstopdf Info: Source file: <CH3T_DATA_NEST_fid_30_lux10_20130813T1120_
 cp05328.eps>
 (epstopdf)                    date: 2013-12-16 11:04:36
@@ -807,7 +684,7 @@ _20130813T1120_cp05328-eps-converted-to.pdf CH3T_DATA_NEST_fid_30_lux10_2013081
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_DATA_NEST_fid_30_lux10_20130813T1120_cp05328-eps-converted-to.pdf, id=176
+<CH3T_DATA_NEST_fid_30_lux10_20130813T1120_cp05328-eps-converted-to.pdf, id=100
 , 518.93875pt x 406.51875pt>
 File: CH3T_DATA_NEST_fid_30_lux10_20130813T1120_cp05328-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -816,6 +693,14 @@ aphic file (type pdf)
 Package pdftex.def Info: CH3T_DATA_NEST_fid_30_lux10_20130813T1120_cp05328-eps-
 converted-to.pdf used on input line 24.
 (pdftex.def)             Requested size: 227.62204pt x 178.31053pt.
+
+[8 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_Leakage_fid_
+30_lux10_20130813T1120_cp05328_wo200cut_note-eps-converted-to.pdf> <C:/Users/Ri
+chard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_fid_30_lux10_20130813T1120_
+cp05328_wo200cut_note-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/
+TritiumPaper/TritiumSVN/CH3T_fid_30_zoom_lux10_20130813T1120_cp05328_wo200cut_n
+ote-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/Triti
+umSVN/CH3T_DATA_NEST_fid_30_lux10_20130813T1120_cp05328-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <CH3T_RZ_scatter_lux10_20130812T1546.eps>
 (epstopdf)                    date: 2013-12-16 13:29:40
 (epstopdf)                    size: 128091 bytes
@@ -828,7 +713,7 @@ nverted-to.pdf>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf, id=177, 414.54875pt 
+<CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf, id=141, 414.54875pt 
 x 404.51125pt>
 File: CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -849,7 +734,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_XY_scatter_PMT_lux10_20130812T1546-eps-converted-to.pdf, id=178, 416.5562
+<CH3T_XY_scatter_PMT_lux10_20130812T1546-eps-converted-to.pdf, id=142, 416.5562
 4pt x 406.51875pt>
 File: CH3T_XY_scatter_PMT_lux10_20130812T1546-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -870,7 +755,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Z_density_lux10_20130812T1546-eps-converted-to.pdf, id=179, 561.09625pt x
+<CH3T_Z_density_lux10_20130812T1546-eps-converted-to.pdf, id=143, 561.09625pt x
  421.575pt>
 File: CH3T_Z_density_lux10_20130812T1546-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -881,10 +766,15 @@ f used on input line 37.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_DATA_NEST_fid
-_30_lux10_20130813T1120_cp05328-eps-converted-to.pdf>]
+
 Overfull \vbox (172.28944pt too high) has occurred while \output is active []
 
+
+[9 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_RZ_scatter_l
+ux10_20130812T1546-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/Tri
+tiumPaper/TritiumSVN/CH3T_XY_scatter_PMT_lux10_20130812T1546-eps-converted-to.p
+df> <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_Z_density_l
+ux10_20130812T1546-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <CH3T_E_spec_18_lux10_20130813T1120_cp05328
 _note.eps>
 (epstopdf)                    date: 2013-12-16 14:23:42
@@ -899,7 +789,7 @@ _note-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_E_spec_18_lux10_20130813T1120_cp05328_note-eps-converted-to.pdf, id=188, 
+<CH3T_E_spec_18_lux10_20130813T1120_cp05328_note-eps-converted-to.pdf, id=171, 
 754.82pt x 581.17125pt>
 File: CH3T_E_spec_18_lux10_20130813T1120_cp05328_note-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -911,13 +801,6 @@ nverted-to.pdf used on input line 51.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_RZ_scatter_lu
-x10_20130812T1546-eps-converted-to.pdf> <C:/Users/Richard/Desktop/Work/Tritium 
-Paper/TritiumSVN/CH3T_XY_scatter_PMT_lux10_20130812T1546-eps-converted-to.pdf> 
-<C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_Z_density_lux10_20
-130812T1546-eps-converted-to.pdf> <C:/Users/Richard/Desktop/Work/Tritium Paper/
-TritiumSVN/CH3T_E_spec_18_lux10_20130813T1120_cp05328_note-eps-converted-to.pdf
->]
 Package epstopdf Info: Source file: <CH3T_all_lux10_20130813T1120_cp05328.eps>
 (epstopdf)                    date: 2013-10-13 14:55:02
 (epstopdf)                    size: 934953 bytes
@@ -930,7 +813,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_all_lux10_20130813T1120_cp05328-eps-converted-to.pdf, id=222, 545.03625pt
+<CH3T_all_lux10_20130813T1120_cp05328-eps-converted-to.pdf, id=172, 545.03625pt
  x 427.5975pt>
 File: CH3T_all_lux10_20130813T1120_cp05328-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -941,30 +824,29 @@ pdf used on input line 67.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Summary.tex")
+ [10 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_E_spec_18_
+lux10_20130813T1120_cp05328_note-eps-converted-to.pdf>])
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Summary.tex)
 Underfull \hbox (badness 3148) in paragraph at lines 68--69
 []\OT1/cmr/m/n/12 Fiorucci, et al. \OT1/cmr/m/it/12 AIP Con-fer-ence Pro-ceed-i
 ngs
  []
 
-[19 <C:/Users/Richard/Desktop/Work/Tritium Paper/TritiumSVN/CH3T_all_lux10_2013
-0813T1120_cp05328-eps-converted-to.pdf>] [20
-
-]
-("C:\Users\Richard\Desktop\Work\Tritium Paper\TritiumSVN\Tritium.aux")
+[11 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_all_lux10_2
+0130813T1120_cp05328-eps-converted-to.pdf>]
+(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5346 strings out of 494045
- 82917 string characters out of 3145963
- 147691 words of memory out of 3000000
- 8483 multiletter control sequences out of 15000+200000
+ 5270 strings out of 494045
+ 81481 string characters out of 3145963
+ 146554 words of memory out of 3000000
+ 8418 multiletter control sequences out of 15000+200000
  14362 words of font info for 60 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 42i,10n,40p,1744b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,38p,1412b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
@@ -978,12 +860,11 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tritium.pdf (20 pages, 3279070 bytes).
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Tritium.pdf (11 pages, 2209395 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
+ 238 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
