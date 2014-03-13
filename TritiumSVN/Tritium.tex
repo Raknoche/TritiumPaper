@@ -1,6 +1,14 @@
 \documentclass[12pt,twocolumn]{article}
 
 
+
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage[font=normalsize]{caption}
+\usepackage{mathtools}
+\usepackage{relsize}
+
+
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[capposition=bottom]{floatrow}
@@ -25,7 +33,29 @@
 \addtolength{\oddsidemargin}{-.875in}
 \addtolength{\evensidemargin}{-.875in}
 \addtolength{\textwidth}{1.75in}
+%\addtolength{\voffset}{-70pt}
+%\addtolength{\textheight} {120pt}
 
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in AcrobatÕs bookmarks
+    pdftoolbar=true,        % show AcrobatÕs toolbar?
+    pdfmenubar=true,        % show AcrobatÕs menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links
+    citecolor=green,        % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=cyan           % color of external links
+}
 
 \newcommand{\isot}[2]{$^{#2}$#1 }
 \newcommand{\xeiso}{\isot{Xe}{136}}
