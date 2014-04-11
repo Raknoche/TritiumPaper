@@ -66,9 +66,18 @@
 \newcommand{\nonubb}  {$0\nu \beta \beta$}
 
 \renewcommand\thesection{\Roman{section}.}
-\renewcommand\thesubsection{\Alph{subsection}.}
+\renewcommand\thesubsection{\arabic{subsection}.}
+\renewcommand\thesubsubsection{\alph{subsubsection}.}
 \titleformat{\section}[block]{\bfseries\filcenter}{\thesection}{1em}{}
 \titleformat{\subsection}[block]{\bfseries\filcenter}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\bfseries\filcenter}{\thesubsubsection}{1em}{}
+
+\usepackage{titlesec}
+
+%\titleformat{\section}{\bfseries\filcenter}{\thesubsection}{1em}{}
+%\titleformat{\subsection}{\bfseries\filcenter}{\thesubsection}{1em}{}
+%\titleformat*{\paragraph}{\large\bfseries}
+%\titleformat*{\subparagraph}{\large\bfseries}
 
 \begin{document}
 
@@ -86,13 +95,7 @@
 
 \input{Introduction}
 
-\input{UMDExperiments}
-
-\input{Simulations_new}
-
-\input{Hardware}
-
-\input{InjectionStrategy}   
+\input{SectionTwo}
 
 \input{Tritium_Results_Section}
 
