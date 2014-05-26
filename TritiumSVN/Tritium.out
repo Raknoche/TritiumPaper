@@ -1,19 +1,16 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Tritiated Methane Removal}{}% 2
-\BOOKMARK [1][-]{section.3}{Simulations}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Implications for LUX}{section.3}% 4
-\BOOKMARK [1][-]{section.4}{Experimental Setup}{}% 5
-\BOOKMARK [2][-]{subsection.4.1}{The tritiated methane source}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.2}{The injection system}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.3}{The zirconium getter}{section.4}% 8
-\BOOKMARK [1][-]{section.5}{Injection Strategy}{}% 9
-\BOOKMARK [2][-]{subsection.5.1}{Phase One}{section.5}% 10
-\BOOKMARK [2][-]{subsection.5.2}{Phase Two and Three}{section.5}% 11
-\BOOKMARK [1][-]{section.6}{Results from the Tritiated Methane Calibration}{}% 12
-\BOOKMARK [2][-]{subsection.6.1}{Tritium as a Calibration Source}{section.6}% 13
-\BOOKMARK [2][-]{subsection.6.2}{Mixing of Tritiated Methane in Liquid Xenon}{section.6}% 14
-\BOOKMARK [2][-]{subsection.6.3}{Definition of Electronic Recoil Band and Comparison with NEST Model}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.4}{Threshold Determination}{section.6}% 16
-\BOOKMARK [1][-]{section.7}{Scintillation Yield and Ionization Yield from Tritium Beta Decay}{}% 17
-\BOOKMARK [1][-]{section.8}{All the things we can do with Tritium}{}% 18
-\BOOKMARK [1][-]{section.9}{Summary}{}% 19
+\BOOKMARK [0][-]{section*.2}{Internal calibration of the LUX detector using tritiated methane}{}% 2
+\BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
+\BOOKMARK [1][-]{section.1}{Introduction}{section*.2}% 3
+\BOOKMARK [1][-]{section.2}{Development of the Calibration Source}{section*.2}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Tritiated Methane Removal}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Out Gassing of Tritiated Methane from Plastics}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Implementation of the Calibration Source}{section*.2}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Injection System Hardware}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Natural Methane Injection}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Tritiated Methane Injection}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Results from the Tritiated Methane Calibration}{section*.2}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Mixing of Tritiated Methane in Liquid Xenon}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Definition of Electronic Recoil Band and Comparison with NEST Model}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{All the things we can do with Tritium}{section*.2}% 14
+\BOOKMARK [1][-]{section.6}{Summary}{section*.2}% 15
+\BOOKMARK [1][-]{section*.11}{References}{section*.2}% 16
