@@ -50,21 +50,23 @@ The setup of our triated methane calibration technique can be separated into thr
 
 The tritiated methane source bottle for our calibration technique consists of a 2250 cc stainless steel bottle which is filled with a mixture of tritiated methane and purified xenon.  The purpose of this xenon is to serve as a carrier gas for the tritiated methane.  The total activity in the source bottle is set by mixing tritiated methane from a reservoir into the source bottle via volume sharing.
 
-The injection system for our tritiated methane calibration technique consists of a series of expansion volumes which are used to fine tune the amount of CH$_3$T that is injected.  Once the CH$_3$T source bottle is opened it flows through a methane gas purifier (SAES MC1-905F) to remove any non-methane species of tritium, such as bare tritium. The expansion volumes are then filled with tritiated methane from the source bottle, and the flow of xenon in the gas system is diverted through the expansion volumes to sweep the CH$_3$T into the detector.  A pump out port allows the expansion volumes to be evacuated in preparation for each use of the injection system.  
+The injection system for our tritiated methane calibration technique consists of a series of expansion volumes which are used to fine tune the amount of CH$_3$T that is injected.  Once the CH$_3$T source bottle is opened it flows through a methane gas purifier (SAES MC1-905F) to remove any non-methane species of tritium, such as bare tritium. The expansion volumes are then filled with tritiated methane from the source bottle, and the flow of xenon in the gas system is diverted through the expansion volumes to sweep the CH$_3$T into the detector downstream of the LUX xenon purifier.  A pump out port allows the expansion volumes to be evacuated in preparation for each use of the injection system.  
 
 The LUX gas system uses a hot zirconium getter (SAES-PS4MT15R1) located upstream of the CH$_3$T injection system to remove CH$_3$T from the xenon after passing through the detector.  
 
 \begin{figure}[H]\centering
 \includegraphics[width=80mm]{TritiumPlumbing.png}
-\caption{Plumbing diagram of the tritium injection system for LUX.}
+\caption{Plumbing diagram of the tritium injection system for LUX.  Tritium is injected downstream of the LUX xenon purifier so that it passes through the detector once prior to being removed.  Red arrows indicate the direction of flow.}
 \label{fig:Removal}
 \end{figure}
 
 \subsection{Natural Methane Injection}
 
-Prior to injecting tritiated methane into the LUX detector 0.02 grams of natural methane were injected into LUX using the injection system.  Purity samples from the detector were collected over the next few days, and a purification time constant of 5.90 $\pm$ 0.07 hours was determined using data collected with the LUX gas sampling system.
+
+Figure ?? shows that a large purification time constant can lead to long wait times before the residual tritiated methane rate returns to acceptable levels. To measure the purification time constant in LUX 0.02 grams of natural methane were injected into LUX prior to injecting tritiated methane.  Purity samples from the detector were collected over the next few days, and a purification time constant of 5.90 $\pm$ 0.07 hours was determined using data collected with the LUX gas sampling system. The measured time constant was much smaller than expected based on xenon circulation rates alone, allowing for a larger injection of tritiated methane into the detector.  
 
 
+(INSERT JON'S PURIFICATION TIME CONSTANT PLOT)
 
 \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{CH4_injection_3.eps}
@@ -79,3 +81,11 @@ To confirm the purification model established by the natural methane injection a
 
 After confirming our purification model a larger injection of 800 mBq was performed. This second injection produced 20,000 beta decay events in the LUX detector before being completely removed, 5000 of those events could be used the calibrate the ER band in the WIMP search region of 0-30 Phe (pulse area in photo electrons). 
 Figure \ref{fig:Removal} shows the two tritium injections and the subsequent CH3T purification. The rate of tritiated methane removal was consistent with the previous two injections $\rm 1/10^5$.
+
+
+\begin{figure}[h!]\centering
+\includegraphics[width=80mm]{CH3T_Rate_fid_150_Run03_Tritium_Rate.eps}
+%\includegraphics[width=60mm]{CH3T_Rate_Nofid_150_Run03_Tritium_Rate}
+\caption{Rate of single scatter events with S1 below 150 Phe in the fiducial volume. 150 Phe in S1 is about 18.6 $\rm keV{ee}$, the endpoint to the tritium beta spectrum. The magenta and red curves are fits to the first and second tritium injection's removal rate.}
+\label{fig:Removal}
+\end{figure}

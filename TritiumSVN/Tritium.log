@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  23 MAY 2014 14:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  27 MAY 2014 14:15
 entering extended mode
 **Tritium.tex
 (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.tex
@@ -538,10 +538,10 @@ Class revtex4-1 Info: mcite was not loaded (OK!) on input line 81.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 81.
 (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.aux
 
-LaTeX Warning: Label `fig:Density' multiply defined.
-
-
 LaTeX Warning: Label `fig:Removal' multiply defined.
+
+
+LaTeX Warning: Label `fig:Density' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -674,23 +674,23 @@ LaTeX Warning: Reference `sec:analysis' on page 2 undefined on input line 17.
 
 ) (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\SectionTwo.tex
 Package epstopdf Info: Source file: <TimeHisto_Analog2.eps>
-(epstopdf)                    date: 2014-04-10 20:52:49
-(epstopdf)                    size: 36897 bytes
+(epstopdf)                    date: 2014-05-27 13:36:25
+(epstopdf)                    size: 30381 bytes
 (epstopdf)             Output file: <TimeHisto_Analog2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-11 12:27:35
-(epstopdf)                    size: 23699 bytes
+(epstopdf)                    date: 2014-05-27 13:36:28
+(epstopdf)                    size: 22243 bytes
 (epstopdf)             Command: <epstopdf --outfile=TimeHisto_Analog2-eps-conve
 rted-to.pdf TimeHisto_Analog2.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<TimeHisto_Analog2-eps-converted-to.pdf, id=79, 697.60625pt x 433.62pt>
+<TimeHisto_Analog2-eps-converted-to.pdf, id=79, 646.415pt x 424.58624pt>
 File: TimeHisto_Analog2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use TimeHisto_Analog2-eps-converted-to.pdf>
 Package pdftex.def Info: TimeHisto_Analog2-eps-converted-to.pdf used on input l
 ine 9.
-(pdftex.def)             Requested size: 227.62204pt x 141.48723pt.
+(pdftex.def)             Requested size: 227.62204pt x 149.50793pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -738,12 +738,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 50.
 
-<TritiumPlumbing.png, id=102, 638.385pt x 482.55281pt>
+<TritiumPlumbing.png, id=101, 929.72343pt x 450.18187pt>
 File: TritiumPlumbing.png Graphic file (type png)
 
 <use TritiumPlumbing.png>
 Package pdftex.def Info: TritiumPlumbing.png used on input line 58.
-(pdftex.def)             Requested size: 227.62204pt x 172.0548pt.
+(pdftex.def)             Requested size: 227.62204pt x 110.21652pt.
+
+Underfull \hbox (badness 1708) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/10 (INSERT JON'S PU-RIFI-CA-TION TIME CON-STANT
+ []
+
 Package epstopdf Info: Source file: <CH4_injection_3.eps>
 (epstopdf)                    date: 2014-05-20 09:03:04
 (epstopdf)                    size: 17240 bytes
@@ -752,26 +757,49 @@ Package epstopdf Info: Source file: <CH4_injection_3.eps>
 (epstopdf)                    size: 13333 bytes
 (epstopdf)             Command: <epstopdf --outfile=CH4_injection_3-eps-convert
 ed-to.pdf CH4_injection_3.eps>
-(epstopdf)             \includegraphics on input line 70.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-
-<CH4_injection_3-eps-converted-to.pdf, id=103, 561.09625pt x 421.575pt>
+<CH4_injection_3-eps-converted-to.pdf, id=102, 561.09625pt x 421.575pt>
 File: CH4_injection_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use CH4_injection_3-eps-converted-to.pdf>
 Package pdftex.def Info: CH4_injection_3-eps-converted-to.pdf used on input lin
-e 70.
+e 72.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [4 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/LUXfig_INJvar_t
-ime_new-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/T
-ritiumSVN/TritiumPlumbing.png>]
+[4 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/LUXfig_INJvar_tim
+e_new-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/Tri
+tiumSVN/TritiumPlumbing.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 437.
+ on input line 84.
+
+Package epstopdf Info: Source file: <CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
+(epstopdf)                    date: 2014-05-20 08:44:06
+(epstopdf)                    size: 30063 bytes
+(epstopdf)             Output file: <CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2014-05-20 08:45:26
+(epstopdf)                    size: 29454 bytes
+(epstopdf)             Command: <epstopdf --outfile=CH3T_Rate_fid_150_Run03_Tri
+tium_Rate-eps-converted-to.pdf CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+<CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf, id=115, 562.1pt x 4
+21.575pt>
+File: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf>
+Package pdftex.def Info: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.
+pdf used on input line 87.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium_Results_Sect
@@ -822,45 +850,19 @@ to.pdf used on input line 12.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package epstopdf Info: Source file: <CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
-(epstopdf)                    date: 2014-05-20 08:44:06
-(epstopdf)                    size: 30063 bytes
-(epstopdf)             Output file: <CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2014-05-20 08:45:26
-(epstopdf)                    size: 29454 bytes
-(epstopdf)             Command: <epstopdf --outfile=CH3T_Rate_fid_150_Run03_Tri
-tium_Rate-eps-converted-to.pdf CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
-(epstopdf)             \includegraphics on input line 20.
-Package epstopdf Info: Output file is already uptodate.
-
-<CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf, id=119, 562.1pt x 4
-21.575pt>
-File: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf>
-Package pdftex.def Info: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.
-pdf used on input line 20.
-(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [5 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH4_injection_3-e
 ps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN
-/CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf> <C:/Users/Richard/Do
-cuments/GitHub/TritiumPaper/TritiumSVN/CH3T_XY_scatter_PMT_lux10_20130812T1546-
-eps-converted-to.pdf>]
+/CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 41.
+ on input line 39.
 
 
-<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=157, 552.8655pt x 408.3255pt>
+<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=154, 552.8655pt x 408.3255pt>
 File: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png Graphic file (type png)
 <use CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>
 Package pdftex.def Info: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png used on i
-nput line 48.
+nput line 42.
 (pdftex.def)             Requested size: 227.62204pt x 168.11235pt.
 Package epstopdf Info: Source file: <CH3T_Leakage_fid_50_Dec_Tritium_Approval_P
 lots.eps>
@@ -873,35 +875,37 @@ lots-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=CH3T_Leakage_fid_50_Dec_Tri
 tium_Approval_Plots-eps-converted-to.pdf CH3T_Leakage_fid_50_Dec_Tritium_Approv
 al_Plots.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots-eps-converted-to.pdf, id=159, 5
+<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots-eps-converted-to.pdf, id=156, 5
 62.1pt x 405.515pt>
 File: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots-eps-con
-verted-to.pdf used on input line 54.
+verted-to.pdf used on input line 48.
 (pdftex.def)             Requested size: 227.62204pt x 164.2141pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 177.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 171.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
- [6 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_Rate_fid_15
-0_Run03_Tritium_Rate-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/T
-ritiumPaper/TritiumSVN/CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 171.
+ [6 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_RZ_scatter_
+lux10_20130812T1546-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/Tr
+itiumPaper/TritiumSVN/CH3T_XY_scatter_PMT_lux10_20130812T1546-eps-converted-to.
+pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_fid_50_2_D
+ec_Tritium_Approval_Plots.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 178.
+ on input line 172.
 
 ) (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Summary.tex)
 (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.bbl)
@@ -926,10 +930,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11050 strings out of 494045
- 163859 string characters out of 3145963
+ 11049 strings out of 494045
+ 163849 string characters out of 3145963
  280548 words of memory out of 3000000
- 14133 multiletter control sequences out of 15000+200000
+ 14132 multiletter control sequences out of 15000+200000
  11299 words of font info for 48 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,7n,38p,1447b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -947,9 +951,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Tritium.pdf (7 pages, 1220799 bytes).
+Output written on Tritium.pdf (7 pages, 1229159 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
+ 243 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
