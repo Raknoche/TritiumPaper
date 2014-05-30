@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  30 MAY 2014 14:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  30 MAY 2014 17:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -810,14 +810,14 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 68.
 
 
-<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=176, 552.8655pt x 408.3255pt>
+<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=177, 552.8655pt x 408.3255pt>
 File: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png Graphic file (type png)
 <use CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>
 Package pdftex.def Info: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png used on i
-nput line 75.
+nput line 77.
 (pdftex.def)             Requested size: 284.52756pt x 210.14355pt.
 
-Overfull \hbox (15.289pt too wide) in paragraph at lines 75--76
+Overfull \hbox (15.289pt too wide) in paragraph at lines 77--78
  [][] 
  []
 
@@ -832,38 +832,38 @@ lots_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=CH3T_Leakage_fid_50_Dec_Tri
 tium_Approval_Plots_2-eps-converted-to.pdf CH3T_Leakage_fid_50_Dec_Tritium_Appr
 oval_Plots_2.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf, id=178,
+<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf, id=179,
  646.415pt x 503.8825pt>
 File: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-c
-onverted-to.pdf used on input line 81.
+onverted-to.pdf used on input line 83.
 (pdftex.def)             Requested size: 284.52756pt x 221.78587pt.
 
-Overfull \hbox (15.289pt too wide) in paragraph at lines 81--82
+Overfull \hbox (15.289pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 204.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 206.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
  [6 <./CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf> <./CH3T_fid_50
 _2_Dec_Tritium_Approval_Plots.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 205.
+ on input line 208.
 
 ) (./Summary.tex) (./Tritium.bbl
 Underfull \hbox (badness 1337) in paragraph at lines 8--13
@@ -914,13 +914,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10939 strings out of 493633
- 160273 string characters out of 3143378
+ 10940 strings out of 493633
+ 160284 string characters out of 3143378
  280821 words of memory out of 3000000
- 14017 multiletter control sequences out of 15000+200000
+ 14018 multiletter control sequences out of 15000+200000
  11299 words of font info for 48 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,7n,38p,2586b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,38p,2586b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -935,10 +935,10 @@ ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Tritium.pdf (8 pages, 825838 bytes).
+Output written on Tritium.pdf (8 pages, 826522 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
+ 291 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
  46 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
