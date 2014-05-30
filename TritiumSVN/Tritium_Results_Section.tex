@@ -1,19 +1,45 @@
 
 \section{Results from the Tritiated Methane Calibration}
 
+\subsection{Tritium as a Calibration Source}
+
+Due to the self shielding properties of liquid xenon it is practically impossible to perform a low energy electronic recoil (ER) calibration within the fiducial volume of a +100 kg detector using an external source. The fiducial volume of the LUX detector is surrounded by more than than 6 cm of liquid xenon providing excellent shielding from both external backgrounds and calibration sources. For example, a 100 keV gamma has a mean free path of about 2 mm in liquid xenon and would require thirty mean free paths to penetrate into the fiducial volume. A higher energy source such as $\rm ^{137}Cs$ (662 keV) has a longer mean free path of 4 cm however, the probability of a low energy deposit from forward scattering is greatly suppressed. Further, calibrating within the fiducial volume by relying on gammas from an external source to forward scatter brings along systematic uncertainties from high energy deposits near the edge, DAQ rate and having to use  multi scatter event selection instead of a standard set of single scatter WIMP search cuts. An ideal ER calibration source for current and next generation noble gas detectors should consist of single scatter events depositing sub 10 keV energies uniformly distributed in the fiducial region. These requirements are all satisfied by tritium beta decay. Tritium has a Q value of 18.6 keV \cite{Tritium_Q}, a mean beta energy of 5.6 keV \cite{Tritium_Mean} and a mode of 3 keV \cite{Tritium_Eq} making it an ideal low energy internal calibration source, so long as it can removed after calibration. The half-life of tritium is 12.3 years \cite{Tritium_halflife_all} thus it is not practical to wait for the activity to decay away as with other standard internal calibration sources [kr83 ref], the tritium must be removed after the calibration is complete. To mitigate the effect of tritium diffusion into plastics we use tritiated methane instead of bare tritium. For tritiated methane, a tritium atom along with three hydrogen atoms are bound to a carbon molecule. Using tritiated methane lessens the diffusion of tritium into detector internals by an order of magnitude \cite{miyake:1983}. The weak molecular bond, sub on eV, to the methane molecule does not impact the nuclear physics of the tritium beta decay. We have studied the removal of methane by the commonly used SAES heated zirconium getter and found that significant amounts of methane can be removed from xenon at flow rates commonly employed in large scale liquid xenon experiments \cite{Dobi_CH4},\cite{coldtrap}.
+
+\subsection{Tritiated Methane injection into the LUX detector}
+
+In the experimental setup at UMD it was demonstrated that tritiated methane could be injected directly into a liquid xenon vessel containing plastics and removed [link section in this paper]. However, even with conservative estimates of diffusion rates into mock plastic components we could not be certain about the diffusion of methane in the much larger LUX detector. Having the xenon gas sampling system, developed for LUX to track krypton \cite{Kr_ppt_Dobi} \cite{EXO_SAM}, allowed us to conduct situ methane measurements providing a diagnostic of the natural methane diffusion and outgassing without the risk of permanent tritium contamination. Before injecting triturated methane into the detector we first injected $\rm 1/10^{6}$ (g/g) of methane and demonstrated its removal from the LUX xenon to five orders of magnitude, this allowed us to proceed with confidence knowing that our goal of removing the tritium rate to less than 5\% of background could be met. Methane is chemically identical to tritiated methane and having the ability to sample the gas proved useful for the tritium campaign, we measured a purification time constant of $\rm 5.9 \pm 0.07$ hours with the xenon gas sampling system \ref{fig:Removal_methane}. After the natural methane test the tritiated methane injection was conducted. An absolute activity of 20 mBq of tritiated methane was injected at the purifier's outlet while circulating. A removal time constant of $\rm 6.0 \pm 0.5$ hours was measured in the liquid volume consistent with the natural methane removal measured in the gas by the sampling system, \ref{fig:Removal} and \ref{fig:Removal_methane}. After a day of circulating through the getter the tritium rate had fallen below detectable levels confirming the effective removal of the tritiated methane with the getter. A second, larger injection of 800 mBq was performed a week later yielding a similar removal time constant of $\rm 6.4 \pm 0.1$. The second injection produced 20,000 beta decays in the LUX detector before being completely removed, 7000 of those decays were in the fiducial volume and were used to calibrate the ER band in the WIMP search region of 1-50 Phe (about 1-8 $\rm keV{ee}$). The new tritium calibration source provided an unprecedented low energy electronic recoil calibration for the LUX dark matter search \cite{LUX_PRL}. The injections were performed while circulating and with the getter actively purifying in order maintain detector purity and stability. Prior to LUX detector upgrades in December of 2013 a total of 10 Bq of tritiated methane was injected into the LUX detector and successfully removed providing over 150,000 beta decays within the fiducial volume. 
+
+%The $\rm CH_3T$ (tritiated methane) was injected at the getter output and had passed through a special methane purifier to remove $\rm O_2$, $\rm H_2O$ and other electronegative impurities that could cause a degradation in election lifetime. 
+
+\begin{figure}[h!]\centering
+\includegraphics[width=80mm]{CH4_injection_3.eps}
+\caption{Removal of natural methane observed by the integrated xenon sampling system prior to the tritiated methane injections. The red points indicate xenon gas measurements at the getter outlet, we find a 97\% one pass removal efficiency at a flow rate of 25 SLPM. $\rm 1\times10^{-3}$ ppb (g/g) is the limit of detection for methane using the LUX gas sampling system.}
+\label{fig:Removal_methane}
+\end{figure}
+
+
+\begin{figure}[h!]\centering
+\includegraphics[width=80mm]{CH3T_Rate_fid_150_Run03_Tritium_Rate.eps}
+%\includegraphics[width=60mm]{CH3T_Rate_Nofid_150_Run03_Tritium_Rate}
+\caption{Left: Rate of single scatter events with S1 below 150 Phe in the fiducial volume. 150 Phe in S1 is about 18.6 $\rm keV{ee}$, the endpoint to the tritium beta spectrum. The magenta and red curves are fits to the first and second tritium injection's removal rate. Right: The rate of single scatter events with S1 below 150 for the whole detector volume. Note the removal of tritiated methane is consistent with the natural methane removal rate measured independently.}
+\label{fig:Removal}
+\end{figure}
 
 
 \subsection{Mixing of Tritiated Methane in Liquid Xenon}
 
-Tritium events appear uniformly distributed in the liquid volume several minutes after injecting the tritiated methane inline with the xenon gas circulation path. Figure \ref{fig:Density} shows the XY and Z distribution of tritium events thirty minutes after an injection. The events shown cover the region from the gate to the cathode and radially out to the edge of the detector. An additional cut requiring that the event be between $\rm \pm 3 \sigma$ of the ER mean was made to diregard residual alpha events from the walls and cathode, the event rate consisted overwhelmingly of tritium events. The tritiated methane dispersed uniformly throughout the liquid xenon illuminating all regions on the detector. 
+Tritium events appear uniformly distributed in the liquid volume several minutes after injecting the tritiated methane inline with the xenon gas circulation path. Figure \ref{fig:Density} shows the XY and Z distribution of tritium events thirty minutes after an injection. The events shown cover the region from the gate to the cathode and radially out to the edge of the detector. An additional cut requiring that the event be between $\rm \pm 3 \sigma$ of the ER mean was made to diregard residual alpha events from the walls and cathode, the event rate consisted overwhelmingly of tritium events. The tritiated methane dispersed uniformly throughout the liquid xenon illuminating all regions on the detector and was removed with a time constant consistent with the natural methane. 
  
 \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{CH3T_RZ_scatter_lux10_20130812T1546.eps}
-\includegraphics[width=80mm]{CH3T_XY_scatter_PMT_lux10_20130812T1546.eps}
+%\includegraphics[width=80mm]{CH3T_XY_scatter_PMT_lux10_20130812T1546.eps}
 %\includegraphics[width=80mm]{CH3T_Z_density_lux10_20130812T1546.eps} %> No Need R^2 vs. Z figure contains Z information
-\caption{Left: The distribution of tritium events vs. detector radius squared. The solid black line represents the fiducial volume. Right: The distribution of tritium events vs. XY in the region between the gate and the cathode. The solid black line represents the fiducial volume and the black circles represent the locations of PMTs (photo multiplier tubes).}
+\caption{The distribution of tritium events vs. detector radius squared. The solid black line represents the fiducial volume.
+% Right: The distribution of tritium events vs. XY in the region between the gate and the cathode. The solid black line represents the fiducial volume and the black circles represent the locations of PMTs (photo multiplier tubes).
+}
 \label{fig:Density}
 \end{figure}
+
 
 
 
@@ -31,7 +57,7 @@ Tritium events appear uniformly distributed in the liquid volume several minutes
 
 \subsection{Definition of Electronic Recoil Band and Comparison with NEST Model}
 
-Using the tritium source we calibrated the electronic recoil band in the fiducial volume of the LUX detector to unprecedented accuracy. Figure \ref{fig:Band} shows the mean of the ER band along with the 10-90\% confidence bounds ($\pm 1.28\sigma$) obtained from the beta decay of tritium at a drift field of 180 V/cm. The results of the leakage fraction at 50\% NR acceptance per each 1 Phe bins in S1 are shown in \ref{fig:Leak}. The nuclear recoil band, in red, is defined by the NEST model along with AmBe and $\rm^{252}Cf$  calibrations. Methane will not quench xenon scintillation [\cite{Kirill_Methane}] shows that if methane is introduced into the xenon at a relative concentration of a few percent, then the amount of scintillation produced by the mixture is reduced by a factor of two compared to pure xenon. But for our application we require a methane concentration of only one part in $\rm10^{15}$, and therefore our methane injection will not have any negative effects on scintillation production and transport.
+Using the tritium source we calibrated the electronic recoil band in the fiducial volume of the LUX detector to unprecedented accuracy. Figure \ref{fig:Band} shows the mean of the ER band along with the 10-90\% confidence bounds ($\pm 1.28\sigma$) obtained from the beta decay of tritium at a drift field of 180 V/cm. The results of the leakage fraction at 50\% NR acceptance per each 1 Phe bins in S1 are shown in \ref{fig:Leak}. The nuclear recoil band, in red, is defined by the NEST model along with AmBe and $\rm^{252}Cf$  calibrations. Methane will not quench xenon scintillation \cite{Kirill_Methane} shows that if methane is introduced into the xenon at a relative concentration of a few percent, then the amount of scintillation produced by the mixture is reduced by a factor of two compared to pure xenon. But for our application we require a methane concentration of only one part in $\rm10^{15}$, and therefore our methane injection will not have any negative effects on scintillation production and transport.
 
 WIMPs primarily interact with the atomic nuclei xenon atoms in LUX resulting in nuclear recoils whereas the vast majority of residual radioactivity within the detector are gammas which result in electronic recoils. Thus, knowing the separation of the ER from the NR band allows for a measure of the background rejection of a liquid xenon WIMP search experiment. We define the measure of background rejection as leakage fraction, reported here as the fraction of events in the ER band that spill into the lower half of the NR band. Over 115,000 tritium decays were used for the ER band calibration, between 1-50 Phe in S1 (1-8 $\rm keV_{ee}$), and were found using standard WIMP search cuts within the fiducial volume. A figure of merit for ER and NR discrimination is the leakage fraction defined as  the number of tritium events populating the lower half of the NR band are compared to the total number of tritium events in the selected energy range. 
 %$\rm (1-erf((Mean\_ER-Mean\_NR)/(sqrt(2)*sigma\_ER)))/2 $.
@@ -39,13 +65,13 @@ Figure \ref{fig:Leak} shows the leakage fraction per 1 Phe bins in S1. The mean 
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
+\includegraphics[width=100mm]{CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
 \caption{Discrimination vs. S1 using over 115,000 tritium beta decays between 1 and 50 Phe in S1 (about $\rm1-8 keV_{ee}$). On average from 1 to 30 Phe the discrimination is 99.58\%, defined by the fraction of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 0.98) vetted with an AmBe, $\rm^{252}Cf$ and DD neutron generator calibration.}
 \label{fig:Band}
 \end{figure}
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots.eps}
+\includegraphics[width=100mm]{CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
 \caption{Discrimination vs. S1 using over 115,000 tritium beta decays between 1 and 50 Phe in S1 (about $\rm1-8 keV_{ee}$). On average from 1 to 30 Phe the discrimination is 99.58\%, defined by the fraction of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 4c) vetted with an AmBe, $\rm^{252}Cf$ and DD neutron generator calibration.}
 \label{fig:Leak}
 \end{figure}
@@ -79,7 +105,7 @@ The tritiated methane calibration source can also be used to determine detector 
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{CH3T_E_spec_18_Tritium_Dec_2013_180.eps}
+\includegraphics[width=100mm]{CH3T_E_spec_18_Tritium_Dec_2013_180.eps}
 \caption{Combined energy spectrum of the tritium data and LUX SIM.}
 \label{fig:E_spec}
 \end{figure}
@@ -143,7 +169,7 @@ Figure \ref{fig:L_Q_Yield_Baudis} includes our light and charge yield measuremen
  \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png}
 \includegraphics[width=80mm]{QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=80mm]{LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
+\includegraphics[width=83mm]{LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
 \includegraphics[width=76mm]{QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
 \caption{180 [V/cm], corrected for spectral shape. Top Left: Mean scintillation yield vs. combined energy using tritium beta decay (black line). $\rm^{83}Kr$ lines are plotted for reference but only the 32.1 [keV] line (red star) is kosher since the 9.4 [keV] line is dependent on timing separation, the 9.4 [keV] line is plotted (blue star) for separations greater than 1000 [ns]. Top Right: Mean ionization yield vs. combined energy (black line). Bottom Left: Scintillation yield vs. combined energy on a log scale. Bottom Right: Ionization yield vs. combined energy on a log scale. The shaded blue regions represent the NEST mean with $\pm 5\%$ that has been vetted by data [Erik Dahl Thesis]. The shaded magenta regions represent the NEST extrapolations from data. The measurement is made at a field of 180 [V/cm] and contains over 150,000 beta decays. The endpoint of the tritium beta spectrum is 18.6 [keV]}
 \label{fig:L_Q_Yield_180}
@@ -153,8 +179,8 @@ Figure \ref{fig:L_Q_Yield_Baudis} includes our light and charge yield measuremen
 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{q_all_log_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
-\includegraphics[width=80mm]{LY_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
+\includegraphics[width=100mm]{q_all_log_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
+\includegraphics[width=82mm]{LY_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
 \includegraphics[width=80mm]{Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
 \caption{Top: Scintillation yield relative to the yield of the 32.1 gamma of [keV] $\rm^{83}Kr $  vs. Energy. Shaded blue curve is tritium at 100 [V/cm], shaded black curve is tritium at 180 [V/cm], red points represent a recent Compton scattering measurement at 450 [V/cm]. Also shown are the corresponding quenching of the 32.1 [keV]  gamma of $\rm^{83}Kr$ (star inside circle). Bottom: scintillation yield [Photons/keV] vs. Energy. Shaded blue curve is tritium at 100 [V/cm], shaded black curve is tritium at 180 [V/cm], red circles represent a recent Compton scattering measurement at 450 [V/cm].}
 \label{fig:L_Q_Yield_Baudis}
@@ -179,7 +205,6 @@ Figure \ref{fig:L_Q_Yield_Baudis} includes our light and charge yield measuremen
 \item ER band Gaussianity.
 \item ... anything else?
 \end{itemize}
-
 
 
 
