@@ -21,7 +21,7 @@ An accurate model of a tritiated methane injection into LUX must account for out
 where $K$ is the solubility of the material, $D$ is the diffusion constant, and $C_{out}$ is the outside concentration of the material. 
 %\cite{Piche}
 For the out gassing process we are only able to detect the flux of material out of the plastic.  This is given by Fick's first law evaluated at $x=0$,
-\[J_{out}(t)= - K \sqrt{\frac{D}{\pi}}( \int \limits_0^t \frac{\dot{C_{out}}(\tau)}{\sqrt{t-\tau}} d \tau + \frac{C_{out}(t)}{\sqrt{t}}),\]
+\[J_{out}(t)= - K \sqrt{\frac{D}{\pi}}\left( \int \limits_0^t \frac{\dot{C_{out}}(\tau)}{\sqrt{t-\tau}} d \tau + \frac{C_{out}(t)}{\sqrt{t}}\right),\]
 where the sign has been flipped since the flux of material is outward.  We see that it is no longer possible to evaluate $K$ and $D$ separately, since the diffusion in and out of the plastic is completely determined by the time-dependent concentration outside of the plastic.  To simplify our model, we define a new constant
 \[ G = K \sqrt{ \frac{D}{ \pi }} .\]
 By fitting the integral of the flux out of the plastic over time to out gassing data collected in Maryland's liquid xenon system we constrain $G \leq 0.01 \; \frac{cm}{\sqrt{day}}.$ 
@@ -33,7 +33,7 @@ With a constraint on $G$ taken from the analytic solution to Fick's second law, 
 We use a simple implementation of the first order Euler method for our numerical simulations. The diffusion is simulated by setting the concentration at the boundary of the piece equal to $KC_{out}$, where $C_{out}$ is the concentration of CH$_3$T in the xenon.  This concentration is dependent on time according to
 \[\frac{\delta C_{out}}{\delta t} = J_{out} \frac{A_{plastic}}{V_{xenon}}-\frac{C_{out}}{\tau},\]
 where $A_{plastic}$ is the surface area of the plastic cylinder, $V_{xenon}$ is the total volume of xenon in the fiducial region, and $\tau$ is the time it takes for one full purification cycle.  The first term on the right of this equation models out gassing of CH$_3$T from the plastic cylinder, while the second term models removal of CH$_3$T through purification.  Using the first order Euler method, we arrive at an expression for $C_{out}$ given by
-\[C_{j+1}=C_j + \Delta t [(J_{1,j}-J_{N_x,j})\frac{A_{plastic}}{V_{xenon}}-\frac{C_j}{\tau}].\]
+\[C_{j+1}=C_j + \Delta t \left[(J_{1,j}-J_{N_x,j})\frac{A_{plastic}}{V_{xenon}}-\frac{C_j}{\tau}\right].\]
 The initial concentration is defined by dividing the desired injection activity by the volume of the fiducial region.  We choose $D = 2.3 \times 10^{-9} \frac {cm^2}{sec}$ so that the half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$.  We use this model to predict the total number of calibration events as well as the time required to return to \textless 5\% of the nominal background rate for any CH$_3$T injection into LUX.  
 
 \begin{figure}[h]
@@ -62,6 +62,8 @@ The LUX gas system uses a hot zirconium getter (SAES-PS4MT15R1) located upstream
 \label{fig:Removal}
 \end{figure}
 
+\begin{comment}%%AD %%End here, move onto tritium results section text.
+
 \subsection{Natural Methane Injection}
 
 
@@ -77,7 +79,6 @@ Figure ?? shows that a large purification time constant can lead to long wait ti
 \end{figure}
 
 
-\begin{comment} %% AD
 \subsection{Tritiated Methane Injection}
 
 To confirm the purification model established by the natural methane injection a small amount of tritiated methane was injected into LUX the following week. An absolute activity of 20 mBq of tritiated methane was injected with the getter in purify mode.  Thus as soon as the CH3T passed through the detector it was immediately removed.  A purification time constant of 6.7 hours was observed, consistent with the natural methane purification rate measured by the sampling system. After a day of circulating through the getter the tritium decay had fallen below detectable amounts confirming the effective removal of the tritiated methane with the getter. 
