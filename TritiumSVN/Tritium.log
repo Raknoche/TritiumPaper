@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 JUN 2014 09:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 JUN 2014 10:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -662,11 +662,11 @@ LaTeX Warning: Reference `sec:analysis' on page 2 undefined on input line 17.
 
 ) (./SectionTwo.tex
 Package epstopdf Info: Source file: <TimeHisto_Analog2.eps>
-(epstopdf)                    date: 2014-05-28 16:49:54
-(epstopdf)                    size: 28968 bytes
+(epstopdf)                    date: 2014-06-03 09:59:59
+(epstopdf)                    size: 28979 bytes
 (epstopdf)             Output file: <TimeHisto_Analog2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-29 19:47:37
-(epstopdf)                    size: 24879 bytes
+(epstopdf)                    date: 2014-06-03 10:11:14
+(epstopdf)                    size: 25100 bytes
 (epstopdf)             Command: <epstopdf --outfile=TimeHisto_Analog2-eps-conve
 rted-to.pdf TimeHisto_Analog2.eps>
 (epstopdf)             \includegraphics on input line 9.
@@ -810,12 +810,13 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 68.
 
 
-<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=181, 552.8655pt x 408.3255pt>
+<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=181, 560.99588pt x 420.97275p
+t>
 File: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png Graphic file (type png)
-<use CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>
+ <use CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>
 Package pdftex.def Info: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png used on i
 nput line 77.
-(pdftex.def)             Requested size: 284.52756pt x 210.14355pt.
+(pdftex.def)             Requested size: 284.52756pt x 213.51775pt.
 
 Overfull \hbox (15.289pt too wide) in paragraph at lines 77--78
  [][] 
@@ -859,11 +860,11 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 106.
 
 Package epstopdf Info: Source file: <Triritium_S1_Threshold_2013_PRL.eps>
-(epstopdf)                    date: 2014-06-03 09:46:15
+(epstopdf)                    date: 2014-06-03 10:00:00
 (epstopdf)                    size: 30851 bytes
 (epstopdf)             Output file: <Triritium_S1_Threshold_2013_PRL-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-06-03 09:50:23
+(epstopdf)                    date: 2014-06-03 10:11:15
 (epstopdf)                    size: 12992 bytes
 (epstopdf)             Command: <epstopdf --outfile=Triritium_S1_Threshold_2013
 _PRL-eps-converted-to.pdf Triritium_S1_Threshold_2013_PRL.eps>
@@ -937,8 +938,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  10931 strings out of 493633
- 160295 string characters out of 3143378
- 282821 words of memory out of 3000000
+ 160296 string characters out of 3143378
+ 282449 words of memory out of 3000000
  14009 multiletter control sequences out of 15000+200000
  11299 words of font info for 48 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -957,7 +958,7 @@ ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Tritium.pdf (8 pages, 837986 bytes).
+Output written on Tritium.pdf (8 pages, 831717 bytes).
 PDF statistics:
  304 PDF objects out of 1000 (max. 8388607)
  257 compressed objects within 3 object streams
