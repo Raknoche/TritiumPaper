@@ -98,11 +98,23 @@ Figure \ref{fig:Leak} shows the leakage fraction per 1 Phe bins in S1. The mean 
 \end{comment}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{comment}
+
 
 \subsection{Threshold Determination}
 
-The tritiated methane calibration source can also be used to determine detector efficiency for both S1 (primary scintillation) and S2 (secondary scintillation) down to sub 1 keV electronic recoils.The ultimate limitation of single scatter event is typically the S1 since the signal size of the S1 is one to three orders of magnitude less than the S2. We measured the threshold by comparing the NEST model of a tritium beta spectrum to the data, we find good agreement to the threshold determined from LED calibration, figure \ref{fig:S1S2_Thresh}(need to add to plot). The threshold for the S2 (bottom PMT array) shown is entirely due to the S1 threshold. We use only the bottom PMT array for the S2 signal because the secondary scintillation light is more uniformly distributed along the bottom PMTs than the top PMTs. Figure \ref{fig:E_spec} shows the tritium beta spectrum measured in the LUX detector along with the NEST prediction, note at the 180 V/cm drift field NEST has been vetted form 2 to 10 $\rm keV{ee}$.
+The tritiated methane calibration source was used to measure the detector efficiency, determined by the threshold for collecting the smaller S1 (primary scintillation) signal. The limitation for classifying a single scatter WIMP like event event is the S1 since the signal size of the S1 is more than an order of magnitude less than the S2. The S1 threshold was determined by comparing the NEST model the continuous tritium beta spectrum from 1-8 $\rm keV_{ee}$. The tritium data and NEST are in good agreement with other methods for determining the threshold in the LUX detector, figure \ref{fig:S1_Thresh}. 
+
+%The threshold for the S2 (bottom PMT array) shown is entirely due to the S1 threshold. We use only the bottom PMT array for the S2 signal because the secondary scintillation light is more uniformly distributed along the bottom PMTs than the top PMTs. 
+%Figure \ref{fig:E_spec} shows the tritium beta spectrum measured in the LUX detector along with the NEST prediction, note at the 180 V/cm drift field NEST has been vetted form 2 to 10 $\rm keV{ee}$.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=100mm]{Triritium_S1_Threshold_2013_PRL.eps}
+\caption{Comparison of AmBe data (blue circles) with NEST simulations (blue line), showing excellent agreement above the 2 phe threshold (left axis). The gray histogram and fitted dashed red line show the relative efficiency for detection of nuclear recoils from AmBe data (right axis). Overlaid are the ER detection efficiency from tritium data (green squares), applied to the ER background model in the profile likelihood analysis, and the efficiency from full detector NR simulations treated as real data in terms of the digitized MC-truth S1 phe (purple triangles), applied to the WIMP signal model. The efficiency calculation here does not include S1 or S2 area thresholds. }
+\label{fig:S1_Thresh}
+\end{figure}
+
+
+\begin{comment}
 
 \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{CH3T_eff_S1_100_T_paper_corr_threshold.eps}
@@ -200,20 +212,9 @@ Figure \ref{fig:L_Q_Yield_Baudis} includes our light and charge yield measuremen
 \end{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{All the things we can do with Tritium}
+\section{Future Calibration Tritium}
 
-\begin{itemize}
-\item Define the ER band.
-\item Binned leakage fraction, and potentially optimize for spacial dependent leakage fraction in XYZ plane.
-\item S1, S2 threshold. (Energy is a bit convoluted let's not go there). Requires NEST
-\item Combined energy calibration to about 0.5 keVee. Requires NEST
-\item Light Yield, Charge Yield. Requires some trivial smearing model, 10\% effect.
-\item Fano-like factor vs. energy. Requires some trivial smearing model, sub 2\% effect.
-\item Fiducial mass calculation, optimized for low energy S2s making it more WIMP like.
-\item g1 and g2 calculation by competing tritium spectrum with NEST, or multiple E fields
-\item ER band Gaussianity.
-\item ... anything else?
-\end{itemize}
+In this paper we have described the development and use of a tritated methane calibration source for large scale xenon detectors. The primary application of the calibration source is to characterize the ER band and hence get a measure of discrimination from electronic and nuclear recoils for xenon detectors. However, more fundamental xenon physics can be probed with the tritium calibration source. With higher statistics the discrimination can be studied in finer bins of energy or S1 Phe (figure \ref{fig:Leak}) at various drift fields and also the Gaussianity of the band can be studied. The log(S2/S1) has assumed to have Gaussian behavior, never before has there been a calibration with such data purity for an ER calibration in the WIMP search region. The tritium source in the fiducial region produced 115,000 Tritium decays with only 2 being non tritium events, thus Gaussianity can be studied past five sigma. The tritium calibration was also been used to calculate the light yield, charge yield and recombination fluctuation over the range from 1 to 18 $\rm KeV_{ee}$ and has proved useful for NEST modeling down to $\rm 1 keV_{ee}$. Since the tritium provides a low energy uniformly distributed source it was also use to determine the fiducial volume of the LUX detector by measuring the differential rate.
 
 
 
