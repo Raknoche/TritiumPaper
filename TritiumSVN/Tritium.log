@@ -1,23 +1,23 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 JUN 2014 10:52
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  3 JUN 2014 10:10
->>>>>>> FETCH_HEAD
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 JUN 2014 00:01
 entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
 **Tritium.tex
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.tex
+(./Tritium.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls"
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -79,7 +79,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 
 Class revtex4-1 Warning: No Society specified, using default society aps.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -91,19 +91,19 @@ Class revtex4-1 Info: APS journal PRA selected on input line 7545.
 
 Class revtex4-1 Warning: No type size specified, using default 10.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\aps10pt4-1.rtx"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
 File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -112,21 +112,21 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\revsymb4-1.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -157,33 +157,33 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen102
 \Hy@linkcounter=\count95
 \Hy@pagecounter=\count96
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count97
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4062.
@@ -215,36 +215,35 @@ LaTeX Info: Redefining \pageref on input line 5847.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count103
 \c@bookmark@seq@number=\count104
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks17
 \verbatim@line=\toks18
 \verbatim@in@stream=\read1
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2013/02/03 v3.3-65 Customizing captions (AR)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \captionmargin=\dimen105
 \captionmargin@=\dimen106
 \captionwidth=\dimen107
-\caption@tempdima=\dimen108
-\caption@indent=\dimen109
-\caption@parindent=\dimen110
-\caption@hangindent=\dimen111
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -261,15 +260,15 @@ dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
  }}\endgroup \vskip \belowcaptionskip .
 \c@ContinuedFloat=\count105
 Package caption Info: hyperref package is loaded.
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
-Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count106
 \calc@Bcount=\count107
-\calc@Adimen=\dimen112
-\calc@Bdimen=\dimen113
+\calc@Adimen=\dimen111
+\calc@Bdimen=\dimen112
 \calc@Askip=\skip47
 \calc@Bskip=\skip48
 LaTeX Info: Redefining \setlength on input line 76.
@@ -277,29 +276,29 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count108
 \calc@Cskip=\skip49
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
-\ex@=\dimen114
+\ex@=\dimen113
 )
 LaTeX Info: Redefining \text on input line 53.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen115
+\pmbraise@=\dimen114
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count109
@@ -314,7 +313,7 @@ LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box41
 \strutbox@=\box42
-\big@size=\dimen116
+\big@size=\dimen115
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count114
@@ -327,12 +326,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count119
 \maxfields@=\count120
 \andhelp@=\toks21
-\eqnshift@=\dimen117
-\alignsep@=\dimen118
-\tagshift@=\dimen119
-\tagwidth@=\dimen120
-\totwidth@=\dimen121
-\lineht@=\dimen122
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
 \@envbody=\toks22
 \multlinegap=\skip51
 \multlinetaggap=\skip52
@@ -340,43 +339,51 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count121
-\l_MT_multwidth_dim=\dimen123
+\l_MT_multwidth_dim=\dimen122
 \origjot=\skip53
-\l_MT_shortvdotswithinadjustabove_dim=\dimen124
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen125
-\l_MT_above_intertext_sep=\dimen126
-\l_MT_below_intertext_sep=\dimen127
-\l_MT_above_shortintertext_sep=\dimen128
-\l_MT_below_shortintertext_sep=\dimen129
+\l_MT_shortvdotswithinadjustabove_dim=\dimen123
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen124
+\l_MT_above_intertext_dim=\dimen125
+\l_MT_below_intertext_dim=\dimen126
+\l_MT_above_shortintertext_dim=\dimen127
+\l_MT_below_shortintertext_dim=\dimen128
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
-Package: relsize 2003/07/04 ver 3.1
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2011/09/21 ver 4.0
+
+Examine \normalsize starts \@setfontsize size may be \@xpt. 
+Examine \small starts \@setfontsize size may be \@ixpt. 
+Examine \footnotesize starts \@setfontsize size may be \@viiipt. 
+Examine \large starts \@setfontsize size may be \@xiipt. 
+Examine \Large starts \@setfontsize size may be \@xivpt. 
+Examine \LARGE starts \@setfontsize size may be \@xviipt. 
+Examine \scriptsize starts \@setfontsize size may be \@viipt. 
+Examine \tiny starts \@setfontsize size may be \@vpt. 
+Examine \huge starts \@setfontsize size may be \@xxpt. 
+Examine \Huge starts \@setfontsize size may be \@xxvpt. )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count122
 ))
-\Gin@req@height=\dimen130
-\Gin@req@width=\dimen131
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 \c@float@type=\count123
 \float@exts=\toks24
@@ -387,9 +394,9 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
 \FR@everyfloat=\toks25
 \flrow@foot=\insert233
-\FB@wd=\dimen132
-\FBo@wd=\dimen133
-\FBc@wd=\dimen134
+\FB@wd=\dimen131
+\FBo@wd=\dimen132
+\FBc@wd=\dimen133
 \FBo@ht=\skip54
 \FBc@ht=\skip55
 \FBf@ht=\skip56
@@ -405,7 +412,7 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \Zhsize=\skip62
 \sZhsize=\skip63
 \flrow@rowbox=\box45
-\FR@Zunitlength=\dimen135
+\FR@Zunitlength=\dimen134
 \c@FBcnt=\count128
 \FPOScnt=\count129
 \LTleft=\skip64
@@ -414,10 +421,10 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip67
 \flrow@types=\toks26
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -426,10 +433,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 99.
 LaTeX Info: Redefining \Bbb on input line 101.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count130
@@ -438,109 +445,128 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box46
 \rot@mess@toks=\toks27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@output=\toks28
 \AP@partial=\box47
 \AP@footins=\box48
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count131
 \Gm@cntv=\count132
 \c@Gm@tempcnt=\count133
-\Gm@bindingoffset=\dimen136
-\Gm@wd@mp=\dimen137
-\Gm@odd@mp=\dimen138
-\Gm@even@mp=\dimen139
-\Gm@layoutwidth=\dimen140
-\Gm@layoutheight=\dimen141
-\Gm@layouthoffset=\dimen142
-\Gm@layoutvoffset=\dimen143
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
 \Gm@dimlist=\toks29
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box49
 \beforetitleunit=\skip70
 \aftertitleunit=\skip71
-\ttl@plus=\dimen144
-\ttl@minus=\dimen145
+\ttl@plus=\dimen143
+\ttl@minus=\dimen144
 \ttl@toksa=\toks30
-\titlewidth=\dimen146
-\titlewidthlast=\dimen147
-\titlewidthfirst=\dimen148
+\titlewidth=\dimen145
+\titlewidthlast=\dimen146
+\titlewidthfirst=\dimen147
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen149
-\extrarowheight=\dimen150
+\col@sep=\dimen148
+\extrarowheight=\dimen149
 \NC@list=\toks31
 \extratabsurround=\skip72
 \backup@length=\skip73
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen151
+(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen150
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wasysym\wasysym.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
 \symwasy=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count134
+\sf@farskip=\skip74
+\sf@captopadj=\dimen151
+\sf@capskip=\skip75
+\sf@nearskip=\skip76
+\c@subfigure=\count135
+\c@subfigure@save=\count136
+\c@lofdepth=\count137
+\c@subtable=\count138
+\c@subtable@save=\count139
+\c@lotdepth=\count140
+\sf@top=\skip77
+\sf@bottom=\skip78
+)
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 57.
+(hyperref)                setting the option has no effect on input line 59.
 
-Package hyperref Info: Option `unicode' set `false' on input line 57.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 57.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 57.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 57.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 57.
-Package hyperref Info: Option `colorlinks' set `true' on input line 57.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\block.tss"
+Package hyperref Info: Option `unicode' set `false' on input line 59.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 59.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 59.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 59.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 59.
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2011/12/15
 )
-Class revtex4-1 Info: Patching array package. on input line 81.
+Class revtex4-1 Info: Patching array package. on input line 83.
 
 
 Class revtex4-1 Warning: Failed to patch the float package.
 
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 81.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 83.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 81.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 81.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 81.
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.aux
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 83.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 83.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 83.
+(./Tritium.aux
 
 LaTeX Warning: Label `fig:Removal' multiply defined.
 
@@ -548,56 +574,64 @@ LaTeX Warning: Label `fig:Removal' multiply defined.
 LaTeX Warning: Label `fig:Density' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+\openout1 = `Tritium.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring ON on input line 81.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package hyperref Info: Link coloring ON on input line 83.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count134
+\c@section@level=\count141
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.out)
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.out)
+(./Tritium.out) (./Tritium.out)
 \@outlinefile=\write4
+\openout4 = `Tritium.out'.
+
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
+\scratchcounter=\count142
 \scratchdimen=\dimen152
 \scratchbox=\box51
-\nofMPsegments=\count136
-\nofMParguments=\count137
+\nofMPsegments=\count143
+\nofMParguments=\count144
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count138
+\MPscratchCnt=\count145
 \MPscratchDim=\dimen153
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/floatrow/fr-subfig.sty
+Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
+\FBsc@max=\skip79
+\FBso@max=\skip80
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -633,30 +667,70 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 81.
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Abstract.tex)
-LaTeX Font Info:    Try loading font information for U+msa on input line 429.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 83.
+\openout3 = `TritiumNotes.bib'.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(./Abstract.tex)
+LaTeX Font Info:    Try loading font information for U+msa on input line 431.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 429.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+LaTeX Font Info:    Try loading font information for U+msb on input line 431.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 429.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 431.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 429.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 431.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Introduction.tex
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(./Introduction.tex
+
+Package natbib Warning: Citation `LUX_PRL' on page 1 undefined on input line 3.
+
+
+[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Kastens:2009rt' on page 2 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `83Kr_HalfLife_1' on page 2 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `83Kr_HalfLife_2' on page 2 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `Tritium_Q' on page 2 undefined on input line 
+9.
+
+
+Package natbib Warning: Citation `Tritium_Mean' on page 2 undefined on input li
+ne 9.
+
+
+Package natbib Warning: Citation `Tritium_Eq' on page 2 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `Tritium_halflife_all' on page 2 undefined on 
+input line 11.
+
+
+Package natbib Warning: Citation `miyake:1983' on page 2 undefined on input lin
+e 13.
+
+
+Package natbib Warning: Citation `LUX_BG' on page 2 undefined on input line 15.
+
+
 
 LaTeX Warning: Reference `sec:development' on page 2 undefined on input line 17
 .
@@ -664,27 +738,22 @@ LaTeX Warning: Reference `sec:development' on page 2 undefined on input line 17
 
 LaTeX Warning: Reference `sec:analysis' on page 2 undefined on input line 17.
 
-) (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\SectionTwo.tex
+) (./SectionTwo.tex
+
+Package natbib Warning: Citation `Dobi_CH4' on page 2 undefined on input line 6
+.
+
 Package epstopdf Info: Source file: <TimeHisto_Analog2.eps>
-<<<<<<< HEAD
-(epstopdf)                    date: 2014-06-03 09:59:59
+(epstopdf)                    date: 2014-06-03 16:38:25
 (epstopdf)                    size: 28979 bytes
 (epstopdf)             Output file: <TimeHisto_Analog2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:11:14
-(epstopdf)                    size: 25100 bytes
-=======
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 30392 bytes
-(epstopdf)             Output file: <TimeHisto_Analog2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:10:01
-(epstopdf)                    size: 22473 bytes
->>>>>>> FETCH_HEAD
-(epstopdf)             Command: <epstopdf --outfile=TimeHisto_Analog2-eps-conve
-rted-to.pdf TimeHisto_Analog2.eps>
+(epstopdf)                    date: 2014-06-03 23:38:54
+(epstopdf)                    size: 25072 bytes
+(epstopdf)             Command: <repstopdf --outfile=TimeHisto_Analog2-eps-conv
+erted-to.pdf TimeHisto_Analog2.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-
-<TimeHisto_Analog2-eps-converted-to.pdf, id=90, 646.415pt x 424.58624pt>
+<TimeHisto_Analog2-eps-converted-to.pdf, id=75, 646.415pt x 424.58624pt>
 File: TimeHisto_Analog2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use TimeHisto_Analog2-eps-converted-to.pdf>
@@ -700,269 +769,316 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 24.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 37.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+Package epstopdf Info: Source file: <CH3T_PE_cold.eps>
+(epstopdf)                    date: 2014-06-03 23:31:00
+(epstopdf)                    size: 167510 bytes
+(epstopdf)             Output file: <CH3T_PE_cold-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-03 23:39:05
+(epstopdf)                    size: 85484 bytes
+(epstopdf)             Command: <repstopdf --outfile=CH3T_PE_cold-eps-converted
+-to.pdf CH3T_PE_cold.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+<CH3T_PE_cold-eps-converted-to.pdf, id=85, 745.78625pt x 407.5225pt>
+File: CH3T_PE_cold-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CH3T_PE_cold-eps-converted-to.pdf>
+Package pdftex.def Info: CH3T_PE_cold-eps-converted-to.pdf used on input line 3
+5.
+(pdftex.def)             Requested size: 242.31305pt x 132.40593pt.
+Package epstopdf Info: Source file: <CH3T_PE_cold_adj.eps>
+(epstopdf)                    date: 2014-06-03 23:29:20
+(epstopdf)                    size: 161475 bytes
+(epstopdf)             Output file: <CH3T_PE_cold_adj-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-03 23:39:08
+(epstopdf)                    size: 79089 bytes
+(epstopdf)             Command: <repstopdf --outfile=CH3T_PE_cold_adj-eps-conve
+rted-to.pdf CH3T_PE_cold_adj.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+<CH3T_PE_cold_adj-eps-converted-to.pdf, id=86, 745.78625pt x 407.5225pt>
+File: CH3T_PE_cold_adj-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CH3T_PE_cold_adj-eps-converted-to.pdf>
+Package pdftex.def Info: CH3T_PE_cold_adj-eps-converted-to.pdf used on input li
+ne 36.
+(pdftex.def)             Requested size: 242.31305pt x 132.40593pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 45.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
-Package epstopdf Info: Source file: <LUXfig_INJvar_time_new.eps>
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 13786 bytes
-(epstopdf)             Output file: <LUXfig_INJvar_time_new-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 4826 bytes
-(epstopdf)             Command: <epstopdf --outfile=LUXfig_INJvar_time_new-eps-
-converted-to.pdf LUXfig_INJvar_time_new.eps>
-(epstopdf)             \includegraphics on input line 41.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 45.
+Package epstopdf Info: Source file: <Calibration_length.eps>
+(epstopdf)                    date: 2014-06-03 23:21:48
+(epstopdf)                    size: 10844 bytes
+(epstopdf)             Output file: <Calibration_length-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-03 23:54:10
+(epstopdf)                    size: 7056 bytes
+(epstopdf)             Command: <repstopdf --outfile=Calibration_length-eps-con
+verted-to.pdf Calibration_length.eps>
+(epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
-<LUXfig_INJvar_time_new-eps-converted-to.pdf, id=110, 827.09pt x 483.8075pt>
-File: LUXfig_INJvar_time_new-eps-converted-to.pdf Graphic file (type pdf)
+<Calibration_length-eps-converted-to.pdf, id=87, 920.43875pt x 421.575pt>
+File: Calibration_length-eps-converted-to.pdf Graphic file (type pdf)
 
-<use LUXfig_INJvar_time_new-eps-converted-to.pdf>
-Package pdftex.def Info: LUXfig_INJvar_time_new-eps-converted-to.pdf used on in
-put line 41.
-(pdftex.def)             Requested size: 206.77199pt x 120.95157pt.
+<use Calibration_length-eps-converted-to.pdf>
+Package pdftex.def Info: Calibration_length-eps-converted-to.pdf used on input 
+line 49.
+(pdftex.def)             Requested size: 255.7758pt x 117.14604pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/TimeHisto_Analog2
--eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <LUXActivityOverTime.eps>
+(epstopdf)                    date: 2014-06-03 23:17:43
+(epstopdf)                    size: 29209 bytes
+(epstopdf)             Output file: <LUXActivityOverTime-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-03 23:54:11
+(epstopdf)                    size: 21440 bytes
+(epstopdf)             Command: <repstopdf --outfile=LUXActivityOverTime-eps-co
+nverted-to.pdf LUXActivityOverTime.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<LUXActivityOverTime-eps-converted-to.pdf, id=88, 538.01pt x 388.45125pt>
+File: LUXActivityOverTime-eps-converted-to.pdf Graphic file (type pdf)
+
+<use LUXActivityOverTime-eps-converted-to.pdf>
+Package pdftex.def Info: LUXActivityOverTime-eps-converted-to.pdf used on input
+ line 56.
+(pdftex.def)             Requested size: 255.7758pt x 184.67628pt.
+ [3 <./TimeHisto_Analog2-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 52.
+ on input line 60.
 
-<TritiumPlumbing.png, id=121, 962.84718pt x 449.42906pt>
+[4 <./CH3T_PE_cold-eps-converted-to.pdf> <./CH3T_PE_cold_adj-eps-converted-to.p
+df> <./Calibration_length-eps-converted-to.pdf> <./LUXActivityOverTime-eps-conv
+erted-to.pdf>] <TritiumPlumbing.png, id=137, 962.84718pt x 449.42906pt>
 File: TritiumPlumbing.png Graphic file (type png)
 
 <use TritiumPlumbing.png>
-Package pdftex.def Info: TritiumPlumbing.png used on input line 60.
+Package pdftex.def Info: TritiumPlumbing.png used on input line 74.
 (pdftex.def)             Requested size: 227.62204pt x 106.24675pt.
 
 
-LaTeX Warning: Characters dropped after `\end{comment}' on input line 97.
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 115.
 
-)
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium_Results_Sect
-ion.tex
+) (./Tritium_Results_Section.tex
 
 LaTeX Warning: Characters dropped after `\end{comment}' on input line 7.
 
-[4 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/LUXfig_INJvar_tim
-e_new-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/Tri
-tiumSVN/TritiumPlumbing.png>]
+
+Package natbib Warning: Citation `Kr_ppt_Dobi' on page 5 undefined on input lin
+e 14.
+
+
+Package natbib Warning: Citation `EXO_SAM' on page 5 undefined on input line 14
+.
+
+Package epstopdf Info: Source file: <tau_var_CH3T.eps>
+(epstopdf)                    date: 2014-06-03 23:19:27
+(epstopdf)                    size: 26109 bytes
+(epstopdf)             Output file: <tau_var_CH3T-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=tau_var_CH3T-eps-converted
+-to.pdf tau_var_CH3T.eps>
+(epstopdf)             \includegraphics on input line 18.
+runsystem(repstopdf --outfile=tau_var_CH3T-eps-converted-to.pdf tau_var_CH3T.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <tau_var_CH3T-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-04 00:01:01
+(epstopdf)                    size: 19255 bytes.
+<tau_var_CH3T-eps-converted-to.pdf, id=139, 454.69875pt x 388.45125pt>
+File: tau_var_CH3T-eps-converted-to.pdf Graphic file (type pdf)
+
+<use tau_var_CH3T-eps-converted-to.pdf>
+Package pdftex.def Info: tau_var_CH3T-eps-converted-to.pdf used on input line 1
+8.
+(pdftex.def)             Requested size: 255.7758pt x 218.51514pt.
+
+
+Package natbib Warning: Citation `LUX_PRL' on page 5 undefined on input line 24
+.
+
+[5 <./TritiumPlumbing.png> <./tau_var_CH3T-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <CH4_injection_3.eps>
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 17921 bytes
+(epstopdf)                    date: 2014-06-03 16:38:25
+(epstopdf)                    size: 17240 bytes
 (epstopdf)             Output file: <CH4_injection_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:10:01
-(epstopdf)                    size: 8677 bytes
-(epstopdf)             Command: <epstopdf --outfile=CH4_injection_3-eps-convert
-ed-to.pdf CH4_injection_3.eps>
-(epstopdf)             \includegraphics on input line 22.
+(epstopdf)                    date: 2014-06-03 23:39:11
+(epstopdf)                    size: 13074 bytes
+(epstopdf)             Command: <repstopdf --outfile=CH4_injection_3-eps-conver
+ted-to.pdf CH4_injection_3.eps>
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH4_injection_3-eps-converted-to.pdf, id=141, 561.09625pt x 421.575pt>
+<CH4_injection_3-eps-converted-to.pdf, id=157, 561.09625pt x 421.575pt>
 File: CH4_injection_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use CH4_injection_3-eps-converted-to.pdf>
 Package pdftex.def Info: CH4_injection_3-eps-converted-to.pdf used on input lin
-e 22.
+e 29.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 Package epstopdf Info: Source file: <CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 31836 bytes
+(epstopdf)                    date: 2014-06-03 16:38:25
+(epstopdf)                    size: 30074 bytes
 (epstopdf)             Output file: <CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:10:02
-(epstopdf)                    size: 25555 bytes
-(epstopdf)             Command: <epstopdf --outfile=CH3T_Rate_fid_150_Run03_Tri
-tium_Rate-eps-converted-to.pdf CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
-(epstopdf)             \includegraphics on input line 29.
+(epstopdf)                    date: 2014-06-03 23:39:12
+(epstopdf)                    size: 29201 bytes
+(epstopdf)             Command: <repstopdf --outfile=CH3T_Rate_fid_150_Run03_Tr
+itium_Rate-eps-converted-to.pdf CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
+(epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf, id=142, 561.09625pt
+<CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf, id=158, 561.09625pt
  x 421.575pt>
 File: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.
-pdf used on input line 29.
+pdf used on input line 36.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <CH3T_RZ_scatter_lux10_20130812T1546.eps>
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 141755 bytes
+(epstopdf)                    date: 2014-06-03 16:38:25
+(epstopdf)                    size: 128068 bytes
 (epstopdf)             Output file: <CH3T_RZ_scatter_lux10_20130812T1546-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:05:13
+(epstopdf)                    date: 2014-06-03 16:38:25
 (epstopdf)                    size: 360070 bytes
-(epstopdf)             Command: <epstopdf --outfile=CH3T_RZ_scatter_lux10_20130
-812T1546-eps-converted-to.pdf CH3T_RZ_scatter_lux10_20130812T1546.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             Command: <repstopdf --outfile=CH3T_RZ_scatter_lux10_2013
+0812T1546-eps-converted-to.pdf CH3T_RZ_scatter_lux10_20130812T1546.eps>
+(epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf, id=144, 414.54875pt 
+<CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf, id=160, 414.54875pt 
 x 410.53375pt>
 File: CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.p
-df used on input line 41.
+df used on input line 48.
 (pdftex.def)             Requested size: 227.62204pt x 225.41214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH4_injection_3-e
-ps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN
-/CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `Kirill_Methane' on page 6 undefined on input 
+line 74.
+
+[6 <./CH4_injection_3-eps-converted-to.pdf> <./CH3T_Rate_fid_150_Run03_Tritium_
+Rate-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 68.
+ on input line 75.
 
 
-<<<<<<< HEAD
-<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=181, 560.99588pt x 420.97275p
+Package natbib Warning: Citation `LUX_BG' on page 7 undefined on input line 79.
+
+
+
+<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=192, 560.99588pt x 420.97275p
 t>
-=======
-<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=169, 552.8655pt x 408.3255pt>
->>>>>>> FETCH_HEAD
 File: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png Graphic file (type png)
  <use CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>
 Package pdftex.def Info: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png used on i
-nput line 77.
+nput line 84.
 (pdftex.def)             Requested size: 284.52756pt x 213.51775pt.
 
-Overfull \hbox (15.289pt too wide) in paragraph at lines 77--78
+Overfull \hbox (15.289pt too wide) in paragraph at lines 84--85
  [][] 
  []
 
 Package epstopdf Info: Source file: <CH3T_Leakage_fid_50_Dec_Tritium_Approval_P
 lots_2.eps>
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 18489 bytes
+(epstopdf)                    date: 2014-06-03 16:38:25
+(epstopdf)                    size: 17714 bytes
 (epstopdf)             Output file: <CH3T_Leakage_fid_50_Dec_Tritium_Approval_P
 lots_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:10:02
-(epstopdf)                    size: 9935 bytes
-(epstopdf)             Command: <epstopdf --outfile=CH3T_Leakage_fid_50_Dec_Tri
-tium_Approval_Plots_2-eps-converted-to.pdf CH3T_Leakage_fid_50_Dec_Tritium_Appr
-oval_Plots_2.eps>
-(epstopdf)             \includegraphics on input line 83.
+(epstopdf)                    date: 2014-06-03 23:39:14
+(epstopdf)                    size: 13384 bytes
+(epstopdf)             Command: <repstopdf --outfile=CH3T_Leakage_fid_50_Dec_Tr
+itium_Approval_Plots_2-eps-converted-to.pdf CH3T_Leakage_fid_50_Dec_Tritium_App
+roval_Plots_2.eps>
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf, id=171,
+<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf, id=194,
  646.415pt x 503.8825pt>
 File: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-c
-onverted-to.pdf used on input line 83.
+onverted-to.pdf used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 221.78587pt.
 
-Overfull \hbox (15.289pt too wide) in paragraph at lines 83--84
+Overfull \hbox (15.289pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_RZ_scatter_l
-ux10_20130812T1546-eps-converted-to.pdf> <C:/Users/Richard/Documents/GitHub/Tri
-tiumPaper/TritiumSVN/CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>]
+[7 <./CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf> <./CH3T_fid_50_
+2_Dec_Tritium_Approval_Plots.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 106.
+ on input line 113.
 
 Package epstopdf Info: Source file: <Triritium_S1_Threshold_2013_PRL.eps>
-<<<<<<< HEAD
-(epstopdf)                    date: 2014-06-03 10:00:00
+(epstopdf)                    date: 2014-06-03 16:38:25
 (epstopdf)                    size: 30851 bytes
 (epstopdf)             Output file: <Triritium_S1_Threshold_2013_PRL-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:11:15
-(epstopdf)                    size: 12992 bytes
-=======
-(epstopdf)                    date: 2014-06-03 10:05:13
-(epstopdf)                    size: 32563 bytes
-(epstopdf)             Output file: <Triritium_S1_Threshold_2013_PRL-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2014-06-03 10:10:03
-(epstopdf)                    size: 10049 bytes
->>>>>>> FETCH_HEAD
-(epstopdf)             Command: <epstopdf --outfile=Triritium_S1_Threshold_2013
-_PRL-eps-converted-to.pdf Triritium_S1_Threshold_2013_PRL.eps>
-(epstopdf)             \includegraphics on input line 111.
+(epstopdf)                    date: 2014-06-03 23:39:14
+(epstopdf)                    size: 12958 bytes
+(epstopdf)             Command: <repstopdf --outfile=Triritium_S1_Threshold_201
+3_PRL-eps-converted-to.pdf Triritium_S1_Threshold_2013_PRL.eps>
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
-<Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf, id=190, 632.3625pt x 408
+<Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf, id=213, 632.3625pt x 408
 .52625pt>
 File: Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf Graphic file (type p
 df)
  <use Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf>
 Package pdftex.def Info: Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf u
-sed on input line 111.
+sed on input line 118.
 (pdftex.def)             Requested size: 284.52756pt x 183.8164pt.
 
-Overfull \hbox (15.289pt too wide) in paragraph at lines 111--112
+Overfull \hbox (15.289pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Summary.tex)
-[7 <C:/Users/Richard/Documents/GitHub/TritiumPaper/TritiumSVN/CH3T_Leakage_fid_
-50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf> <C:/Users/Richard/Documen
-ts/GitHub/TritiumPaper/TritiumSVN/Triritium_S1_Threshold_2013_PRL-eps-converted
--to.pdf>]
-(C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.bbl
-Underfull \hbox (badness 1337) in paragraph at lines 8--13
- []\OT1/cmr/m/n/9 S. Ak-erib, D. et al.  First re-sults from the lux dark
- []
+) (./Summary.tex) [8 <./CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-co
+nverted-to.pdf> <./Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf>]
+No file Tritium.bbl.
 
+Package natbib Warning: There were undefined citations.
 
-Underfull \hbox (badness 1688) in paragraph at lines 8--13
- \OT1/cmr/m/n/9 cil-ity.  \OT1/cmr/m/it/9 Phys. Rev. Lett.\OT1/cmr/m/n/9 , 112:
-091303, Mar 2014.  []doi:
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 22--26
- []\OT1/cmr/m/n/9 I. Ah-mad, et al.  Half-lives of iso-meric states in fe57
- []
-
-Missing character: There is no š in font cmr9!
-Missing character: There is no š in font cmr9!
-Missing character: There is no â in font cmr9!
-Missing character: There is no € in font cmr9!
-Missing character: There is no “ in font cmr9!
-
-Underfull \hbox (badness 3354) in paragraph at lines 94--101
- []\OT1/cmr/m/n/9 K. N. Pushkin, et al.  Scin-til-la-tion light, ion-iza-tion
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 94--101
- \OT1/cmr/m/it/9 on\OT1/cmr/m/n/9 , 54(3):744--750, June 2007.  ISSN 0018-9499.
-  []doi:
- []
-
-) [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 462.
- (C:\Users\Richard\Documents\GitHub\TritiumPaper\TritiumSVN\Tritium.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 462.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 462.
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
+ (./Tritium.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
 Package rerunfilecheck Info: File `Tritium.out' has not changed.
-(rerunfilecheck)             Checksum: 4ABFE996B2C878A716103387FF5FA7C0;1293.
+(rerunfilecheck)             Checksum: 47BDEBB9D0F460320A1B9B8BE93450BB;1219.
 
 
 LaTeX Warning: There were undefined references.
@@ -972,55 +1088,31 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 10931 strings out of 493633
- 160296 string characters out of 3143378
- 282449 words of memory out of 3000000
- 14009 multiletter control sequences out of 15000+200000
+ 11189 strings out of 493488
+ 165242 string characters out of 3141326
+ 288090 words of memory out of 3000000
+ 14275 multiletter control sequences out of 15000+200000
  11299 words of font info for 48 fonts, out of 3000000 for 9000
- 831 hyphenation exceptions out of 8191
- 36i,7n,38p,2586b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
-/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
-1/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Tritium.pdf (8 pages, 831717 bytes).
-=======
- 11093 strings out of 494045
- 164650 string characters out of 3145963
- 281923 words of memory out of 3000000
- 14165 multiletter control sequences out of 15000+200000
- 11299 words of font info for 48 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 36i,7n,38p,2587b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Tritium.pdf (8 pages, 858345 bytes).
->>>>>>> FETCH_HEAD
+ 957 hyphenation exceptions out of 8191
+ 36i,7n,38p,2586b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on Tritium.pdf (9 pages, 1014913 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
