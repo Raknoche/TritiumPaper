@@ -16,15 +16,15 @@ The removal efficiency of zirconium getters for methane in xenon had previously 
 
 \newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
 
-An accurate model of a tritiated methane injection into LUX must account for out gassing of CH$_3$T from plastics such as polyethylene and teflon.  Using data from the liquid xenon experiments at the University of Maryland we numerically modeled the purification and residual diffusion of CH$_3$T in the detector.  Using Duhamel's priciple, the analytic solution to Fick's second law on a half-infite line is
-\[\Scale[0.5]{\phi (x,t) = KC_{out} - \int \limits_0^t erf(\frac{x}{\sqrt{4D(t - \tau)}})K\dot{C_{out}}(\tau)d\tau - KC_{out}(0)erf(\frac{x}{\sqrt{4Dt}}),}\]
-where $K$ is the solubility of the material, $D$ is the diffusion constant, and $C_{out}$ is the outside concentration of the material. 
+An accurate model of a tritiated methane injection into LUX must account for out gassing of CH$_3$T from plastics such as polyethylene and teflon.  Using data from the liquid xenon experiments at the University of Maryland we numerically modeled the purification and residual diffusion of CH$_3$T in the detector.  Using Duhamel's priciple, an integral solution to Fick's second law on a half-infinite line can be found to be
+\[\Scale[0.85]{\phi (x,t) = KC_{out} - \int \limits_0^t erf(\frac{x}{\sqrt{4D(t - \tau)}})K\dot{C_{out}}(\tau)d\tau - KC_{out}(0)erf(\frac{x}{\sqrt{4Dt}}),}\]
+where $K$ is the solubility of the material, $D$ is the diffusion constant, and $C_{out}$ is the concentration at the surface of the material. 
 %\cite{Piche}
 For the out gassing process we are only able to detect the flux of material out of the plastic.  This is given by Fick's first law evaluated at $x=0$,
 \[J_{out}(t)= - K \sqrt{\frac{D}{\pi}}\left( \int \limits_0^t \frac{\dot{C_{out}}(\tau)}{\sqrt{t-\tau}} d \tau + \frac{C_{out}(t)}{\sqrt{t}}\right),\]
 where the sign has been flipped since the flux of material is outward.  We see that it is no longer possible to evaluate $K$ and $D$ separately, since the diffusion in and out of the plastic is completely determined by the time-dependent concentration outside of the plastic.  To simplify our model, we define a new constant
 \[ G = K \sqrt{ \frac{D}{ \pi }} .\]
-By fitting the integral of the flux out of the plastic over time to out gassing data collected in Maryland's liquid xenon system we constrain $G \leq 0.01 \; \frac{cm}{\sqrt{day}}.$ 
+By fitting the integral of the flux out of the plastic over time to out gassing data collected in Maryland's liquid xenon system we constrain $G \leq 0.0075 \; \frac{cm}{\sqrt{day}}.$ 
 
 With a constraint on $G$ taken from the analytic solution to Fick's second law, we turn to numerical simulation to answer the question of how much initial CH$_3$T activity to inject into LUX to meet our calibration conditions.  Several assumptions are made to simplify the numerical model.  First, we approximate the diffusion into plastic as being a one dimensional process.  Since the plastic in our detector at Maryland and in LUX can be approximated by a cylindrical shell, there is no dependence on the azimuthal or $z$ coordinates.  Since $r$ is large compared to the thickness of the plastic shell, $\frac{\delta^2 \phi}{\delta r^2} \gg \frac{1}{r} \frac {\delta \phi}{\delta r}$, so Fick's laws in a one dimensional approximation become
 \[J=-D\frac{\delta \phi}{\delta r}\vec{r}\]
@@ -33,30 +33,23 @@ With a constraint on $G$ taken from the analytic solution to Fick's second law, 
 \begin{figure}[h!]
 \centering
 \subfloat{\includegraphics[width=0.9\textwidth]{CH3T_PE_cold.eps}}\\
-\subfloat{\includegraphics[width=0.9\textwidth]{CH3T_PE_cold_adj.eps}}
-\caption{Top: A fit of the integral of the flux of CH$_3$T out of plastic over time assuming that the step features are due to diffusion.  This fit is used to set an upper limit on $G$.  Bottom: A fit of the integral of the flux of CH$_3$T out of plastic over time assuming that the step features are not due to diffusion.  This fit is used to set a lower limit on $G$. }
+\caption{This plot shows the tritium activity observed after an injection into the small scale detector at Maryland. There were several polyethylene panels placed in the liquid xenon during this injection, and after about 3.5 days, the getter was put into bypass mode and the activity began to rise. The blue curve shows the upper limit of G which accounts for the steps seen in the data (the red points). The green curve, which shows the lower limit, assumes that these steps are not due to the outgassing from the PE panels and only fits to data before the first jump.}
 \label{fig:StepsFit}
 \end{figure}
 
 We use a simple implementation of the first order Euler method for our numerical simulations. The diffusion is simulated by setting the concentration at the boundary of the piece equal to $KC_{out}$, where $C_{out}$ is the concentration of CH$_3$T in the xenon.  This concentration is dependent on time according to
 \[\frac{\delta C_{out}}{\delta t} = J_{out} \frac{A_{plastic}}{V_{xenon}}-\frac{C_{out}}{\tau},\]
-where $A_{plastic}$ is the surface area of the plastic cylinder, $V_{xenon}$ is the total volume of xenon in the fiducial region, and $\tau$ is the time it takes for one full purification cycle.  The first term on the right of this equation models out gassing of CH$_3$T from the plastic cylinder, while the second term models removal of CH$_3$T through purification.  Using the first order Euler method, we arrive at an expression for $C_{out}$ given by
+where $A_{plastic}$ is the surface area of the plastic cylinder, $V_{xenon}$ is the total volume of xenon in the fiducial region, and $\tau$ is the characteristic removal time of methane from LUX (with perfect mixing and purification efficiency, this will be identical to the turnover time of xenon in LUX, but purifier inefficiencies and Henry's Law solubilities can have a significant effect on this value).  The first term on the right of this equation models out gassing of CH$_3$T from the plastic cylinder, while the second term models removal of CH$_3$T through purification.  Using the first order Euler method, we arrive at an expression for $C_{out}$ given by
 \[C_{j+1}=C_j + \Delta t \left[(J_{1,j}-J_{N_x,j})\frac{A_{plastic}}{V_{xenon}}-\frac{C_j}{\tau}\right].\]
 The initial concentration is defined by dividing the desired injection activity by the volume of the fiducial region.  We choose $D = 2.3 \times 10^{-9} \frac {cm^2}{sec}$ so that the half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$.  We use this model to predict the total number of calibration events as well as the time required to return to \textless 5\% of the nominal background rate for any CH$_3$T injection into LUX.  
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.95\textwidth]{Calibration_length.eps}
-\caption{Shown above is the time required to allow the tritium activity to fall to $<$ 5\% of the nominal LUX background. The purification rate is assumed tone exactly the recirculation rate of xenon in the LUX detector, and G is conservatively estimated to be 0.01 cm$^2$/sec.}
-\label{fig:cal_time}
+\includegraphics[width=0.95\textwidth]{tau_G_var_CH3T.eps}
+\caption{Displayed are the results of simulated 0.1 Bq injections of tritiated methane into LUX. The dashed curves assume the lower limit of G (0.0015 cm/day$^{1/2}$, while the solid curves assume the upper limit of G (0.0075 cm/day$^{1/2}$). The black curves assume a  characteristic removal time of 0.25 days, the black curves assume 1.7 days, and the blue curves assume 10 days.}
+\label{fig:tau_var}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.95\textwidth]{LUXActivityOverTime.eps}
-\caption{Simulated activity over time in LUX after a 5,000 count calibration.}
-\label{fig:LUXActivity}
-\end{figure}
 
 \section{Implementation of the Calibration Source}
 
@@ -85,9 +78,9 @@ Figure ?? shows that a large purification time constant can lead to long wait ti
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.95\textwidth]{tau_var_CH3T.eps}
-\caption{Displayed are the results of simulated 0.1 Bq injections assuming G = 0.01 cm$^2$/sec. The purification rate is varied to show the possible effect of Henry's Law solubility on the LUX background that.}
-\label{fig:tau_var}
+\includegraphics[width=0.95\textwidth]{Calibration_length.eps}
+\caption{Shown above is the time required to allow the tritium activity to fall to $<$ 5\% of the nominal LUX background. The purification rate is assumed tone exactly the recirculation rate of xenon in the LUX detector, and G is conservatively estimated to be 0.01 cm$^2$/sec.}
+\label{fig:cal_time}
 \end{figure}
 
 \begin{figure}[h!]\centering
