@@ -20,7 +20,7 @@ Following the natural methane test the tritiated methane injection was conducted
 
 \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{July_CH4_wOG.eps}
-\caption{Removal of natural methane observed by the integrated xenon sampling system prior to the tritiated methane injections. The red points indicate xenon gas measurements at the getter outlet, we find a 97\% one pass removal efficiency at a flow rate of 25 SLPM. $\rm 1\times10^{-3}$ ppb (g/g) is the limit of detection for methane using the LUX gas sampling system. The blue curve shows the improved upper limit on the effect of outgassing from the plastics. }
+\caption{Removal of natural methane observed by the integrated xenon sampling system prior to the tritiated methane injections. The red points indicate measurements at the getter outlet, we find a 97\% one pass removal efficiency at a flow rate of 25 SLPM. The blue curve shows the improved upper limit on the effect of outgassing from the plastics. The black dashed lines shows the exponential fit to the natural methane removal from the xenon with a time constant of 5.9 $\pm 0.07$ hours. $\rm 5\times10^{-3}$ ppb (g/g) is the limit of detection for methane.}
 \label{fig:Removal_methane}
 \end{figure}
 
@@ -74,12 +74,17 @@ Tritium events appear uniformly distributed in the liquid volume several minutes
 
 \subsection{Definition of Electronic Recoil Band and Comparison with NEST Model}
 
-Using the tritium source the electronic recoil band in the fiducial volume of the LUX detector was calibrated to unprecedented accuracy. Figure \ref{fig:Band} shows the mean of the ER band along with the 10-90\% confidence bounds ($\pm 1.28\sigma$) obtained from the beta decay of tritium at a drift field of 180 V/cm. The values of the leakage fraction at 50\% NR acceptance per each 1 Phe bins in S1 are shown in \ref{fig:Leak}. The nuclear recoil band, in red, is defined by the NEST model along with AmBe and $\rm^{252}Cf$  calibrations. Methane will not quench xenon scintillation,  even if methane is introduced into the xenon at a relative concentration of a few percent, then the amount of scintillation produced by the mixture is reduced by a factor of two compared to pure xenon \cite{Kirill_Methane}. But for our application we require a methane concentration of only one part in $\rm10^{15}$, and therefore our methane injection will not have any negative effects on scintillation production and transport.
+The electronic recoil band in the fiducial volume of the LUX detector was calibrated to unprecedented accuracy using the tritium source. Figure \ref{fig:Band} shows the tritium calibration data with fits to the mean of the ER band along with the 10-90\% confidence bounds ($\pm 1.28\sigma$), at a drift field of 180 V/cm. The values of the leakage fraction at 50\% NR acceptance per each 1 Phe bin in S1 are shown in \ref{fig:Leak}. The nuclear recoil band, in red, is defined by the NEST model along with AmBe and $\rm^{252}Cf$  calibrations. The amount of methane injected to perform the calibration was less than 1 part-per-trillion ($\rm <10^{-12}$) far to small to cause degradation in electron lifetime or quench xenon scintillation \cite{Kirill_Methane}. We have also independently verified the null impact on electron lifetime and light yield by performing a tritiated methane while taking $\rm ^{83m}Kr$ calibration data [cite, thesis].
+
+% Carter's line: Methane will not quench xenon scintillation,  even if methane is introduced into the xenon at a relative concentration of a few percent, then the amount of scintillation produced by the mixture is reduced by a factor of two compared to pure xenon \cite{Kirill_Methane}. But for our application we require a methane concentration of only one part in $\rm10^{15}$, and therefore our methane injection will not have any negative effects on scintillation production and transport.
 
 WIMPs primarily interact with the atomic nuclei of xenon atoms in LUX resulting in nuclear recoils whereas the vast majority of residual radioactivity within the detector are gammas which result in electronic recoils. Thus, knowing the separation of the ER from the NR band allows for a measure of the background rejection figure of merit for a liquid xenon experiment. We define the background rejection figure of merit as leakage fraction, reported here as the fraction of ER events that leak into the lower half of the NR band. Over 115,000 tritium decays were used for the ER band calibration, between 1-50 Phe in S1 (1-8 $\rm keV_{ee}$), and were found using standard WIMP search cuts within the fiducial volume. 
 %A figure of merit for ER and NR discrimination is the leakage fraction defined as  the number of tritium events populating the lower half of the NR band are compared to the total number of tritium events in the selected energy range. 
 %$\rm (1-erf((Mean\_ER-Mean\_NR)/(sqrt(2)*sigma\_ER)))/2 $.
-Figure \ref{fig:Leak} shows the leakage fraction per 1 Phe bins of S1. The mean leakage fraction in the region used for the LUX 2013 PRL results, between 1-30 Phe (1-5 $\rm keV_{ee}$) in the fiducial, was found to be 0.42\% $\rm \pm$ 0.02\%, see Figure \ref{fig:Leak}. In the 40 hour time window in which the data was acquired less than three out of 115,000 events are expected to be non tritium \cite{LUX_BG}. 
+Figure \ref{fig:Leak} shows the leakage fraction per 1 Phe bins of S1. The mean leakage fraction in the region used for the LUX 2013 PRL results, between 1-30 Phe (1-5 $\rm keV_{ee}$) in the fiducial, was found to be 0.42\% $\rm \pm$ 0.02\%, see Figure \ref{fig:Leak}.  
+Figure \ref{fig:Spectrum} shows the reconstructed energy spectrum for those tritium events in the fiducial volume of the detector (black) along with the tritium spectrum from NEST modeling (blue) and an ideal tritium spectrum (magenta). The reconstructed energy matches the tritium beta spectrum well from 1 to 18 $\rm keV_{ee}$.
+The calibration data was acquired in a 40 hour time window in which less than three out of 115,000 events are expected to be non tritium \cite{LUX_BG}, this implies a near perfect data purity for the calibration. Nearly every point (99.997\%) show in figure \ref{fig:Band} and the histogram of \ref{fig:Spectrum} is the result of a tritium beta decay in the fiducial volume of the LUX detector.
+
 %The NR band used is from NEST version 0.98 and is vetted with AmBe, $\rm^{252}Cf$ and DD neutron generator calibrations.
 
 
@@ -90,9 +95,16 @@ Figure \ref{fig:Leak} shows the leakage fraction per 1 Phe bins of S1. The mean 
 \end{figure}
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
+\includegraphics[width=90mm]{CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
 \caption{Discrimination vs. S1 using over 115,000 tritium beta decays between 1 and 50 Phe in S1 (about $\rm1-8 keV_{ee}$). On average from 1 to 30 Phe the discrimination is 99.58\%, defined by the fraction of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 4c) vetted with an AmBe, $\rm^{252}Cf$ and DD neutron generator calibration.}
 \label{fig:Leak}
+\end{figure}
+
+
+\begin{figure}[h!]\centering
+\includegraphics[width=100mm]{CH3T_E_spec_18_lux10_20131216T1551_cp06651.eps}
+\caption{ Energy histogram of tritium events. The black histogram represents the data, in blue is the tritium spectrum produced with LUX SIM based on NEST. The magenta curve shows the true tritium beta spectrum without smearing due to finite detector resolution, the dashed line indicates the true tritium spectrum convolved with the threshold}
+\label{fig:Spectrum}
 \end{figure}
 
 
@@ -112,7 +124,7 @@ Figure \ref{fig:Leak} shows the leakage fraction per 1 Phe bins of S1. The mean 
 
 \subsection{Threshold Determination}
 
-The tritiated methane calibration source provides beta decays with energies down to 0.1 $\rm keV_{ee}$ providing an independent measure the LUX detector's threshold. The limitation for classifying a single scatter WIMP like event event is the S1 (primary scintillation) signal, being more than an order of magnitude less than the S2 signal. The S1 threshold was measured by comparing the NEST model to the continuous tritium beta spectrum from 0.1-10 $\rm keV_{ee}$. The tritium data and NEST are in good agreement with all other methods used for determining the threshold in the LUX detector, figure \ref{fig:S1_Thresh}. 
+The tritiated methane calibration source provides beta decays with energies down to 0.1 $\rm keV_{ee}$ allowing for an independent measure the LUX detector's threshold. The limitation for detecting a single scatter WIMP like event event with PMTs is the S1 (primary scintillation) signal, being more than an order of magnitude less than the S2 signal. The S1 threshold could be measured by comparing the NEST model, assuming perfect detector resolution, to the observed tritium beta spectrum from 0.1-10 $\rm keV_{ee}$. The threshold determined by comparing the tritium data to NEST is in good agreement with all other methods used for determining the threshold in the LUX detector, figure \ref{fig:S1_Thresh}. 
 
 %The threshold for the S2 (bottom PMT array) shown is entirely due to the S1 threshold. We use only the bottom PMT array for the S2 signal because the secondary scintillation light is more uniformly distributed along the bottom PMTs than the top PMTs. 
 %Figure \ref{fig:E_spec} shows the tritium beta spectrum measured in the LUX detector along with the NEST prediction, note at the 180 V/cm drift field NEST has been vetted form 2 to 10 $\rm keV{ee}$.
@@ -224,7 +236,8 @@ Figure \ref{fig:L_Q_Yield_Baudis} includes our light and charge yield measuremen
 
 \section{Future Calibration Tritium}
 
-In this paper we have described the development and use of a tritated methane calibration source for large scale xenon detectors. The primary application of the tritiated methane calibration source is to characterize the ER band to measure discrimination from electronic and nuclear recoils. However, much more fundamental xenon physics can be probed with the tritium calibration source. With higher statistics the discrimination can be measured in finer bins of energy or S1 Phe (figure \ref{fig:Leak}) along with the Gaussianity of the ER band. The log(S2/S1) has been assumed to have Gaussian behavior in past experiments, never before has there been an ER calibration with such high data purity in the WIMP search region. The largest tritium calibration in LUX detector's fiducial region produced 115,000 tritium beta decays with only three being non tritium events. The tritium calibration was also used to calculate the light yield, charge yield and recombination fluctuation over the range from 1 to 18 $\rm KeV_{ee}$ and has proved useful for NEST modeling down to 1 $\rm keV_{ee}$. Finally, tritium provides a low energy uniformly distributed source making it ideal for determining the fiducial volume of a detector by measuring the differential decay rate.
+In this paper we have described the development and use of a tritiated methane calibration source for large scale xenon detectors. The primary application of the tritiated methane calibration source is to characterize the ER band and measure discrimination from electronic and nuclear recoils. However, much more fundamental xenon physics can be probed with the tritium calibration source. With higher statistics the discrimination can be measured in finer bins of energy or S1 Phe (figure \ref{fig:Leak}) along with the Gaussianity of the ER band. The log(S2/S1) has been assumed to have Gaussian behavior in past experiments, never before has there been an ER calibration with such high data purity in the WIMP search region to observe potential non-Gaussian behavior. The largest tritium calibration in LUX detector's fiducial region produced 115,000 tritium beta decays with only three being non tritium events. 
+The tritium calibration can also used to calculate the light yield, charge yield and recombination fluctuation over the range from 1 to 18 $\rm KeV_{ee}$. The current data taken with the LUX detector has allowed for the vetting of the NEST model down to 1 $\rm keV_{ee}$ for the first time. Finally, tritium provides a low energy uniformly distributed source making it ideal for determining the fiducial volume of a detector and calibrating position reconstruction algorithms for low energy events.
 
 
 
