@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 JUN 2014 18:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  19 JUN 2014 22:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1032,7 +1032,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
 Package rerunfilecheck Info: File `Tritium.out' has not changed.
-(rerunfilecheck)             Checksum: E2103B784C26775CE4C9146AF5B4ECC3;1277.
+(rerunfilecheck)             Checksum: C5D718979D6DCFF4C0795831961838BE;1287.
 
 
 LaTeX Warning: There were undefined references.
@@ -1063,7 +1063,7 @@ ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Tritium.pdf (10 pages, 969161 bytes).
+Output written on Tritium.pdf (10 pages, 969213 bytes).
 PDF statistics:
  341 PDF objects out of 1000 (max. 8388607)
  284 compressed objects within 3 object streams
