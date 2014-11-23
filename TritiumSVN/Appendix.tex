@@ -1,5 +1,20 @@
 \section{Development of the Calibration Source}
 
+In developing and deploying the source, our purification goal was that any residual activity that remained due to back-diffusion from plastics or from inefficient purification should be no more than 0.33 $\mu$Bq, which is 5\% of the LUX ER background rate design goal for a 30,000 kg$\cdot$days exposure. We desired to collect a LUX calibration dataset of $\sim$15,000 tritium events, roughly a factor of 100 larger than the number of expected ER background events in LUX \cite{LUX_BG} . 
+
+
+
+In addition to providing a direct measure of the removal rate of methane from LUX, the natural methane injection allowed a stronger and more direct limit to be placed on the outgassing from the plastics. As seen in figure \ref{fig:Removal_Methane}, the highest value allowed for the outgassing constant is 0.0016 cm/day$^{1/2}$, which is in agreement with the lower limit discussed in section 2. We call this an upper limit because the apparent elbow observed in the data occurs at the sensitivity limit of the sampling system. With the measurement of both the outgassing constant, and the removal rate of methane, it is now possible to place strong limits on the time cost of performing a tritiated methane calibration, as shown in figure \ref{fig:cal_time}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.95\textwidth]{Calibration_length.eps}
+\caption{Shown above is the time required to allow the tritium activity to fall to $<$ 5\% of the nominal LUX background, calculated using the purification rate and outgassing constant measured during the natural methane injection. }
+\label{fig:cal_time}
+\end{figure}
+
+
+
 \subsection{Tritiated Methane Removal}
 \label{sec:RD}
 
@@ -50,24 +65,6 @@ The initial concentration is defined by dividing the desired injection activity 
 \label{fig:tau_var}
 \end{figure}
 
-
-\section{Implementation of the Calibration Source}
-
-\subsection{Injection System Hardware}
-
-The setup of our triated methane calibration technique can be separated into three parts: the tritiated methane source bottle, the injection system,  and the zirconium getter.
-
-The tritiated methane source bottle for our calibration technique consists of a 2250 cc stainless steel bottle which is filled with a mixture of tritiated methane and purified xenon.  The purpose of this xenon is to serve as a carrier gas for the tritiated methane.  The total activity in the source bottle is set by mixing tritiated methane from a reservoir into the source bottle via volume sharing.
-
-The injection system for our tritiated methane calibration technique consists of a series of expansion volumes which are used to fine tune the amount of CH$_3$T that is injected.  Once the CH$_3$T source bottle is opened it flows through a methane gas purifier (SAES MC1-905F) to remove any non-methane species of tritium, such as bare tritium. The expansion volumes are then filled with tritiated methane from the source bottle, and the flow of xenon in the gas system is diverted through the expansion volumes to sweep the CH$_3$T into the detector downstream of the LUX xenon purifier.  A pump out port allows the expansion volumes to be evacuated in preparation for each use of the injection system.  
-
-The LUX gas system uses a hot zirconium getter (SAES-PS4MT15R1) located upstream of the CH$_3$T injection system to remove CH$_3$T from the xenon after passing through the detector.  
-
-\begin{figure}[H]\centering
-\includegraphics[width=80mm]{TritiumPlumbing.png}
-\caption{Plumbing diagram of the tritium injection system for LUX.  Tritium is injected downstream of the LUX xenon purifier so that it passes through the detector once prior to being removed.  Red arrows indicate the direction of flow.}
-\label{fig:Removal}
-\end{figure}
 
 \begin{comment}%%AD %%End here, move onto tritium results section text.
 
