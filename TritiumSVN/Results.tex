@@ -4,7 +4,81 @@
 
 \section{Results}
 
-In December of 2013 a total of 10 Bq of tritiated methane was injected into LUX and removed, providing over 150,000 beta decays within the fiducial volume. 
+In December of 2013 a total of 10 Bq of tritiated methane was injected into LUX and removed. A total 325,000 events were observed in the active volume of LUX. 140,000 events were collected in the fiducial volume at the nominal LUX electric field of 170 V/cm, while 4,500 fiducial events were collected in a special run at a reduced field of 100 V/cm. The S1 and S2 signals are corrected for spatial effects such as the light collection efficiency and the free electron lifetime with $^83m$Kr data as described in \cite{lux-reanalysis}. 
+
+We interpret the data in terms of the combined energy model \cite{platzmann}, where the total energy of an event is directly proportional to the number of quanta produced (electrons pus scintillation photons):
+
+\begin{displaymath}
+E_{total} = W \cdot (n_{\gamma} + n_e )
+\end{displaymath}
+
+\noindent
+We use a $W$ value of 13.7 eV/quanta \cite{Dahl}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$:
+
+\begin{displaymath}
+E_{total} = W \cdot (\frac{S1}{g_1} + \frac{S2}{g_2} )
+\end{displaymath}
+
+\noindent
+where S1 and S2 have units of phe and $g_1$ and $g_2$ have units of phe per quanta. $g_1$ may be interpreted as the light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the electron extraction efficiency at the liquid-gas surface times the secondary scintillation gain factor and the PTM quantum efficiency. $g_1$ and $g_2$ are measured with line source data in LUX as described in Ref. \cite{lux-reanalysis, lux-prd}. We find values of $g_1$ = \gone and $g_2$ = \gtwo.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=90mm]{tritium-scatter.png}
+\caption{Scatter plot of $n_e$ vs $n_{\gamma}$ for 115,000 fiducial tritium events at 170 V/cm. Lines of constant energy are indicated assuming a $W$ value of 13.7 eV/quanta. The data is projected into $n_e$ and $n_{\gamma}$ histograms on each axis.}
+\label{fig:tritium-scatter}
+\end{figure}
+
+A scatter plot of $n_e$ vs $n_{\gamma}$ for the tritium data at 170 V/cm is shown in Fig. \ref{fig:tritium-scatter}, along with the projected histograms on each axis. The tritium energy spectrum, obtained by projecting the data along the lines of constant energy, is shown in Fig. \ref{fig:tritium-spectrum}. The data is compared to several models: a pure tritium spectrum, with no detector effects; a spectrum simulated with LUXsim, and a tritium spectrum with a simple energy smearing factor of $\sigma_E = XXXX$ applied. The ratio of the data to the smeared tritium spectrum is shown in Fig. \ref{fig:ER-threshold}, along with a fit to an error function. The ratio shows that the data is modeled well by the smeared tritium spectrum, and the effective low energy threshold of 50\% efficiency is found to be 1.04 $\pm$ 0.016 keV.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=90mm]{tritium-spectrum-linear.png}
+\caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to several theory models: a pure tritium spectrum (dashed blue), LUXsim (red) and a tritium spectrum with a simple energy smearing of $\sigma_E = XXXX$ applied. }
+\label{fig:tritium-spectrum}
+\end{figure}
+
+\begin{figure}[h!]\centering
+\includegraphics[width=90mm]{ER-threshold.png}
+\caption{ER threshold measured by comparing the measured energy spectrum to the smeared tritium spectrum. A fit to an error function is shown.}
+\label{fig:ER-threshold}
+\end{figure}
+
+The mean light yield and charge yield of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 170 V/cm in Fig. \ref{fig:ER-LY-QY}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the detector's resolution \cite{attila-thesis}. 
+
+\begin{figure}[h!]\centering
+\includegraphics[width=90mm]{ER-LY.png}
+\includegraphics[width=90mm]{ER-QY.png}
+\caption{The light yield and charge yield of ER events in LUX at 170 V/cm compared to NEST v0.98 (2013). The grey bands indicate the systematic errors on $g_1$ and $g_2$, which are fully correlated across all energy bins. $g_1$ is anti-correlated with $g_2$, such that an increase in the charge yield within the grey band must be compensated by an equivalent decrease in the light yield. Upper: Light yield at 170 V/cm. Lower: the charge yield at 170 V/cm.}
+\label{fig:ER-LY-QY}
+\end{figure}
+
+
+\begin{figure}[h!]\centering
+\includegraphics[width=90mm]{quanta-vs-energy.png}
+\caption{The mean number of electrons (red) and scintillation photons (blue) produced in LUX at 170 V/cm as a function of energy. The bands indicate the correlated systematic errors on $g_1$ and $g_2$. Also shown are the total number of quanta, primary ions, and primary excitons, assuming an exciton to ion ratio of 0.2. }
+\label{fig:quanta-vs-energy}
+\end{figure}
+
+
+
+As shown in Fig. \ref{fig:ER-LY-QY}, the light yield is observed to drop rapidly between 1 and 6 keV, and then become mostly energy independent over the remainder of the tritium spectrum. The charge yield exhibits the reverse behavior, as expected from the combined energy model. These effects can also be illustrated by plotting the total number of quanta as a function of energy, as shown in Fig. \ref{fig:quanta-vs-energy} for tritium events between 1 and 8 keV. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total number of quanta assuming a $W$ value of 13.7 eV/quanta (black), and the primary number of ions (violet) and excitons (cyan) prior to recombination assuming an initial exciton-to-ion ratio of 0.2 \cite{XXXX}. In a model where the number of observed electrons differs from the number of primary ions due solely to recombination, we can interpret the charge yield data as a measure the recombination fraction at each energy. Accordingly, 
+
+\begin{displaymath}
+r = \frac{\frac{n_{\gamma}}{n_e} - \alpha}{\frac{n_{\gamma}}{n_e} + 1}
+\end{displaymath}
+
+\noindent
+where $r$ is the recombination fraction and $\alpha$ is the assumed value of the primary exciton-to-ion ratio. Taking $\alpha = 0.2$, we find the recombination fraction as a function of energy as shown in Fig. \ref{fig:recombination}. Here the falling charge yield and rising light yield between 1 and 6 keV is interpreted as a rapid rise in the recombination fraction. 
+
+We obtain the LUX ER band by plotting log(S2/S1) vs S1 as shown in Fig. ????
+
+
+
+
+\begin{figure}[h!]\centering
+\includegraphics[width=90mm]{recombination.png}
+\caption{Recombination fraction of ER events at 170 V/cm, assuming an exciton-to-ion ratio of 0.2.}
+\label{fig:recombination}
+\end{figure}
 
 
 The electronic recoil band in the fiducial volume of the LUX detector was calibrated to unprecedented accuracy using the tritium source. Figure \ref{fig:Band} shows the tritium calibration data with fits to the mean of the ER band along with the 10-90\% confidence bounds ($\pm 1.28\sigma$), at a drift field of 180 V/cm. The values of the leakage fraction at 50\% NR acceptance per each 1 Phe bin in S1 are shown in \ref{fig:Leak}. The nuclear recoil band, in red, is defined by the NEST model along with AmBe and $\rm^{252}Cf$  calibrations. The amount of methane injected to perform the calibration was less than 1 part-per-trillion ($\rm <10^{-12}$) far to small to cause degradation in electron lifetime or quench xenon scintillation \cite{Kirill_Methane}. We have also independently verified the null impact on electron lifetime and light yield by performing a tritiated methane while taking $\rm ^{83m}Kr$ calibration data [cite, thesis].
