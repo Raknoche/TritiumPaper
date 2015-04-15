@@ -28,13 +28,20 @@ where S1 and S2 have units of phe and $g_1$ and $g_2$ have units of phe per quan
 \label{fig:tritium-scatter}
 \end{figure}
 
-A scatter plot of $n_e$ vs $n_{\gamma}$ for the tritium data at 170 V/cm is shown in Fig. \ref{fig:tritium-scatter}, along with the projected histograms on each axis. The tritium energy spectrum, obtained by projecting the data along the lines of constant energy, is shown in Fig. \ref{fig:tritium-spectrum}. The data is compared to several models: a pure tritium spectrum, with no detector effects; a spectrum simulated with LUXsim, and a tritium spectrum with a simple energy smearing factor of $\sigma_E = XXXX$ applied. The ratio of the data to the smeared tritium spectrum is shown in Fig. \ref{fig:ER-threshold}, along with a fit to an error function. The ratio shows that the data is modeled well by the smeared tritium spectrum, and the effective low energy threshold of 50\% efficiency is found to be 1.04 $\pm$ 0.016 keV.
 
-\begin{figure}[h!]\centering
+\begin{figure}[h!]
+\begin{center}
 \includegraphics[width=90mm]{tritium-spectrum-linear.png}
 \caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to several theory models: a pure tritium spectrum (dashed blue), LUXsim (red) and a tritium spectrum with a simple energy smearing of $\sigma_E = XXXX$ applied. }
 \label{fig:tritium-spectrum}
+\end{center}
 \end{figure}
+
+
+
+A scatter plot of $n_e$ vs $n_{\gamma}$ for the tritium data at 170 V/cm is shown in Fig. \ref{fig:tritium-scatter}, along with the projected histograms on each axis. The tritium energy spectrum, obtained by projecting the data along the lines of constant energy, is shown in Fig. \ref{fig:tritium-spectrum}. The data is compared to several models: a pure tritium spectrum, with no detector effects; a spectrum simulated with LUXsim, and a tritium spectrum with a simple energy smearing factor of $\sigma_E = XXXX$ applied. The ratio of the data to the smeared tritium spectrum is shown in Fig. \ref{fig:ER-threshold}, along with a fit to an error function. The ratio indicates that the data is well modeled by the smeared tritium spectrum, and the effective 50\% energy threshold is found to be 1.04 $\pm$ 0.016 keV. 
+
+The comparison also illustrates the usefulness of the combined energy model. Compared to the raw charge and light spectra shown projected on the axes in Fig. \ref{fig:tritium-scatter}, the combined energy reproduces the tritium spectrum with much greater fidelity.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=90mm]{ER-threshold.png}
@@ -59,6 +66,12 @@ The mean light yield and charge yield of ER events in LUX are obtained by dividi
 \end{figure}
 
 
+\begin{figure}[h!]\centering
+\includegraphics[width=90mm]{recombination.png}
+\caption{Recombination fraction of ER events at 170 V/cm, assuming an exciton-to-ion ratio of 0.2.}
+\label{fig:recombination}
+\end{figure}
+
 
 As shown in Fig. \ref{fig:ER-LY-QY}, the light yield is observed to drop rapidly between 1 and 6 keV, and then become mostly energy independent over the remainder of the tritium spectrum. The charge yield exhibits the reverse behavior, as expected from the combined energy model. These effects can also be illustrated by plotting the total number of quanta as a function of energy, as shown in Fig. \ref{fig:quanta-vs-energy} for tritium events between 1 and 8 keV. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total number of quanta assuming a $W$ value of 13.7 eV/quanta (black), and the primary number of ions (violet) and excitons (cyan) prior to recombination assuming an initial exciton-to-ion ratio of 0.2 \cite{XXXX}. In a model where the number of observed electrons differs from the number of primary ions due solely to recombination, we can interpret the charge yield data as a measure the recombination fraction at each energy. Accordingly, 
 
@@ -69,42 +82,30 @@ r = \frac{\frac{n_{\gamma}}{n_e} - \alpha}{\frac{n_{\gamma}}{n_e} + 1}
 \noindent
 where $r$ is the recombination fraction and $\alpha$ is the assumed value of the primary exciton-to-ion ratio. Taking $\alpha = 0.2$, we find the recombination fraction as a function of energy as shown in Fig. \ref{fig:recombination}. Here the falling charge yield and rising light yield between 1 and 6 keV is interpreted as a rapid rise in the recombination fraction. 
 
-We obtain the LUX ER band by plotting log(S2/S1) vs S1 as shown in Fig. ????
 
+\begin{figure}[h!]\centering
+\includegraphics[width=100mm]{CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
+\caption{The electron recoil band of LUX illuminated by 115,000 tritium events at the nominal LUX electric field of 170 V/cm.  The recoil discriminant variable, log(S2/S1), is shown vs. S1 between 1 and 50 phe in S1 (about $\rm1-8 keV_{ee}$). Also indicated in black are the mean and the 10\% and 90\% contours. The solid red line represents the mean NR band determined with NEST v0.98 (2013) \cite{nest} and validated with AmBe and $\rm^{252}Cf$ neutron sources and the DD neutron generator data. The dashed red indicates the 10\% and 90\% contours of the NR band.}
+\label{fig:ER_band}
+\end{figure}
 
+We obtain the LUX ER band by plotting log$_{10}$(S2/S1) vs S1 as shown in Fig. \ref{fig:ER_band}. Also shown is the LUX NR band determined with NEST v0.98 (2013) \cite{nest} and validated with AmBe and $\rm^{252}Cf$ neutron sources and DD neutron generator data. The ER band has a characteristic rise at low S1 which reflects the increasing charge yield and decreasing light yield below 4 keVee, as seen in Fig. \ref{fig:quanty-vs-energy}. The leakage fraction ($f$), defined as the fraction of ER events that fall below the mean of the NR band, is shown in Fig. \ref{fig:Leak} as a function of S1. The recoil discrimination ($1-f$) has an average value of \fixit{99.58\%} for events with S1 between 1 and 30 phe.
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{recombination.png}
-\caption{Recombination fraction of ER events at 170 V/cm, assuming an exciton-to-ion ratio of 0.2.}
-\label{fig:recombination}
+\includegraphics[width=90mm]{CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
+\caption{LUX recoil discrimination vs. S1, determined from Fig. \ref{fig:ER_band}. Y-axis labels: left -  leakage fraction ($f$); right - discrimination ($1-f$).}
+\label{fig:Leak}
 \end{figure}
 
 
-The electronic recoil band in the fiducial volume of the LUX detector was calibrated to unprecedented accuracy using the tritium source. Figure \ref{fig:Band} shows the tritium calibration data with fits to the mean of the ER band along with the 10-90\% confidence bounds ($\pm 1.28\sigma$), at a drift field of 180 V/cm. The values of the leakage fraction at 50\% NR acceptance per each 1 Phe bin in S1 are shown in \ref{fig:Leak}. The nuclear recoil band, in red, is defined by the NEST model along with AmBe and $\rm^{252}Cf$  calibrations. The amount of methane injected to perform the calibration was less than 1 part-per-trillion ($\rm <10^{-12}$) far to small to cause degradation in electron lifetime or quench xenon scintillation \cite{Kirill_Methane}. We have also independently verified the null impact on electron lifetime and light yield by performing a tritiated methane while taking $\rm ^{83m}Kr$ calibration data [cite, thesis].
-
-% Carter's line: Methane will not quench xenon scintillation,  even if methane is introduced into the xenon at a relative concentration of a few percent, then the amount of scintillation produced by the mixture is reduced by a factor of two compared to pure xenon \cite{Kirill_Methane}. But for our application we require a methane concentration of only one part in $\rm10^{15}$, and therefore our methane injection will not have any negative effects on scintillation production and transport.
-
-WIMPs primarily interact with the atomic nuclei of xenon atoms in LUX resulting in nuclear recoils whereas the vast majority of residual radioactivity within the detector are gammas which result in electronic recoils. Thus, knowing the separation of the ER from the NR band allows for a measure of the background rejection figure of merit for a liquid xenon experiment. We define the background rejection figure of merit as leakage fraction, reported here as the fraction of ER events that leak into the lower half of the NR band. Over 115,000 tritium decays were used for the ER band calibration, between 1-50 Phe in S1 (1-8 $\rm keV_{ee}$), and were found using standard WIMP search cuts within the fiducial volume. 
-%A figure of merit for ER and NR discrimination is the leakage fraction defined as  the number of tritium events populating the lower half of the NR band are compared to the total number of tritium events in the selected energy range. 
-%$\rm (1-erf((Mean\_ER-Mean\_NR)/(sqrt(2)*sigma\_ER)))/2 $.
-Figure \ref{fig:Leak} shows the leakage fraction per 1 Phe bins of S1. The mean leakage fraction in the region used for the LUX 2013 PRL results, between 1-30 Phe (1-5 $\rm keV_{ee}$) in the fiducial, was found to be 0.42\% $\rm \pm$ 0.02\%, see Figure \ref{fig:Leak}.  
 Figure \ref{fig:Spectrum} shows the reconstructed energy spectrum for those tritium events in the fiducial volume of the detector (black) along with the tritium spectrum from NEST modeling (blue) and an ideal tritium spectrum (magenta). The reconstructed energy matches the tritium beta spectrum well from 1 to 18 $\rm keV_{ee}$.
 The calibration data was acquired in a 40 hour time window in which less than three out of 115,000 events are expected to be non tritium \cite{LUX_BG}, this implies a near perfect data purity for the calibration. Nearly every point (99.997\%) show in figure \ref{fig:Band} and the histogram of \ref{fig:Spectrum} is the result of a tritium beta decay in the fiducial volume of the LUX detector.
-
-%The NR band used is from NEST version 0.98 and is vetted with AmBe, $\rm^{252}Cf$ and DD neutron generator calibrations.
-
 
 \begin{figure}[h!]\centering
 \includegraphics[width=100mm]{CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
 \caption{Discrimination vs. S1 using over 115,000 tritium beta decays between 1 and 50 Phe in S1 (about $\rm1-8 keV_{ee}$). On average from 1 to 30 Phe the discrimination is 99.58\%, defined by the fraction of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 0.98) vetted with an AmBe, $\rm^{252}Cf$ and DD neutron generator calibration.}
 \label{fig:Band}
-\end{figure}
-
-\begin{figure}[h!]\centering
-\includegraphics[width=90mm]{CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
-\caption{Discrimination vs. S1 using over 115,000 tritium beta decays between 1 and 50 Phe in S1 (about $\rm1-8 keV_{ee}$). On average from 1 to 30 Phe the discrimination is 99.58\%, defined by the fraction of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 4c) vetted with an AmBe, $\rm^{252}Cf$ and DD neutron generator calibration.}
-\label{fig:Leak}
 \end{figure}
 
 
