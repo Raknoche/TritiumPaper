@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 APR 2015 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 APR 2015 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,7 +554,11 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 85.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 85.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 85.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 85.
-(./Tritium.aux)
+(./Tritium.aux
+
+LaTeX Warning: Label `fig:ch4_removal' multiply defined.
+
+)
 \openout1 = `Tritium.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -573,8 +577,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
 \AtBeginShipoutBox=\box50
 Package hyperref Info: Link coloring ON on input line 85.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -684,53 +687,53 @@ line 3.
 
 Package natbib Warning: Citation `Note1' on page 1 undefined on input line 5.
 
+
+Package natbib Warning: Citation `Kastens:2009rt' on page 1 undefined on input 
+line 5.
+
+
+Package natbib Warning: Citation `baudis' on page 1 undefined on input line 5.
+
 [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package natbib Warning: Citation `Kastens:2009rt' on page 2 undefined on input 
-line 7.
-
-
-Package natbib Warning: Citation `baudis' on page 2 undefined on input line 7.
-
-
 Package natbib Warning: Citation `Tritium_Q' on page 2 undefined on input line 
-11.
+9.
 
 
 Package natbib Warning: Citation `Tritium_Mean' on page 2 undefined on input li
-ne 11.
+ne 9.
 
 
 Package natbib Warning: Citation `Tritium_Eq' on page 2 undefined on input line
- 11.
+ 9.
 
 
 Package natbib Warning: Citation `Tritium_halflife_all' on page 2 undefined on 
-input line 11.
+input line 9.
 
 
 Package natbib Warning: Citation `lux-results' on page 2 undefined on input lin
-e 15.
+e 13.
 
 
 Package natbib Warning: Citation `lux-reanalysis' on page 2 undefined on input 
-line 15.
+line 13.
 
 ) (./procedure.tex
 
-Package natbib Warning: Citation `moravek' on page 2 undefined on input line 4.
+Package natbib Warning: Citation `moravek' on page 2 undefined on input line 3.
 
 
-<TritiumPlumbing.png, id=61, 962.84718pt x 449.42906pt>
+<TritiumPlumbing.png, id=57, 962.84718pt x 449.42906pt>
 File: TritiumPlumbing.png Graphic file (type png)
 
 <use TritiumPlumbing.png>
-Package pdftex.def Info: TritiumPlumbing.png used on input line 9.
+Package pdftex.def Info: TritiumPlumbing.png used on input line 8.
 (pdftex.def)             Requested size: 227.62204pt x 106.24675pt.
 
 
 Package natbib Warning: Citation `two phase_hx' on page 2 undefined on input li
-ne 14.
+ne 13.
 
 [2 <./TritiumPlumbing.png>]
 Package epstopdf Info: Source file: <July_CH4_wOG.eps>
@@ -741,15 +744,15 @@ Package epstopdf Info: Source file: <July_CH4_wOG.eps>
 (epstopdf)                    size: 11228 bytes
 (epstopdf)             Command: <repstopdf --outfile=July_CH4_wOG-eps-converted
 -to.pdf July_CH4_wOG.eps>
-(epstopdf)             \includegraphics on input line 19.
+(epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<July_CH4_wOG-eps-converted-to.pdf, id=69, 649.42625pt x 484.81125pt>
+<July_CH4_wOG-eps-converted-to.pdf, id=66, 649.42625pt x 484.81125pt>
 File: July_CH4_wOG-eps-converted-to.pdf Graphic file (type pdf)
 
 <use July_CH4_wOG-eps-converted-to.pdf>
 Package pdftex.def Info: July_CH4_wOG-eps-converted-to.pdf used on input line 1
-9.
+8.
 (pdftex.def)             Requested size: 227.62204pt x 169.9232pt.
 Package epstopdf Info: Source file: <CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
 (epstopdf)                    date: 2014-06-02 10:28:05
@@ -760,17 +763,21 @@ onverted-to.pdf>
 (epstopdf)                    size: 29132 bytes
 (epstopdf)             Command: <repstopdf --outfile=CH3T_Rate_fid_150_Run03_Tr
 itium_Rate-eps-converted-to.pdf CH3T_Rate_fid_150_Run03_Tritium_Rate.eps>
-(epstopdf)             \includegraphics on input line 28.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf, id=71, 561.09625pt 
+<CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf, id=68, 561.09625pt 
 x 421.575pt>
 File: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Rate_fid_150_Run03_Tritium_Rate-eps-converted-to.
-pdf used on input line 28.
+pdf used on input line 27.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <CH3T_RZ_scatter_lux10_20130812T1546.eps>
 (epstopdf)                    date: 2014-04-10 19:54:41
 (epstopdf)                    size: 128068 bytes
@@ -780,25 +787,25 @@ nverted-to.pdf>
 (epstopdf)                    size: 360070 bytes
 (epstopdf)             Command: <repstopdf --outfile=CH3T_RZ_scatter_lux10_2013
 0812T1546-eps-converted-to.pdf CH3T_RZ_scatter_lux10_20130812T1546.eps>
-(epstopdf)             \includegraphics on input line 37.
+(epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf, id=73, 414.54875pt x
+<CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf, id=70, 414.54875pt x
  410.53375pt>
 File: CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.p
-df used on input line 37.
+df used on input line 36.
 (pdftex.def)             Requested size: 227.62204pt x 225.41214pt.
 
 
 Package natbib Warning: Citation `luxresults' on page 3 undefined on input line
- 38.
+ 37.
 
 
 Package natbib Warning: Citation `luxresults' on page 3 undefined on input line
- 38.
+ 37.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -806,64 +813,64 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (./results.tex
 
 Package natbib Warning: Citation `lux-reanalysis' on page 3 undefined on input 
-line 7.
+line 3.
 
 
 Package natbib Warning: Citation `platzmann' on page 3 undefined on input line 
-9.
+5.
+
+
+Package natbib Warning: Citation `Dahl' on page 3 undefined on input line 12.
 
 [3 <./July_CH4_wOG-eps-converted-to.pdf> <./CH3T_Rate_fid_150_Run03_Tritium_Rat
 e-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 10.
-
-
-Package natbib Warning: Citation `Dahl' on page 4 undefined on input line 16.
+ on input line 16.
 
 
 Package natbib Warning: Citation `lux-reanalysis' on page 4 undefined on input 
-line 23.
+line 19.
 
 
-Package natbib Warning: Citation `lux-prd' on page 4 undefined on input line 23
+Package natbib Warning: Citation `lux-prd' on page 4 undefined on input line 19
 .
 
-<tritium-scatter.png, id=103, 547.8066pt x 411.4572pt>
+<tritium-scatter.png, id=100, 547.8066pt x 411.4572pt>
 File: tritium-scatter.png Graphic file (type png)
 
 <use tritium-scatter.png>
-Package pdftex.def Info: tritium-scatter.png used on input line 26.
+Package pdftex.def Info: tritium-scatter.png used on input line 22.
 (pdftex.def)             Requested size: 256.0748pt x 192.3427pt.
 
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 26--27
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<tritium-spectrum-linear.png, id=105, 351.2322pt x 274.1442pt>
+<tritium-spectrum-linear.png, id=102, 351.2322pt x 274.1442pt>
 File: tritium-spectrum-linear.png Graphic file (type png)
 
 <use tritium-spectrum-linear.png>
-Package pdftex.def Info: tritium-spectrum-linear.png used on input line 34.
+Package pdftex.def Info: tritium-spectrum-linear.png used on input line 30.
 (pdftex.def)             Requested size: 256.0748pt x 199.87679pt.
 
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 34--35
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 30--31
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ER-threshold.png, id=110, 445.665pt x 357.9774pt>
+<ER-threshold.png, id=107, 445.665pt x 357.9774pt>
 File: ER-threshold.png Graphic file (type png)
  <use ER-threshold.png>
-Package pdftex.def Info: ER-threshold.png used on input line 47.
+Package pdftex.def Info: ER-threshold.png used on input line 43.
 (pdftex.def)             Requested size: 256.0748pt x 205.69337pt.
 
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 47--48
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 43--44
  [][] 
  []
 
@@ -872,96 +879,96 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package natbib Warning: Citation `attila-thesis' on page 4 undefined on input l
-ine 52.
+ine 48.
 
-<ER-LY.png, id=112, 354.123pt x 266.4354pt>
+<ER-LY.png, id=109, 354.123pt x 266.4354pt>
 File: ER-LY.png Graphic file (type png)
  <use ER-LY.png>
-Package pdftex.def Info: ER-LY.png used on input line 55.
+Package pdftex.def Info: ER-LY.png used on input line 51.
 (pdftex.def)             Requested size: 256.0748pt x 192.67894pt.
 
-<ER-QY.png, id=113, 344.487pt x 259.2084pt>
+<ER-QY.png, id=110, 344.487pt x 259.2084pt>
 File: ER-QY.png Graphic file (type png)
  <use ER-QY.png>
-Package pdftex.def Info: ER-QY.png used on input line 56.
+Package pdftex.def Info: ER-QY.png used on input line 52.
 (pdftex.def)             Requested size: 256.0748pt x 192.68925pt.
 
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 55--57
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 51--53
  [][] 
  []
 
 
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 55--57
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 51--53
  [] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<quanta-vs-energy.png, id=111, 523.7166pt x 393.6306pt>
+File: quanta-vs-energy.png Graphic file (type png)
+
+<use quanta-vs-energy.png>
+Package pdftex.def Info: quanta-vs-energy.png used on input line 59.
+(pdftex.def)             Requested size: 256.0748pt x 192.47826pt.
+
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<recombination.png, id=112, 494.3268pt x 364.2408pt>
+File: recombination.png Graphic file (type png)
+ <use recombination.png>
+Package pdftex.def Info: recombination.png used on input line 66.
+(pdftex.def)             Requested size: 256.0748pt x 188.68935pt.
+
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `XXXX' on page 4 undefined on input line 72.
 
 [4 <./CH3T_RZ_scatter_lux10_20130812T1546-eps-converted-to.pdf> <./tritium-scat
 ter.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 60.
+ on input line 73.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<quanta-vs-energy.png, id=132, 523.7166pt x 393.6306pt>
-File: quanta-vs-energy.png Graphic file (type png)
-
-<use quanta-vs-energy.png>
-Package pdftex.def Info: quanta-vs-energy.png used on input line 63.
-(pdftex.def)             Requested size: 256.0748pt x 192.47826pt.
-
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 63--64
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<recombination.png, id=133, 494.3268pt x 364.2408pt>
-File: recombination.png Graphic file (type png)
- <use recombination.png>
-Package pdftex.def Info: recombination.png used on input line 70.
-(pdftex.def)             Requested size: 256.0748pt x 188.68935pt.
-
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 70--71
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `XXXX' on page 5 undefined on input line 76.
-
-
-<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=138, 560.99588pt x 420.97275p
+<CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png, id=136, 560.99588pt x 420.97275p
 t>
 File: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png Graphic file (type png)
  <use CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>
 Package pdftex.def Info: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png used on i
-nput line 87.
+nput line 83.
 (pdftex.def)             Requested size: 284.52756pt x 213.51775pt.
 
-Overfull \hbox (33.3565pt too wide) in paragraph at lines 87--88
+Overfull \hbox (33.3565pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
 
-Package natbib Warning: Citation `nest' on page 5 undefined on input line 88.
+Package natbib Warning: Citation `nest' on page 5 undefined on input line 84.
 
 
-Package natbib Warning: Citation `nest' on page 5 undefined on input line 88.
+Package natbib Warning: Citation `nest' on page 5 undefined on input line 84.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `nest' on page 5 undefined on input line 92.
+Package natbib Warning: Citation `nest' on page 5 undefined on input line 88.
 
 
 LaTeX Warning: Reference `fig:quanty-vs-energy' on page 5 undefined on input li
-ne 92.
+ne 88.
 
 Package epstopdf Info: Source file: <CH3T_Leakage_fid_50_Dec_Tritium_Approval_P
 lots_2.eps>
@@ -974,20 +981,20 @@ lots_2-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=CH3T_Leakage_fid_50_Dec_Tr
 itium_Approval_Plots_2-eps-converted-to.pdf CH3T_Leakage_fid_50_Dec_Tritium_App
 roval_Plots_2.eps>
-(epstopdf)             \includegraphics on input line 96.
+(epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf, id=141,
+<CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf, id=139,
  646.415pt x 503.8825pt>
 File: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-c
-onverted-to.pdf used on input line 96.
+onverted-to.pdf used on input line 92.
 (pdftex.def)             Requested size: 256.0748pt x 199.6119pt.
 
-Overfull \hbox (4.90375pt too wide) in paragraph at lines 96--97
+Overfull \hbox (4.90375pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
@@ -995,21 +1002,16 @@ Overfull \hbox (4.90375pt too wide) in paragraph at lines 96--97
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `LUX_BG' on page 5 undefined on input line 103
-.
+Package natbib Warning: Citation `LUX_BG' on page 5 undefined on input line 99.
 
-[5 <./tritium-spectrum-linear.png> <./ER-threshold.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 104.
 
 File: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png Graphic file (type png)
 <use CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png>
 Package pdftex.def Info: CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png used on i
-nput line 106.
+nput line 102.
 (pdftex.def)             Requested size: 284.52756pt x 213.51775pt.
 
-Overfull \hbox (33.3565pt too wide) in paragraph at lines 106--107
+Overfull \hbox (33.3565pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
@@ -1027,30 +1029,35 @@ Package epstopdf Info: Source file: <CH3T_E_spec_18_lux10_20131216T1551_cp06651
 (epstopdf)             Command: <repstopdf --outfile=CH3T_E_spec_18_lux10_20131
 216T1551_cp06651-eps-converted-to.pdf CH3T_E_spec_18_lux10_20131216T1551_cp0665
 1.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<CH3T_E_spec_18_lux10_20131216T1551_cp06651-eps-converted-to.pdf, id=159, 901.3
+<CH3T_E_spec_18_lux10_20131216T1551_cp06651-eps-converted-to.pdf, id=145, 901.3
 675pt x 602.25pt>
 File: CH3T_E_spec_18_lux10_20131216T1551_cp06651-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use CH3T_E_spec_18_lux10_20131216T1551_cp06651-eps-converted-to.pdf>
 Package pdftex.def Info: CH3T_E_spec_18_lux10_20131216T1551_cp06651-eps-convert
-ed-to.pdf used on input line 113.
+ed-to.pdf used on input line 109.
 (pdftex.def)             Requested size: 284.52756pt x 190.1049pt.
 
-Overfull \hbox (33.3565pt too wide) in paragraph at lines 113--114
+Overfull \hbox (33.3565pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[5 <./tritium-spectrum-linear.png> <./ER-threshold.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 132.
+
 [6 <./ER-LY.png> <./ER-QY.png> <./quanta-vs-energy.png> <./recombination.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 136.
+ on input line 132.
 
 Package epstopdf Info: Source file: <Triritium_S1_Threshold_2013_PRL.eps>
 (epstopdf)                    date: 2014-06-19 23:23:24
@@ -1061,40 +1068,35 @@ ted-to.pdf>
 (epstopdf)                    size: 12898 bytes
 (epstopdf)             Command: <repstopdf --outfile=Triritium_S1_Threshold_201
 3_PRL-eps-converted-to.pdf Triritium_S1_Threshold_2013_PRL.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
-<Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf, id=170, 632.3625pt x 408
+<Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf, id=168, 632.3625pt x 408
 .52625pt>
 File: Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf Graphic file (type p
 df)
  <use Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf>
 Package pdftex.def Info: Triritium_S1_Threshold_2013_PRL-eps-converted-to.pdf u
-sed on input line 141.
+sed on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 183.8164pt.
 
-Overfull \hbox (33.3565pt too wide) in paragraph at lines 141--142
+Overfull \hbox (33.3565pt too wide) in paragraph at lines 137--138
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png> <./CH3T_Leakage_fid_50_Dec_
-Tritium_Approval_Plots_2-eps-converted-to.pdf>]
+) (./Summary.tex) [7 <./CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png> <./CH3T_L
+eakage_fid_50_Dec_Tritium_Approval_Plots_2-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 249.
+ on input line 442.
 
-) (./Summary.tex) (./Appendix.tex
+(./Appendix.tex
 Overfull \hbox (11.84685pt too wide) detected at line 6
 []
  []
-
-[8 <./CH3T_E_spec_18_lux10_20131216T1551_cp06651-eps-converted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 12.
 
 Package epstopdf Info: Source file: <July_CH4_wOG.eps>
 (epstopdf)                    date: 2014-06-19 23:23:24
@@ -1111,6 +1113,10 @@ File: July_CH4_wOG-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: July_CH4_wOG-eps-converted-to.pdf used on input line 1
 5.
 (pdftex.def)             Requested size: 227.62204pt x 169.9232pt.
+ [8 <./CH3T_E_spec_18_lux10_20131216T1551_cp06651-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 19.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1134,7 +1140,7 @@ ed-to.pdf tau_G_var_CH3T.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_G_var_CH3T-eps-converted-to.pdf, id=208, 562.1pt x 424.58624pt>
+<tau_G_var_CH3T-eps-converted-to.pdf, id=204, 562.1pt x 424.58624pt>
 File: tau_G_var_CH3T-eps-converted-to.pdf Graphic file (type pdf)
 
 <use tau_G_var_CH3T-eps-converted-to.pdf>
@@ -1159,7 +1165,7 @@ Package epstopdf Info: Source file: <TimeHisto_Analog2.eps>
 erted-to.pdf TimeHisto_Analog2.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
-<TimeHisto_Analog2-eps-converted-to.pdf, id=210, 646.415pt x 424.58624pt>
+<TimeHisto_Analog2-eps-converted-to.pdf, id=206, 646.415pt x 424.58624pt>
 File: TimeHisto_Analog2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use TimeHisto_Analog2-eps-converted-to.pdf>
@@ -1188,35 +1194,28 @@ Package rerunfilecheck Warning: File `Tritium.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Tritium.out':
-(rerunfilecheck)             Before: A23D5F75FE7158465FE891A08D240D98;786
-(rerunfilecheck)             After:  5F9366037F2C46184B1D4D766ED5AD35;707.
+(rerunfilecheck)             Before: 5F9366037F2C46184B1D4D766ED5AD35;707
+(rerunfilecheck)             After:  004B0733747AC1545CA1E529D54FF256;619.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11410 strings out of 493117
- 169018 string characters out of 6135433
- 299665 words of memory out of 5000000
- 14637 multiletter control sequences out of 15000+600000
+ 11406 strings out of 493117
+ 168964 string characters out of 6135433
+ 297852 words of memory out of 5000000
+ 14636 multiletter control sequences out of 15000+600000
  11299 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,7n,41p,1430b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does n
-ot exist, replaced by a fixed one
+pdfTeX warning (dest): name{section.5} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.A.2} has been referenced but does not ex
+pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.A.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist,
- replaced by a fixed one
 
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
@@ -1232,10 +1231,10 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Tritium.pdf (11 pages, 1971104 bytes).
+Output written on Tritium.pdf (11 pages, 1971235 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
