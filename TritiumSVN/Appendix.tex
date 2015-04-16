@@ -7,7 +7,7 @@ An accurate model of a tritiated methane injection into LUX must account for out
 where $K$ is the solubility of the material, $D$ is the diffusion constant, and $C_{out}$ is the concentration at the surface of the material. 
 %\cite{Piche}
 For the outgassing process we are only able to detect the flux of material out of the plastic.  This is given by Fick's first law evaluated at $x=0$,
-\[J_{out}(t)= - K \sqrt{\frac{D}{\pi}}\left( \int \limits_0^t \frac{\dot{C_{out}}(\tau)}{\sqrt{t-\tau}} d \tau + \frac{C_{out}(t)}{\sqrt{t}}\right),\]
+\[J_{out}(t)= - K \sqrt{\frac{D}{\pi}}\left( \int \limits_0^t \frac{\dot{C_{out}}(\tau)}{\sqrt{t-\tau}} d \tau + \frac{C_{out}(0)}{\sqrt{t}}\right),\]
 where the sign has been flipped since the flux of material is outward.  It is no longer possible to evaluate $K$ and $D$ separately, since the diffusion in and out of the plastic is completely determined by the time-dependent concentration outside of the plastic.  To simplify our model, we define a new constant
 \[ G = K \sqrt{ \frac{D}{ \pi }} .\] Using data from the LUX sampling system we set an upper limit of $G<0.0016 \frac{cm}{\sqrt{day}}$. 
 
@@ -29,7 +29,7 @@ The initial concentration is defined by dividing the desired injection activity 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.95\textwidth]{tau_G_var_CH3T.eps}
+\includegraphics[width=0.95\textwidth]{LUX_og_lim.eps}
 \caption{Displayed are the results of simulated 0.1 Bq injections of tritiated methane into LUX. The dashed curves assume the lower limit of G (0.0015 cm/day$^{1/2}$, while the solid curves assume the upper limit of G (0.0075 cm/day$^{1/2}$). The black curves assume a  characteristic removal time of 0.25 days, the black curves assume 1.7 days, and the blue curves assume 10 days.}
 \label{fig:tau_var}
 \end{figure}
