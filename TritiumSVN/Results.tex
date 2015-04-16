@@ -19,7 +19,7 @@ E_{total} = W \cdot (\frac{S1}{g_1} + \frac{S2}{g_2} )
 where S1 and S2 have units of phe and $g_1$ and $g_2$ have units of phe per quanta. $g_1$ may be interpreted as the light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the electron extraction efficiency at the liquid-gas surface times the secondary scintillation gain factor and the PTM quantum efficiency. $g_1$ and $g_2$ are measured with line source data in LUX as described in Ref. \cite{lux-reanalysis, lux-prd}. We find values of $g_1$ = \gone and $g_2$ = \gtwo.
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{tritium-scatter.png}
+\includegraphics[width=90mm]{fig/tritium-scatter.png}
 \caption{Scatter plot of $n_e$ vs $n_{\gamma}$ for 115,000 fiducial CH$_3$T events at 180 V/cm. Lines of constant energy are indicated assuming a $W$ value of 13.7 eV/quanta. The data is projected into $n_e$ and $n_{\gamma}$ histograms on each axis.}
 \label{fig:tritium-scatter}
 \end{figure}
@@ -27,7 +27,7 @@ where S1 and S2 have units of phe and $g_1$ and $g_2$ have units of phe per quan
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=90mm]{tritium-spectrum-linear.png}
+\includegraphics[width=90mm]{fig/tritium-spectrum-linear.png}
 \caption{The CH$_3$T energy spectrum measured by LUX with the combined energy model (black) compared to several theory models: a pure tritium spectrum (dashed blue), LUXsim (red) and a tritium spectrum with a simple energy smearing of $\sigma_E = XXXX$ applied. }
 \label{fig:tritium-spectrum}
 \end{center}
@@ -40,7 +40,7 @@ A scatter plot of $n_e$ vs $n_{\gamma}$ for the CH$_3$T data at 180 V/cm is show
 The comparison also illustrates the usefulness of the combined energy model. Compared to the raw charge and light spectra shown projected on the axes in Fig. \ref{fig:tritium-scatter}, the combined energy reproduces the tritium spectrum with much greater fidelity.
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{ER-threshold.png}
+\includegraphics[width=90mm]{fig/ER-threshold.png}
 \caption{ER threshold measured by comparing the measured energy spectrum to the smeared tritium spectrum. A fit to an error function is shown.}
 \label{fig:ER-threshold}
 \end{figure}
@@ -48,22 +48,22 @@ The comparison also illustrates the usefulness of the combined energy model. Com
 The mean light yield and charge yield of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180 V/cm in Fig. \ref{fig:ER-LY-QY}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the detector's resolution \cite{attila-thesis}. 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{ER-LY.png}
-\includegraphics[width=90mm]{ER-QY.png}
+\includegraphics[width=90mm]{fig/ER-LY.png}
+\includegraphics[width=90mm]{fig/ER-QY.png}
 \caption{The light yield and charge yield of ER events in LUX at 180 V/cm compared to NEST v0.98 (2013). The grey bands indicate the systematic errors on $g_1$ and $g_2$, which are fully correlated across all energy bins. $g_1$ is anti-correlated with $g_2$, such that an increase in the charge yield within the grey band must be compensated by an equivalent decrease in the light yield. Upper: Light yield at 180 V/cm. Lower: the charge yield at 180 V/cm.}
 \label{fig:ER-LY-QY}
 \end{figure}
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{quanta-vs-energy.png}
+\includegraphics[width=90mm]{fig/quanta-vs-energy.png}
 \caption{The mean number of electrons (red) and scintillation photons (blue) produced in LUX at 180 V/cm as a function of energy. The bands indicate the correlated systematic errors on $g_1$ and $g_2$. Also shown are the total number of quanta, primary ions, and primary excitons, assuming an exciton to ion ratio of 0.2. }
 \label{fig:quanta-vs-energy}
 \end{figure}
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{recombination.png}
+\includegraphics[width=90mm]{fig/recombination.png}
 \caption{Recombination fraction of ER events at 180 V/cm, assuming an exciton-to-ion ratio of 0.2.}
 \label{fig:recombination}
 \end{figure}
@@ -80,7 +80,7 @@ where $r$ is the recombination fraction and $\alpha$ is the assumed value of the
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
+\includegraphics[width=100mm]{fig/CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
 \caption{The electron recoil band of LUX illuminated by 115,000 tritium events at the nominal LUX electric field of 180 V/cm.  The recoil discriminant variable, log(S2/S1), is shown vs. S1 between 1 and 50 phe in S1 (about $\rm1-8 keV_{ee}$). Also indicated in black are the mean and the 10\% and 90\% contours. The solid red line represents the mean NR band determined with NEST v0.98 (2013) \cite{nest} and validated with AmBe and $\rm^{252}Cf$ neutron sources and the DD neutron generator data. The dashed red indicates the 10\% and 90\% contours of the NR band.}
 \label{fig:ER_band}
 \end{figure}
@@ -89,7 +89,7 @@ We obtain the LUX ER band by plotting log$_{10}$(S2/S1) vs S1 as shown in Fig. \
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
+\includegraphics[width=90mm]{fig/CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
 \caption{LUX recoil discrimination vs. S1, determined from Fig. \ref{fig:ER_band}. Y-axis labels: left -  leakage fraction ($f$); right - discrimination ($1-f$).}
 \label{fig:Leak}
 \end{figure}
@@ -99,14 +99,14 @@ Figure \ref{fig:Spectrum} shows the reconstructed energy spectrum for those CH$_
 The calibration data was acquired in a 40 hour time window in which less than three out of 115,000 events are expected to be non CH$_3$T \cite{LUX_BG}, this implies a near perfect data purity for the calibration. Nearly every point (99.997\%) show in figure \ref{fig:Band} and the histogram of \ref{fig:Spectrum} is the result of a CH$_3$T beta decay in the fiducial volume of the LUX detector.
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
+\includegraphics[width=100mm]{fig/CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
 \caption{Discrimination vs. S1 using over 115,000 tritium beta decays between 1 and 50 Phe in S1 (about $\rm1-8 keV_{ee}$). On average from 1 to 30 Phe the discrimination is 99.58\%, defined by the fraction of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 0.98) vetted with an AmBe, $\rm^{252}Cf$ and DD neutron generator calibration.}
 \label{fig:Band}
 \end{figure}
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{CH3T_E_spec_18_lux10_20131216T1551_cp06651.eps}
+\includegraphics[width=100mm]{fig/CH3T_E_spec_18_lux10_20131216T1551_cp06651.eps}
 \caption{ Energy histogram of CH$_3$T events. The black histogram represents the data, in blue is the tritium spectrum produced with LUX SIM based on NEST. The magenta curve shows the true tritium beta spectrum without smearing due to finite detector resolution, the dashed line indicates the true tritium spectrum convolved with the threshold}
 \label{fig:Spectrum}
 \end{figure}
@@ -117,7 +117,7 @@ The calibration data was acquired in a 40 hour time window in which less than th
 \begin{comment}
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{CH3T_DATA_NEST_fid_30_LUX_SIM_Tritium.eps}
+\includegraphics[width=80mm]{fig/CH3T_DATA_NEST_fid_30_LUX_SIM_Tritium.eps}
 \caption{ER band measured using CH$_3$T data in black with 90\% confidence bounds ( $\rm \pm 1.3 \sigma$) compared with the NEST prediction in red.}
 \label{fig:NEST_v_Data}
 \end{figure}
@@ -134,7 +134,7 @@ The CH$_3$T calibration source provides beta decays with energies down to 0.1 $\
 %Figure \ref{fig:E_spec} shows the tritium beta spectrum measured in the LUX detector along with the NEST prediction, note at the 180 V/cm drift field NEST has been vetted form 2 to 10 $\rm keV{ee}$.
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Triritium_S1_Threshold_2013_PRL.eps}
+\includegraphics[width=100mm]{fig/Triritium_S1_Threshold_2013_PRL.eps}
 \caption{Comparison of AmBe data (blue circles) with NEST simulations (blue line), showing excellent agreement above the 2 phe threshold (left axis). The gray histogram and fitted dashed red line show the relative efficiency for detection of nuclear recoils from AmBe data (right axis). Overlaid are the ER detection efficiency from CH$_3$T data (green squares), applied to the ER background model in the profile likelihood analysis, and the efficiency from full detector NR simulations treated as real data in terms of the digitized MC-truth S1 phe (purple triangles), applied to the WIMP signal model. The efficiency calculation here does not include S1 or S2 area thresholds. }
 \label{fig:S1_Thresh}
 \end{figure}
@@ -143,8 +143,8 @@ The CH$_3$T calibration source provides beta decays with energies down to 0.1 $\
 \begin{comment}
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{CH3T_eff_S1_100_T_paper_corr_threshold.eps}
-\includegraphics[width=80mm]{CH3T_eff_S2_100_T_paper_corr_threshold.eps}
+\includegraphics[width=80mm]{fig/CH3T_eff_S1_100_T_paper_corr_threshold.eps}
+\includegraphics[width=80mm]{fig/CH3T_eff_S2_100_T_paper_corr_threshold.eps}
 \caption{S1 Threshold determined from Tritium. S2 Threshold determined from CH$_3$T.}
 \label{fig:S1S2_Thresh}
 \end{figure}
@@ -152,7 +152,7 @@ The CH$_3$T calibration source provides beta decays with energies down to 0.1 $\
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{CH3T_E_spec_18_Tritium_Dec_2013_180.eps}
+\includegraphics[width=100mm]{fig/CH3T_E_spec_18_Tritium_Dec_2013_180.eps}
 \caption{Combined energy spectrum of the CH$_3$T data and LUX SIM.}
 \label{fig:E_spec}
 \end{figure}
@@ -214,10 +214,10 @@ Figure \ref{fig:L_Q_Yield_Baudis} includes our light and charge yield measuremen
 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=80mm]{QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=83mm]{LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=76mm]{QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
+\includegraphics[width=80mm]{fig/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png}
+\includegraphics[width=80mm]{fig/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png}
+\includegraphics[width=83mm]{fig/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
+\includegraphics[width=76mm]{fig/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
 \caption{180 [V/cm], corrected for spectral shape. Top Left: Mean scintillation yield vs. combined energy using tritium beta decay (black line). $\rm^{83}Kr$ lines are plotted for reference but only the 32.1 [keV] line (red star) is kosher since the 9.4 [keV] line is dependent on timing separation, the 9.4 [keV] line is plotted (blue star) for separations greater than 1000 [ns]. Top Right: Mean ionization yield vs. combined energy (black line). Bottom Left: Scintillation yield vs. combined energy on a log scale. Bottom Right: Ionization yield vs. combined energy on a log scale. The shaded blue regions represent the NEST mean with $\pm 5\%$ that has been vetted by data [Erik Dahl Thesis]. The shaded magenta regions represent the NEST extrapolations from data. The measurement is made at a field of 180 [V/cm] and contains over 150,000 beta decays. The endpoint of the tritium beta spectrum is 18.6 [keV]}
 \label{fig:L_Q_Yield_180}
 \end{figure}
@@ -226,9 +226,9 @@ Figure \ref{fig:L_Q_Yield_Baudis} includes our light and charge yield measuremen
 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{q_all_log_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
-\includegraphics[width=82mm]{LY_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
-\includegraphics[width=80mm]{Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
+\includegraphics[width=100mm]{fig/q_all_log_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
+\includegraphics[width=82mm]{fig/LY_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
+\includegraphics[width=80mm]{fig/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
 \caption{Top: Scintillation yield relative to the yield of the 32.1 gamma of [keV] $\rm^{83}Kr $  vs. Energy. Shaded blue curve is tritium at 100 [V/cm], shaded black curve is tritium at 180 [V/cm], red points represent a recent Compton scattering measurement at 450 [V/cm]. Also shown are the corresponding quenching of the 32.1 [keV]  gamma of $\rm^{83}Kr$ (star inside circle). Bottom: scintillation yield [Photons/keV] vs. Energy. Shaded blue curve is tritium at 100 [V/cm], shaded black curve is tritium at 180 [V/cm], red circles represent a recent Compton scattering measurement at 450 [V/cm].}
 \label{fig:L_Q_Yield_Baudis}
 \end{figure}
