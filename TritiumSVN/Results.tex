@@ -2,14 +2,14 @@
 
 In December of 2013 a total of 10 Bq of CH$_3$T was injected into LUX and removed. A total 325,000 events were observed in the active volume of LUX. 140,000 events were collected in the fiducial volume at the nominal LUX electric field of 180 V/cm, while 4,500 fiducial events were collected in a special run at a reduced field of 100 V/cm. The S1 and S2 signals are corrected for spatial effects such as the light collection efficiency and the free electron lifetime with $^83m$Kr data as described in \cite{lux-reanalysis}. 
 
-We interpret the data in terms of the combined energy model \cite{platzmann}, where the total energy of an event is directly proportional to the number of quanta produced (electrons pus scintillation photons):
+We interpret the data in terms of the combined energy model \cite{platzman}, where the total energy of an event is directly proportional to the number of quanta produced (electrons pus scintillation photons):
 
 \begin{displaymath}
 E_{total} = W \cdot (n_{\gamma} + n_e )
 \end{displaymath}
 
 \noindent
-We use a $W$ value of 13.7 eV/quanta \cite{Dahl}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$:
+We use a $W$ value of 13.7 eV/quanta \cite{Dahl_Thesis}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$:
 
 \begin{displaymath}
 E_{total} = W \cdot (\frac{S1}{g_1} + \frac{S2}{g_2} )
@@ -45,7 +45,7 @@ The comparison also illustrates the usefulness of the combined energy model. Com
 \label{fig:ER-threshold}
 \end{figure}
 
-The mean light yield and charge yield of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180 V/cm in Fig. \ref{fig:ER-LY-QY}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the detector's resolution \cite{attila-thesis}. 
+The mean light yield and charge yield of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180 V/cm in Fig. \ref{fig:ER-LY-QY}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the detector's resolution \cite{Dobi_Thesis}. 
 
 \begin{figure}[h!]\centering
 \includegraphics[width=90mm]{fig/ER_LY.png}
@@ -75,7 +75,7 @@ The mean light yield and charge yield of ER events in LUX are obtained by dividi
 \end{figure}
 
 
-As shown in Fig. \ref{fig:ER-LY-QY}, the light yield is observed to drop rapidly between 1 and 6 keV, and then become mostly energy independent over the remainder of the CH$_3$T spectrum. The charge yield exhibits the reverse behavior, as expected from the combined energy model. These effects can also be illustrated by plotting the total number of quanta as a function of energy, as shown in Fig. \ref{fig:quanta-vs-energy} for CH$_3$T events between 1 and 8 keV. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total number of quanta assuming a $W$ value of 13.7 eV/quanta (black), and the primary number of ions (violet) and excitons (cyan) prior to recombination assuming an initial exciton-to-ion ratio of 0.2 \cite{XXXX}. In a model where the number of observed electrons differs from the number of primary ions due solely to recombination, we can interpret the charge yield data as a measure the recombination fraction at each energy. Accordingly, 
+As shown in Fig. \ref{fig:ER-LY-QY}, the light yield is observed to drop rapidly between 1 and 6 keV, and then become mostly energy independent over the remainder of the CH$_3$T spectrum. The charge yield exhibits the reverse behavior, as expected from the combined energy model. These effects can also be illustrated by plotting the total number of quanta as a function of energy, as shown in Fig. \ref{fig:quanta-vs-energy} for CH$_3$T events between 1 and 8 keV. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total number of quanta assuming a $W$ value of 13.7 eV/quanta (black), and the primary number of ions (violet) and excitons (cyan) prior to recombination assuming an initial exciton-to-ion ratio of 0.2 \cite{alpha-value}. In a model where the number of observed electrons differs from the number of primary ions due solely to recombination, we can interpret the charge yield data as a measure the recombination fraction at each energy. Accordingly, 
 
 \begin{displaymath}
 r = \frac{\frac{n_{\gamma}}{n_e} - \alpha}{\frac{n_{\gamma}}{n_e} + 1}
