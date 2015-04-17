@@ -1,26 +1,26 @@
 \section{Results}
 
-In December of 2013 a total of 10 Bq of tritium was injected into LUX and removed. A total 325,000 events were observed in the active volume of LUX. 140,000 events were collected in the fiducial volume at the nominal LUX electric field of 180 V/cm, while 4,500 fiducial events were collected in a special run at a reduced field of 100 V/cm. The S1 and S2 signals are corrected for spatial effects such as the light collection efficiency and the free electron lifetime with $^83m$Kr data as described in \cite{lux-reanalysis}. 
+At the conclusion of the initial LUX science run, in December of 2013, a total of 10 Bq of tritium was injected into LUX and removed. A total 325,000 events were observed in the active volume of LUX. 183,000 events occurred in the fiducial volume at the nominal LUX electric field of 180 V/cm, while 4,500 fiducial events were collected in a special run at a reduced field of 100 V/cm. The S1 and S2 signals are corrected for spatial effects such as the light collection efficiency and the free electron lifetime with $^{83m}$Kr data as described in \cite{lux-reanalysis} and in further detail in \cite{Dobi_Thesis}. 
 
-We interpret the data in terms of the combined energy model \cite{platzman}, where the total energy of an event is directly proportional to the number of quanta produced (electrons pus scintillation photons):
+We interpret the data in terms of the combined energy model \cite{Platzman}, where the total energy of an event is directly proportional to the number of quanta produced (electrons plus scintillation photons):
 
 \begin{displaymath}
 \rm E_{total} = W \cdot (n_{\gamma} + n_e )
 \end{displaymath}
 
 \noindent
-We use a $W$ value of 13.7 eV/quanta \cite{Dahl_Thesis}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$:
+We use a $W$ value of 13.7 $\rm \pm$ 0.2 eV/quanta \cite{Dahl_Thesis}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$:
 
 \begin{displaymath}
 \rm E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right)
 \end{displaymath}
 
 \noindent
-where S1 and S2 have units of \fixit{phe} and $g_1$ and $g_2$ have units of phe per quanta. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface, the secondary scintillation gain factor, and the average PTM quantum efficiency. $g_1$ and $g_2$ are measured with line source data in LUX as described in Ref. \cite{lux-reanalysis, lux-prd}. We find values of \fixit{$g_1$ = \gone and $g_2$ = \gtwo}.
+where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have units of phd per quanta. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface and the average single electron size in phd. $g_1$ and $g_2$ were measured for the science run with line source data in LUX as described in Ref. \cite{lux-reanalysis, lux-prd}. For the December 2013 analysis presented in this paper the gains g1 and g2 are constrained by optimizing combined energy model to the true tritium spectral shape \cite{Tritium_Eq_Simpson} convolved with detector resolution \cite{Dobi_Thesis}. We find values of \fixit{$g_1$ = \gone and $g_2$ = \gtwo}, consistent with the values found for the science run.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=90mm]{fig/tritium_scatter.png}
-\caption{Scatter plot of $n_e$ vs $n_{\gamma}$ for 115,000 fiducial tritium events at 180 V/cm. Lines of constant energy are indicated assuming a $W$ value of 13.7 eV/quanta. The data is projected into $n_e$ and $n_{\gamma}$ histograms on each axis.}
+\caption{Scatter plot of $n_e$ vs $n_{\gamma}$ for 149,000 fiducial tritium events at 180 V/cm. Lines of constant energy are indicated assuming a $W$ value of 13.7 eV/quanta. The data is projected into $n_e$ and $n_{\gamma}$ histograms on each axis.}
 \label{fig:tritium_scatter}
 \end{figure}
 
@@ -28,7 +28,7 @@ where S1 and S2 have units of \fixit{phe} and $g_1$ and $g_2$ have units of phe 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=90mm]{fig/tritium-spectrum-linear.png}
-\caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to several theory models: a pure tritium spectrum (dashed blue), LUXsim (red) and a tritium spectrum with a simple energy smearing of $\sigma_E = XXXX$ applied. }
+\caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to several theory models: a pure tritium spectrum (dashed blue), and a tritium spectrum convolved with detector resolution $\frac{\sigma_E}{W} = \sqrt{\sigma_{n_\gamma}^2 + \sigma_{n_e}^2}$ applied, described in \cite{Dobi_Thesis}. }
 \label{fig:tritium-spectrum}
 \end{center}
 \end{figure}
