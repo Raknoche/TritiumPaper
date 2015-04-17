@@ -5,23 +5,23 @@ In December of 2013 a total of 10 Bq of tritium was injected into LUX and remove
 We interpret the data in terms of the combined energy model \cite{platzman}, where the total energy of an event is directly proportional to the number of quanta produced (electrons pus scintillation photons):
 
 \begin{displaymath}
-E_{total} = W \cdot (n_{\gamma} + n_e )
+\rm E_{total} = W \cdot (n_{\gamma} + n_e )
 \end{displaymath}
 
 \noindent
 We use a $W$ value of 13.7 eV/quanta \cite{Dahl_Thesis}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$:
 
 \begin{displaymath}
-E_{total} = W \cdot (\frac{S1}{g_1} + \frac{S2}{g_2} )
+\rm E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right)
 \end{displaymath}
 
 \noindent
 where S1 and S2 have units of \fixit{phe} and $g_1$ and $g_2$ have units of phe per quanta. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface, the secondary scintillation gain factor, and the average PTM quantum efficiency. $g_1$ and $g_2$ are measured with line source data in LUX as described in Ref. \cite{lux-reanalysis, lux-prd}. We find values of \fixit{$g_1$ = \gone and $g_2$ = \gtwo}.
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{fig/tritium-scatter.png}
+\includegraphics[width=90mm]{fig/tritium_scatter.png}
 \caption{Scatter plot of $n_e$ vs $n_{\gamma}$ for 115,000 fiducial tritium events at 180 V/cm. Lines of constant energy are indicated assuming a $W$ value of 13.7 eV/quanta. The data is projected into $n_e$ and $n_{\gamma}$ histograms on each axis.}
-\label{fig:tritium-scatter}
+\label{fig:tritium_scatter}
 \end{figure}
 
 
@@ -53,7 +53,7 @@ The mean light yield and charge yield of ER events in LUX are obtained by dividi
 \end{figure}
 
  \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{fig/Re_LY.png}
+\includegraphics[width=88mm]{fig/Re_LY_log.png}
 \caption{Scintillation yield relative to the yield of the 32.1 keV decay $\rm^{83}Kr $  vs. Energy. Shaded blue curve is tritium at 100 [V/cm], shaded black curve is tritium at 180 [V/cm], red circles represent a recent Compton scattering measurement at 450 [V/cm]. }
 \label{fig:Re_LY}
 \end{figure}
@@ -83,7 +83,7 @@ r = \frac{\frac{n_{\gamma}}{n_e} - \alpha}{\frac{n_{\gamma}}{n_e} + 1}
 where $r$ is the recombination fraction and $\alpha$ is the initial exciton-to-ion ratio. The recombination fraction as a function of energy as shown in Fig. \ref{fig:recombination}. Here the falling charge yield and rising light yield between 1 and 6 keV appears as a rapid rise in the recombination fraction. 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{fig/CH3T_fid_50_2_Dec_Tritium_Approval_Plots.png}
+\includegraphics[width=100mm]{fig/CH3T_ER_Band.png}
 \caption{The electron recoil band of LUX illuminated by 115,000 tritium events at the nominal LUX electric field of 180 V/cm.  The recoil discriminant variable, log(S2/S1), is shown vs. S1 between 1 and 50 phe in S1 (about $\rm1-8 keV_{ee}$). Also indicated in black are the mean and the 10\% and 90\% contours. The solid red line represents the mean NR band determined with NEST v0.98 (2013) \cite{nest} and validated with AmBe and $\rm^{252}Cf$ neutron sources and the DD neutron generator data. The dashed red indicates the 10\% and 90\% contours of the NR band.}
 \label{fig:ER_band}
 \end{figure}
@@ -92,7 +92,7 @@ We obtain the LUX ER band by plotting log$_{10}$(S2/S1) vs S1 as shown in Fig. \
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=90mm]{fig/CH3T_Leakage_fid_50_Dec_Tritium_Approval_Plots_2.eps}
+\includegraphics[width=90mm]{fig/CH3T_Leakage_Run03.png}
 \caption{LUX recoil discrimination vs. S1, determined from Fig. \ref{fig:ER_band}. Y-axis labels: left -  leakage fraction ($f$); right - discrimination ($1-f$).}
 \label{fig:Leak}
 \end{figure}
