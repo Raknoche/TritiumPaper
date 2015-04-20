@@ -50,9 +50,10 @@ A scatter plot of $n_e$ vs $n_{\gamma}$ for the tritium data at 180 V/cm is show
 \end{figure}
 
 The mean light yield and charge yield of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180 V/cm and 105 V/cm in Fig. \ref{fig:ER-LY-QY} along with NEST model predictions at each field \cite{NEST_2013}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the detector's resolution and the spectral shape \cite{Dobi_Thesis}. 
-The results are compared to two recent measurements for light yield in the keV range using Compton scatters, shown in Fig. \ref{fig:Re_LY}. This provides a crucial cross check that the ER band calibration using the tritium beta source is valid for use with the more generic backgrounds found in WIMP search data consisting of Compton scatter from high energy gammas. At low energies betas and gammas leave similar track lengths and produce identical yields \cite{NEST} \cite{NEST_2013}. Another potential systematic with the tritiated methane calibration is the methane concentration in the xenon. Quenching of light yield from methane is only noticeable at $\sim$ \% level concentrations \cite{Kirill_Methane}. For the work shown here there was less than 1 part per trillion ($<$ $\rm10\times10^{-12}$ g/g) of methane mixed with the xenon. We have verified by using an internal $^{83m}Kr$ calibration source that even 1 part per million of methane is too small quench light yield in liquid xenon \cite{Dobi_Thesis}.
+The light yield results are compared to recent measurements using Compton scatters buy normalizing the signal to the yield of the 32.1 keV decay of $\rm ^{83m}Kr$ at zero field, shown in Fig. \ref{fig:Re_LY}. The light yield of the 32.1 keV decay of $\rm ^{83m}Kr$ at zero field was measured in LUX to be 63.8 +/- 3 $n_\gamma$/KeV.  The findings are consistent with the expectation that tritium light yield data at 100 and 180 V/cm lie between the zero field and 450 V/cm light yield measurements from \cite{Aprile_LY} and \cite{Baudis}. This provides a crucial cross check that the ER band calibration using the tritium beta source is valid for use with the more generic backgrounds found in WIMP search data consisting of Compton scatter from high energy gammas. Compton scatters comprises about 2/3 of the expected background in LUX with the remaining 1/3 being from the beta decay of $\rm ^{85}Kr$ \cite{LUX_BG}. At low energies betas and gammas leave similar track lengths and produce identical yields \cite{NEST} \cite{NEST_2013}. 
 
-%We find agreement with Compton scattering measurements of light yield for electron recoils in xenon, shown in Fig. \ref{fig:Re_LY}. At these low energies betas and gammas leave similar track lengths and produce identical yields \cite{NEST_2013}. The calibration using the tritium beta source is applicable to the Compton scatter gamma backgrounds for the WIMP search. 
+Another potential systematic with the tritiated methane calibration is the methane concentration in the xenon. Quenching of light yield from methane is only noticeable at $\sim$ \% level concentrations \cite{Kirill_Methane}. For the work shown here there was less than 1 part per trillion ($<$ $\rm10\times10^{-12}$ g/g) of methane mixed with the xenon. We have verified by using an internal $^{83m}Kr$ calibration source that even 1 part per million of methane is too small quench light yield in liquid xenon \cite{Dobi_Thesis}.
+
 
 \begin{figure}[h!]\centering
 \includegraphics[width=90mm]{fig/ER_LY.png}
@@ -112,6 +113,20 @@ We obtain the LUX ER band by plotting log$_{10}$(S2/S1) vs S1 as shown in Fig. \
 \caption{LUX recoil discrimination vs. S1, determined from Fig. \ref{fig:ER_band}. Y-axis labels: left -  leakage fraction ($f$); right - discrimination ($1-f$).}
 \label{fig:Leak}
 \end{figure}
+
+
+%% ER band Gaussianity section. If we want this
+
+Using the high statistics tritium data along with knowing the data purity of 4 non tritium ER events out of 180,000 in the fiducial the ER band Gaussianity is characterized. Experiments in the past have relied on the assumption that the bands can be modeled with a log-normal distribution using the discrimination variable $log_{10}(S2/S1)$ vs. S1. It is found that this assumption holds to roughly 3 sigma out past which events are observed out to 8 sigma with a constant likelihood of $\sim$ 1/100,000 which corresponds to  roughly 4 sigma. This is a crucial piece of information that allows us to build a pdf for the ER events, as events out at several sigma may be assigned an incorrect likelihood using a Gaussian model. Fig. \ref{fig:ER-Gauss} shows the ER event distribution in 3 phd bins of S1 for the centroid subtracted $log_{10}(S2/S1)$ population.
+
+
+%\onecolumngrid
+\begin{sidewaysfigure}[p!]\centering
+\includegraphics[width=180mm]{fig/Gaussianity/GaussER_all.png}
+\caption{}
+\label{fig:ER-Gauss}
+\end{sidewaysfigure}
+%\twocolumn
 
 Using the information obtained from the tritium calibration source we can fully characterize the electron recoil band for the LUX WIMP search. The mean light and charge yield measure the mean location of the electron recoil population and the variance arrises from detector resolution convolved with recombination fluctuations. The tritium calibration allows for a detailed measure of the underlying properties of electron recoils and thus an improves background modeling for any dark matter experiment.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

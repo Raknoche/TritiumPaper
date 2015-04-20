@@ -1,4 +1,7 @@
-\documentclass[twocolumn,superscriptaddress]{revtex4-1}
+\documentclass[twocolumn,superscriptaddress]{revtex4-1} %twocolumn
+
+%\usepackage{multicol}
+%\usepackage{lipsum}% for dummy text
 
 \usepackage{hyperref}
 \usepackage{verbatim}
@@ -30,6 +33,10 @@
 \usepackage{subfig}
 
 
+%switch from two to one column
+
+
+
 \addtolength{\oddsidemargin}{-.500in}
 \addtolength{\evensidemargin}{-.375in}
 \addtolength{\textwidth}{1.00in}
@@ -55,8 +62,6 @@
 
 \usepackage{titlesec}
 
-
-
 %\titleformat{\section}{\bfseries\filcenter}{\thesubsection}{1em}{}
 %\titleformat{\subsection}{\bfseries\filcenter}{\thesubsection}{1em}{}
 %\titleformat*{\paragraph}{\large\bfseries}
@@ -70,7 +75,9 @@
 
 \input{Abstract}
 
-\maketitle
+%\twocolumn[\maketitle]
+		\maketitle
+
 
 \input{Introduction}
 
@@ -90,6 +97,5 @@
 
 \bibliographystyle{thesisbibstyle}
 \bibliography{Tritium}
-
 
 \end{document}
