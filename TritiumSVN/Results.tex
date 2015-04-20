@@ -34,7 +34,7 @@ where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have un
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=90mm]{fig/tritium-spectrum-linear.png}
-\caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to several theory models: a pure tritium spectrum (dashed blue), and a tritium spectrum convolved with detector resolution $\rm \frac{\sigma_E}{W} = \sqrt{\sigma_{n_{\gamma_{Det}}}^2 + \sigma_{n_{e_{Det}}}^2}$, described in \cite{Dobi_Thesis}. }
+\caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to several theory models: a pure tritium spectrum (dashed blue), and a tritium spectrum convolved with detector resolution  $\rm \frac{\sigma_E}{W} = \sqrt{\sigma_{n_{\gamma_{Det}}}^2 + \sigma_{n_{e_{Det}}}^2}$, described in \cite{Dobi_Thesis}. }
 \label{fig:tritium-spectrum}
 \end{center}
 \end{figure}
@@ -64,7 +64,7 @@ Another potential systematic with the tritiated methane calibration is the metha
 
  \begin{figure}[h!]\centering
 \includegraphics[width=88mm]{fig/Re_LY_log.png}
-\caption{Light yield relative to the light yield of the 32.1 keV decay of $\rm^{83}Kr $ at zero field. Shaded blue curve is tritium at 105 [V/cm], shaded black curve is tritium at 180 [V/cm], red circles represent a recent Compton scattering measurement at zero field and 450 [V/cm]. }
+\caption{Light yield relative to the light yield of the 32.1 keV decay of $\rm^{83}Kr $ at zero field. Shaded blue curve is tritium at 105 [V/cm], shaded black curve is tritium at 180 [V/cm]. Magenta squares represent zero field measurements from \cite{Aprile_LY}. Cyan triangles and red circles represent a recent Compton scattering measurement at zero field and 450 [V/cm] from \cite{Baudis}. }
 \label{fig:Re_LY}
 \end{figure}
 
@@ -120,13 +120,14 @@ We obtain the LUX ER band by plotting log$_{10}$(S2/S1) vs S1 as shown in Fig. \
 Using the high statistics tritium data along with knowing the data purity of 4 non tritium ER events out of 180,000 in the fiducial the ER band Gaussianity is characterized. Experiments in the past have relied on the assumption that the bands can be modeled with a log-normal distribution using the discrimination variable $\rm log_{10}(S2/S1)$ vs. S1. It is found that this assumption holds to roughly 3 sigma out past which events are observed out to 8 sigma with a constant likelihood of $\sim$ 1/100,000 which corresponds to  roughly 4 sigma. This is a crucial piece of information that allows us to build a pdf for the ER events, as events out at several sigma may be assigned an incorrect likelihood using a Gaussian model. Fig. \ref{fig:ER-Gauss} shows the ER event distribution in 3 phd bins of S1 for the centroid subtracted $\rm log_{10}(S2/S1)$ population.
 
 
-%\onecolumngrid
+\onecolumngrid
+\break
 \begin{sidewaysfigure}[p!]\centering
-\includegraphics[width=150mm]{fig/Gaussianity/GaussER_all.png}
-\caption{}
+\includegraphics[width=220mm]{fig/Gaussianity/GaussER_all.png}
+\caption{Electron recoil population from tritium event about the centroid of the mean in 3 phd bins over the WIMP search region. The red dashed line represents the mean of the NR band in each bin. We observe non Gaussian behavior below three sigma of the ER band and two sigma above. The non Gaussian behavior above the mean of the ER band may be due to the 48\% extraction efficiency.  }
 \label{fig:ER-Gauss}
 \end{sidewaysfigure}
-%\twocolumn
+\twocolumngrid
 
 Using the information obtained from the tritium calibration source we can fully characterize the electron recoil band for the LUX WIMP search. The mean light and charge yield measure the mean location of the electron recoil population and the variance arrises from detector resolution convolved with recombination fluctuations. The tritium calibration allows for a detailed measure of the underlying properties of electron recoils and thus an improves background modeling for any dark matter experiment.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
