@@ -13,7 +13,7 @@ For an electronic recoil (ER), the light and charge created result from excitati
 \end{equation}
 
 \noindent
-Where $\rm E_{total}$ is the energy of the deposition in keV and $\rm n_i$, $\rm n_{ex}$, $\rm n_\gamma$ and $\rm n_e$ are the number of ions, excitons, photons and electrons respectively.We use a $W$ value of 13.7 $\rm \pm$ 0.2 eV/quanta \cite{Dahl_Thesis}, as discussed in section \ref{sec:LXe_Theory}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$: 
+where $\rm E_{total}$ is the energy of the deposition in keV and $\rm n_i$, $\rm n_{ex}$, $\rm n_\gamma$ and $\rm n_e$ are the number of ions, excitons, photons and electrons respectively.We use a $W$ value of 13.7 $\rm \pm$ 0.2 eV/quanta \cite{Dahl_Thesis}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$: 
 %We use a $W$ value of 13.7 $\rm \pm$ 0.2 eV/quanta \cite{Dahl_Thesis}. In LUX $n_{\gamma}$ and $n_e$ are proportional to the S1 and S2 signals, with gain factors $g_1$ and $g_2$:
 
 \begin{equation}
@@ -71,9 +71,9 @@ Another potential systematic with the tritiated methane calibration is the metha
 
 As shown in Fig. \ref{fig:ER-LY-QY}, the light yield is observed to increase rapidly from 1 and 6 keV, and then becomes mostly energy independent over the remainder of the tritium spectrum. The charge yield exhibits the complimentary behavior as the sum of the two is a constant equal to $\rm \frac{1}{W}=73$. These effects can also be illustrated by plotting the total number of quanta (photons and electrons or excitons and ions) as a function of energy, as shown in Fig. \ref{fig:quanta-vs-energy}. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total number of quanta assuming a $W$ value of 13.7 eV/quanta (black), and the primary number of ions (violet) and excitons (cyan) prior to recombination assuming an initial exciton-to-ion ratio of 0.2 \cite{alpha-value}. We interpret the charge yield data as a measure the recombination fraction at each energy according to
 
-\begin{displaymath}
+\begin{equation}
 r = \frac{\frac{n_{\gamma}}{n_e} - \alpha}{\frac{n_{\gamma}}{n_e} + 1}
-\end{displaymath}
+\end{equation}
 
 \noindent
 where $r$ is the recombination fraction and $\alpha$ is the initial exciton-to-ion ratio. The recombination fraction as a function of energy as shown in Fig. \ref{fig:recombination}. Here the falling charge yield and rising light yield between 1 and 6 keV appears as a rapid rise in the recombination fraction. 
@@ -117,6 +117,8 @@ We obtain the LUX ER band by plotting log$_{10}$(S2/S1) vs S1 as shown in Fig. \
 
 %% ER band Gaussianity section. If we want this
 
+
+
 Using the high statistics tritium data along with knowing the data purity of 4 non tritium ER events out of 180,000 in the fiducial the ER band Gaussianity is characterized. Experiments in the past have relied on the assumption that the bands can be modeled with a log-normal distribution using the discrimination variable $\rm log_{10}(S2/S1)$ vs. S1. It is found that this assumption holds to roughly 3 sigma out past which events are observed out to 8 sigma with a constant likelihood of $\sim$ 1/100,000 which corresponds to  roughly 4 sigma. This is a crucial piece of information that allows us to build a pdf for the ER events, as events out at several sigma may be assigned an incorrect likelihood using a Gaussian model. Fig. \ref{fig:ER-Gauss} shows the ER event distribution in 3 phd bins of S1 for the centroid subtracted $\rm log_{10}(S2/S1)$ population.
 
 
@@ -129,6 +131,6 @@ Using the high statistics tritium data along with knowing the data purity of 4 n
 \end{sidewaysfigure}
 \twocolumngrid
 
-Using the information obtained from the tritium calibration source we can fully characterize the electron recoil band for the LUX WIMP search. The mean light and charge yield measure the mean location of the electron recoil population and the variance arrises from detector resolution convolved with recombination fluctuations. The tritium calibration allows for a detailed measure of the underlying properties of electron recoils and thus an improves background modeling for any dark matter experiment.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
