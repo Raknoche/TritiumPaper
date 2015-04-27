@@ -5,13 +5,13 @@
 
 Prior to the first injection of CH$_3$T into LUX, we considered three risks that such a calibration may pose to the dark matter search: 1) that the xenon purification system may be ineffective for CH$_3$T removal; 2) that the interior surfaces of the SS gas handling system may become permanently contaminated with CH$_3$T; and 3) that the plastic detector components may outgas unacceptable quantities of CH$_3$T after initial exposure.
 
-To address the first concern we studied the removal of natural methane (CH$_4$) from Xe gas with a heated Zr getter and a mass spectrometer. The purification efficiency was found to be satisfactory\cite{Dobi_CH4}. Furthermore, a test of the completed LUX purification system, including the getter, was performed several weeks before the first CH$_3$T injection into LUX. In this test $\sim$0.1 grams of CH$_4$ was injected into LUX, and mass spectrometry measurements of the CH$_4$ concentration in the LUX Xe gas were performed over the next several days. The CH$_4$ concentration was observed to decrease exponentially with a time constant of 5.90 $\pm 0.07$ hours as shown in Fig. \ref{fig:ch4_removal}, confirming the effectiveness of the purification system for methane removal.
+To address the first concern we studied the removal of natural methane (CH$_4$) from Xe gas with a heated Zr getter and a mass spectrometer. The purification efficiency was found to be satisfactory\cite{Dobi_CH4}. Furthermore, a test of the completed LUX purification system, including the actual getter unit, was performed several weeks before the first CH$_3$T injection into LUX. In this test $\sim$0.1 grams of CH$_4$ was injected into LUX, and mass spectrometry measurements of the CH$_4$ concentration in the LUX Xe gas were performed over the next several days. The CH$_4$ concentration was observed to decrease exponentially with a time constant of 5.90 $\pm 0.07$ hours as shown in Fig. \ref{fig:ch4_removal}, confirming the effectiveness of the purification system for methane removal.
 
 The behavior of CH$_3$T in SS plumbing was studied in a bench-test with a custom-built Xe gas proportional tube operated at room temperature. Substantial quantities of CH$_3$T activity were injected, counted, and removed from the proportional tube. Initial tests found a small amount of residual activity after purification, however this was resolved by passing the CH$_3$T through a methane purifier (SAES model MC1-905F). No subsequent contamination was observed.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{fig/July_CH4_wOG.eps}
-\caption{Injection and removal of CH$_4$ in LUX prior to the first CH$_3$T injection. CH$_4$ is observed with a gas sampling mass spectrometry system. The black dashed lines shows an exponential fit to the CH$_4$ concentration at the detector return line with a time constant of 5.90 $\pm 0.07$ hours.  The red points indicate measurements at the getter outlet. We find a 97\% one-pass removal efficiency at a flow rate of 27 SLPM. The blue curve shows the upper limit on the effect of outgassing from the plastics. $\rm 5\times10^{-3}$ ppb (g/g) is the limit of detection for methane.}
+\caption{Injection and removal of CH$_4$ in LUX prior to the first CH$_3$T injection. CH$_4$ is observed with a gas sampling mass spectrometry system. The black dashed lines shows an exponential fit to the CH$_4$ concentration at the detector return line with a time constant of 5.90 $\pm 0.07$ hours.  The red points indicate measurements at the getter outlet. We find a 97\% one-pass removal efficiency at a flow rate of 27 SLPM. The blue curve shows the upper limit on the effect of outgassing from the plastics. The three data points near t = 3 days are consistent with the limit of detection for methane ($\sim \rm 5\times10^{-3}$ ppb (g/g)) .}
 \label{fig:ch4_removal}
 \end{figure}
 
@@ -27,28 +27,28 @@ We also performed tests of CH$_3$T injection and removal from LXe with a small d
 \section{Return to WIMP search conditions after a CH$_3$T calibration }
 \label{sec:appendix2}
 
-We use a simple purification model to study and constrain the CH$_3$T activity in LUX after an injection. The model is 
+We use a simple purification model to predict the CH$_3$T activity in LUX after an injection. The model is 
 
 \begin{equation}
-\frac{\delta C_{out}}{\delta t} = J_{out} \frac{A_{plastic}}{V_{xenon}}-\frac{C_{out}}{\tau},
+\frac{d C_{out}}{dt} = J_{out} \frac{A}{V}-\frac{C_{out}}{\tau},
 \end{equation}
 
-\noindent where  $C_{out}$ is the CH$_3$T concentration in the LXe,  $J_{out}$ is the flux of CH$_3$T out of the plastic components due to outgassing,  $A_{plastic}$ is the surface area of the plastic TPC cylinder, $V_{xenon}$ is the total volume of xenon in the \fixit{fiducial or active?} region, and $\tau$ is the characteristic removal time of CH$_3$T due to purification (six hours). The model assumes perfect mixing of the fluid in the TPC. The initial concentration is the injection activity divided by the volume of the \fixit{fiducial or active?} region. We solve the model numerically with the Euler method while simultaneously solving the diffusion equation to determine $J_{out}$. We use the results to predict the number of calibration events that may be collected by a particular injection and to judge when WIMP search running may resume.
+\noindent where  $C_{out}$ is the CH$_3$T concentration in the LXe,  $J_{out}$ is the flux of CH$_3$T out of the plastic components due to outgassing,  $A$ is the surface area of the plastic TPC cylinder, $V$ is the total volume of xenon in the \fixit{fiducial or active?} region, and $\tau$ is the characteristic removal time of CH$_3$T due to purification (5.9 hours). The model assumes perfect mixing of the fluid in the TPC. The initial concentration is the injection activity divided by the volume of the \fixit{fiducial or active?} region. We solve the model numerically with the Euler method while simultaneously solving the diffusion equation to determine $J_{out}$. The results predict the number of calibration events that may be collected and provide an estimate of when the CH$_3$T  decay rate will be small enough to allow the WIMP search to resume.
 
 We approximate the diffusion into and out of the plastics as one-dimensional, since most plastics in LUX can be approximated as a thin cylindrical shell with no dependence on the azimuthal or $z$ coordinates.  Fick's laws in a one dimension are
 
-\begin{equation}
-J=-D\frac{\delta \phi}{\delta r}
-\frac{\delta \phi}{\delta t} = D \frac{\delta^2 \phi}{\delta r^2} 
-\end{equation}
+\begin{align}
+J=-D\frac{d \phi}{d r}  \\
+\frac{d \phi}{d t} = D \frac{d^2 \phi}{d r^2} 
+\end{align}
 
 \noindent 
 where $J$ is the flux, $\phi$ is the concentration, and $D$ is the diffusion constant in the plastic. The concentration $\phi$ at the LXe-plastic boundary is fixed at $KC_{out}$, where K is the unitless solubility of CH$_3$T in the plastics. These equations are solved numerically and simultaneously with the purification model. 
 
-$D$ and $K$ are not known for CH$_3$T in teflon and polyethylene at LXe temperature. We conservatively assume a value of $D = 2.3 \times 10^{-9} \frac {cm^2}{sec}$ \fixit{based upon ???the room temperature measurement for methane in what??? Reference?}. To set a limit on $K$ we consider an analytic solution to Fick's second law given by Duhamel's principle applied along a half-infinite line:
+$D$ and $K$ are not known for CH$_3$T in teflon and polyethylene at LXe temperature. We conservatively assume a value of $D = 2.3 \times 10^{-9} \frac {cm^2}{sec}$ \fixit{based upon ???the room temperature measurement for methane in what??? Reference?}. To set a limit on $K$ we consider the data from the natural methane injection shown in Fig. \ref{fig:ch4_removal} and  an analytic solution to Fick's second law given by Duhamel's principle applied along a half-infinite line:
 
 \begin{equation}
-\Scale[0.75]{\phi (x,t) = KC_{out} - \int \limits_0^t erf(\frac{x}{\sqrt{4D(t - \tau)}})K\dot{C_{out}}(\tau)d\tau - KC_{out}(0)erf(\frac{x}{\sqrt{4Dt}}),}
+\Scale[0.75]{\phi (x,t) = KC_{out} - \int \limits_0^t erf(\frac{x}{\sqrt{4D(t - \tau)}})K\frac{d}{d\tau}C_{out}(\tau)d\tau - KC_{out}(0)erf(\frac{x}{\sqrt{4Dt}}),}
 \end{equation}
 
 
@@ -56,13 +56,12 @@ $D$ and $K$ are not known for CH$_3$T in teflon and polyethylene at LXe temperat
 Fick's first law evaluated at $x=0$ gives
 
 \begin{equation}
-J_{out}(t)= - K \sqrt{\frac{D}{\pi}}\left( \int \limits_0^t \frac{\dot{C_{out}}(\tau)}{\sqrt{t-\tau}} d \tau + \frac{C_{out}(0)}{\sqrt{t}}\right),
+J_{out}(t)= - K \sqrt{\frac{D}{\pi}}\left( \int \limits_0^t \frac{\frac{d}{d\tau}C_{out}(\tau)}{\sqrt{t-\tau}} d \tau + \frac{C_{out}(0)}{\sqrt{t}}\right),
 \end{equation}
 
 \noindent
-where the sign is reversed because the flux of material is outward. We define a constant
-\[ G = K \sqrt{ \frac{D}{ \pi }} .\]. Data from the CH$_4$ injection, shown in \ref{fig:ch4_removal}, set an upper limit of $G<0.0016 \frac{cm}{\sqrt{day}}$. In that data the effect of $G$ would appear as an elbow in the CH$_4$ concentration versus time, as shown by the blue line, and three data points near t = 3 days constrain the value of $G$. We interpret this result as an upper limit on $G$ because those data points are consistent with CH$_4$ backgrounds in the mass spectrometry system.
-
+where the sign is reversed because the flux of material is outward. From this result we define a constant
+\[ G \equiv K \sqrt{ \frac{D}{ \pi }} \] and set an upper limit of $G<0.0016 \frac{cm}{\sqrt{day}}$ based upon the data in Fig. \ref{fig:ch4_removal}. In that data the effect of $G$ would appear as an elbow in the CH$_4$ concentration versus time, as indicated by the blue line. The three data points near t = 3 days constrain the value of $G$. We interpret this result as an upper limit on $G$ because those data points are consistent with CH$_4$ backgrounds in the mass spectrometry system.
 
 \begin{figure}[h!]
 \centering
@@ -71,4 +70,4 @@ where the sign is reversed because the flux of material is outward. We define a 
 \label{fig:tau_var}
 \end{figure}
 
-Figure \ref{fig:tau_var} shows the results of the purification model for a 1 Bq and 10 Bq injection into LUX. We take 0.33 $\mu$Bq of residual CH$_3$T activity as an approximate goal for resuming WIMP search running, and we find that for injections on the order of 1 Bq we reach 0.33 $\mu$Bq eight days later, while 10 Bq injections may take as long as 35 days.  Ultimately the final decision regarding WIMP search data taking will be made by data analysis, with guidance from the purification model described here.
+Fig. \ref{fig:tau_var} shows the results of the purification model for a 1 Bq and 10 Bq injection into LUX. We take 0.33 $\mu$Bq of residual CH$_3$T activity as an approximate goal for resuming WIMP search running, and we find that for injections on the order of 1 Bq we reach 0.33 $\mu$Bq eight days later, while 10 Bq injections may take as long as 35 days.  Ultimately the final decision regarding WIMP search data quality is made during the data analysis phase, with guidance provided by the purification model described here.
