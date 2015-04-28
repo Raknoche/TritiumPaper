@@ -24,13 +24,13 @@ We also performed tests of CH$_3$T injection and removal from LXe with a small d
 \end{figure}
 
 
-\section{Return to WIMP search conditions after a CH$_3$T calibration }
+\section{Model of CH$_3$T removal}
 \label{sec:appendix2}
 
 We use a simple purification model to predict the CH$_3$T activity in LUX after an injection. The model is 
 
 \begin{equation}
-\frac{d C_{out}}{dt} = J_{out} \frac{A}{V}-\frac{C_{out}}{\tau},
+\frac{d C_{out}}{dt} = \frac{A}{V}J_{out} -\frac{C_{out}}{\tau},
 \end{equation}
 
 \noindent where  $C_{out}$ is the CH$_3$T concentration in the LXe,  $J_{out}$ is the flux of CH$_3$T out of the plastic components due to outgassing,  $A$ is the surface area of the plastic TPC cylinder, $V$ is the total volume of xenon in the \fixit{fiducial or active?} region, and $\tau$ is the characteristic removal time of CH$_3$T due to purification (5.9 hours). The model assumes perfect mixing of the fluid in the TPC. The initial concentration is the injection activity divided by the volume of the \fixit{fiducial or active?} region. We solve the model numerically with the Euler method while simultaneously solving the diffusion equation to determine $J_{out}$. The results predict the number of calibration events that may be collected and provide an estimate of when the CH$_3$T  decay rate will be small enough to allow the WIMP search to resume.
