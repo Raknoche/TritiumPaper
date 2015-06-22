@@ -56,7 +56,7 @@ The tritium energy spectrum, obtained by projecting the data along the lines of 
 %Individual events on the plot are smeared by detector resolution and electron-ion pair recombination fluctuations. Detector resolution is comprised of statistical fluctuations in counting photons and electrons in the S1 and S2 channel. The finite resolution in S1 and S2 smear events along the vertical and horizontal axis, respectively. Recombination fluctuations ($ \sigma(R)$) smear events along the contours of constant energy, and thus cancel out in the combined energy model of Eq.\ref{platzman_eq}. 
 
 
-The mean light and charge yields of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180~V/cm and 105~V/cm in Fig. \ref{fig:ER-LY-QY} along with NEST v0.98 model predictions at each field \cite{NEST_2013}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the energy resolution and the spectral shape \cite{Dobi_Thesis}\footnote{We have verified with an internal $^{83m}Kr$ calibration source that the light yield of LXe is unaffected by the presence of CH$_4$ at concentrations up to $\sim$1 part per million. For the CH$_3$T measurements reported here the concentration was ($<$ $10\times10^{-12}$ g/g). }.  NEST v0.98 describes the data approximately, but predicts too much light yield and too little charge yield above 6~keV. Note that NEST v0.98 lacks direct input measurements in this energy range and electric field, which explains the modest disagreement.  A more recent version of NEST (v1.0) has been tuned to reproduce the LUX tritium data shown here faithfully.
+The mean light and charge yields of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180~V/cm and 105~V/cm in Fig. \ref{fig:ER-LY-QY} along with NEST v0.98 model predictions at each field \cite{NEST_2013}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the energy resolution and the spectral shape \cite{Dobi_Thesis}\footnote{We have verified with an internal $^{83m}Kr$ calibration source that the light yield of LXe is unaffected by the presence of CH$_4$ at concentrations up to $\sim$1 part per million. For the CH$_3$T measurements reported here the concentration was ($<$ $10\times10^{-12}$ g/g). }.  NEST v0.98 describes the data approximately, but predicts too much light yield and too little charge yield above 6~keV. Note that NEST v0.98 lacks direct input measurements in this energy range and electric field, so a modest disagreement is not unexpected.  A more recent version of NEST (v1.0) has been tuned to reproduce the LUX tritium data shown here faithfully.
 
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/ER_LY.png}
@@ -65,7 +65,7 @@ The mean light and charge yields of ER events in LUX are obtained by dividing th
 \label{fig:ER-LY-QY}
 \end{figure}
 
-The light yield measurements are compared to similar measurements by other authors in Fig. \ref{fig:Re_LY}. To remove detector effects from this comparison, the light yield is normalized to that of the 32.1~keV electron capture decay of $ ^{83m}Kr$ at zero electric field. For LUX this light yield is measured to be $ 63.8 \pm 3$ photons/keV. The findings are consistent with the expectation that the tritium light yields at 105 and 180~V/cm lie between those at zero field and 450~V/cm from \cite{Aprile_LY} and \cite{Baudis}. It is worth noting that Refs. \cite{Aprile_LY} and \cite{Baudis} use Compton scatters as the source of ER events, while in tritium data the ER source is a beta decay. At low energy beta decays and Compton scatters will leave similar track lengths and produce similar event characteristics. The comparison of Fig. \ref{fig:Re_LY} confirms this expectation within the experimental uncertainties.
+The light yield measurements are compared to similar measurements by other authors in Fig. \ref{fig:Re_LY}. To remove detector effects from this comparison, the light yield is normalized to that of the 32.1~keV electron capture decay of $ ^{83m}Kr$ at zero electric field. For LUX this light yield is measured to be $ 63.8 \pm 3$ photons/keV. Although the error bars on the comparison data are large, the findings are consistent with the expectation that the tritium light yields at 105 and 180~V/cm lie between those at zero field and 450~V/cm from \cite{Aprile_LY} and \cite{Baudis}. It is worth noting that Refs. \cite{Aprile_LY} and \cite{Baudis} use Compton scatters as the source of ER events, while in tritium data the ER source is a beta decay. At low energy beta decays and Compton scatters will leave similar track lengths and produce similar event characteristics. The comparison of Fig. \ref{fig:Re_LY} supports this expectation, albeit with the large experimental uncertainties.
 
 \begin{figure}[h!]
 \includegraphics[width=88mm]{fig/Re_LY_log.png}
@@ -74,20 +74,24 @@ The light yield measurements are compared to similar measurements by other autho
 \end{figure}
 
 
-As shown in Fig. \ref{fig:ER-LY-QY}, we find that the light yield increases rapidly from 1 to 6~keV, and then becomes mostly energy independent over the remainder of the tritium spectrum. The charge yield exhibits the complementary behavior as expected from the combined energy model. These effects can also be illustrated by plotting the number of photons and electrons as a function of energy, as shown in Fig. \ref{fig:quanta-vs-energy}. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total number of quanta assuming a $W$-value of 13.7~eV (black), and the initial number of ions (violet) and excitons (cyan) prior to recombination, where we assume an exciton-to-ion ratio of 0.2 \cite{Doke_alpha} independent of energy. Under this assumption we interpret the charge yield data as a measure the recombination fraction at each energy according to
-
-\begin{equation}
-r = \frac{(n_{\gamma}/n_e) - \alpha}{(n_{\gamma}/n_e) + 1}
-\end{equation}
-
-\noindent
-where $r$ is the recombination fraction and $\alpha$ is the exciton-to-ion ratio prior to recombination. The resulting recombination fraction as a function of energy is shown in Fig. \ref{fig:recombination}. Here the falling charge yield and rising light yield between 1 and 6~keV appear as a rapid rise in the recombination fraction with increasing energy.  Other authors have used $\alpha$ values between 0.06 and 0.2~\cite{kaixuan}. Changing the value of $\alpha$ modestly affects the absolute magnitude of the resulting recombination fraction but has only a small affect the shape as a function of energy.
+As shown in Fig. \ref{fig:ER-LY-QY}, we find that the light yield increases rapidly from 1 to 6~keV, and then becomes mostly energy independent over the remainder of the tritium spectrum. The charge yield exhibits the reverse behavior, lending support to the combined energy model. 
 
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/quanta-vs-energy.png}
 \caption{Top: The mean number of electrons (red) and scintillation photons (blue) produced in LUX at 180~V/cm as a function of energy. The bands indicate the correlated systematic errors on $g_1$ and $g_2$. Also shown are the total number of quanta, primary ions, and primary excitons, assuming an exciton to ion ratio of 0.2. }
 \label{fig:quanta-vs-energy}
 \end{figure}
+
+We understand this behavior as due to the effects of recombination, the process by which newly liberated ionization electrons are captured by Xe$^+$ ions, creating additional Xe$^*$ excitons, and ultimately scintillation photons. We model recombination as follows. Starting with a $W$-value of 13.7~eV, we assume that $\alpha$, the initial ratio of excitons-to-ions prior to recombination, is 0.2 independent of energy and electric field~\cite{Doke_alpha}. Then the initial number of ions prior to recombination ($N_{ion}$, equivalent to the initial number of electrons), and the initial number of excitons prior to recombination ($N_{ex}$), and their sum (the total number of quanta), all increase linearly with energy as shown by the solid lines in Fig. \ref{fig:quanta-vs-energy}. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total observed number of electrons and scintillation photons after recombination measured with the LUX tritium data at 180~V/cm as a function of energy. The sum of the observed electrons and photons should also increase linearly with energy, a hypothesis which is tested and confirmed by the tritium spectrum comparison of Fig. \ref{fig:tritium-spectrum}.
+
+We see that at very low energy, below 3~keV, the number of electrons and photons is similar to $N_{ion}$ and $N_{ex}$, respectively, while above 4~keV the number of electrons drops below the number of photons, consistent with a large recombination effect at these energies and this electric field. The recombination fraction, calculated according to
+
+\begin{equation}
+r = \frac{(n_{\gamma}/n_e) - \alpha}{(n_{\gamma}/n_e) + 1},
+\end{equation}
+
+\noindent
+is shown explicitly in Fig. \ref{fig:recombination}, measured with both the 180~V/cm and 105~V/cm tritium data. We find only a small difference in the recombination between these two field values in this energy range. It is worth noting that recombination is small at the very lowest energies where the dark matter search is performed, rapidly approaching zero as the energy drops below 4~keV. As noted before, this behavior is of significant importance for the efficacy of recoil discrimination in LXe~\cite{xed-discrimination}. Other authors have used $\alpha$ values between 0.06 and 0.2~\cite{kaixuan}. Changing the value of $\alpha$ modestly affects the absolute magnitude of the resulting recombination fraction but has only a small affect on the shape as a function of energy. 
 
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/recombination.png}
@@ -101,13 +105,6 @@ where $r$ is the recombination fraction and $\alpha$ is the exciton-to-ion ratio
 \caption{Top: The electron recoil band of LUX illuminated by 180,000 tritium events at the nominal LUX electric field of 180~V/cm.  The recoil discriminant variable, log(S2/S1), is shown vs. S1 between 1 and 120 phd in S1 (with contours of constant energy $1-20 \, keV_{ee}$). Also indicated in black are the mean and the 10\% and 90\% contours of the ER population. The solid red line represents the mean NR band determined with DD neutron generator data. The dashed red indicates the 10\% and 90\% contours of the NR band. Bottom: Observed LUX recoil discrimination vs. S1, defined as the fraction of events below the NR mean. Y-axis labels: left -  leakage fraction ($f$); right - discrimination ($1-f$).}
 \label{fig:ER_band}
 \end{figure}
-
-%\begin{figure}[h!]
-%\includegraphics[width=90mm]{fig/CH3T_Leakage_Run03.png}
-%\caption{LUX recoil discrimination vs. S1, determined from Fig. \ref{fig:ER_band}. Y-axis labels: left -  leakage fraction ($f$); right - discrimination ($1-f$).}
-%\label{fig:Leak}
-%\end{figure}
-
 
 
 The LUX ER band is shown as log$_{10}$(S2/S1) vs S1 in Fig. \ref{fig:ER_band}(top).  Also shown is the NR band measured with neutron generator data\cite{DD-paper, lux-reanalysis}. The ER band has a characteristic rise at decreasing values of S1 which reflects the rapidly changing charge and light yields below $\sim$6~keV. The leakage fraction ($f$), defined as the fraction of ER events observed below the mean of the NR band, is shown in Fig. \ref{fig:ER_band}(bottom) as a function of S1. The recoil discrimination efficiency ($1-f$) has an average value of 99.81 $\pm$ 0.02\% for events with S1 between 1 and 50 phd.
