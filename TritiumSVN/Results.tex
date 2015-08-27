@@ -6,6 +6,8 @@ The LUX detector is described in detail in Ref. \cite{lux-nim}. Briefly, LUX is 
 
 Data is selected for analysis using cuts similar to the WIMP search analysis\cite{lux-reanalysis, lux-prd}. Within an event window, single scatters are selected by pairing an S1 with a single S2.  The S1 is measured with a spike-counting method that requires a minimum two-fold coincidence from PMTs that are not in neighboring channels. We correct the S1 and S2 signals for spatial and temporal variations such as the light collection efficiency and the free electron lifetime with $ ^{83m}$Kr data.  The S2 signal is required to be greater than 150 phd ($\sim$6 extracted electrons) to ensure accurate $x$-$y$ position reconstruction. Events are required to be within a fiducial volume of \fixit{6 to 46 cm in the charge drift direction ($z$) \fixit{(change these numbers to drift time???)} and less than 20 cm radius.} In addition to the above selection cuts, which are applied to the WIMP search, in the tritium data we also reject events where the S2 signal is truncated by the end of an event buffer. This pathology is negligible in WIMP search data but is present at a small level in the tritium data due to the larger event rate.
 
+\subsection{Tritium energy spectrum}
+
 We interpret the data in terms of the combined energy model for electron recoils \cite{Platzman}, where the total energy of an event is directly proportional to the number of quanta produced (ionization electrons plus scintillation photons):
 
 \begin{equation}
@@ -50,7 +52,7 @@ The tritium energy spectrum, obtained by projecting the data along the lines of 
 \label{fig:ER-threshold}
 \end{figure}
 
-%Individual events on the plot are smeared by detector resolution and electron-ion pair recombination fluctuations. Detector resolution is comprised of statistical fluctuations in counting photons and electrons in the S1 and S2 channel. The finite resolution in S1 and S2 smear events along the vertical and horizontal axis, respectively. Recombination fluctuations ($ \sigma(R)$) smear events along the contours of constant energy, and thus cancel out in the combined energy model of Eq.\ref{platzman_eq}. 
+\subsection{Light and charge yields}
 
 The mean light and charge yields of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180~V/cm and 105~V/cm in Fig. \ref{fig:ER-LY-QY} along with NEST v0.98 model predictions at each field \cite{NEST_2013}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the energy resolution and the spectral shape \cite{Dobi_Thesis}\footnote{We have verified with an internal $\rm ^{83m}Kr$ calibration source that the light yield of LXe is unaffected by the presence of CH$_4$ at concentrations up to $\sim$1 part per million. For the CH$_3$T measurements reported here the concentration was ($<$ $10\times10^{-12}$ g/g). }.  NEST v0.98 describes the data approximately, but predicts too much light yield and too little charge yield above 6~keV. Note that NEST v0.98 lacks direct input measurements in this energy range and electric field, so a modest disagreement is not unexpected. A more recent version of NEST (v1.0) has been tuned to reproduce the LUX tritium data shown here faithfully. The yield measurements at 180~V/cm and 105~V/cm are also listed in Tables \ref{table:Yields} and \ref{table:Yields_100} in Appendix \ref{sec:appendix3}.
 
@@ -78,7 +80,9 @@ As shown in Fig. \ref{fig:ER-LY-QY}, we find that the light yield increases rapi
 \label{fig:quanta-vs-energy}
 \end{figure}
 
-We understand this behavior as due to the effects of recombination, the process by which newly liberated ionization electrons are captured by Xe$^+$ ions, creating additional Xe$^*$ excitons, and ultimately scintillation photons. We model recombination as follows. Starting with a $W$-value of 13.7~eV, we assume that $\alpha$, the initial ratio of excitons-to-ions prior to recombination, is 0.2 independent of energy and electric field~\cite{Doke_alpha}. Then the initial number of ions prior to recombination ($N_{ion}$, equivalent to the initial number of electrons), and the initial number of excitons prior to recombination ($N_{ex}$), and their sum (the total number of quanta), all increase linearly with energy as shown by the solid lines in Fig. \ref{fig:quanta-vs-energy}. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total observed number of electrons and scintillation photons after recombination measured with the LUX tritium data at 180~V/cm as a function of energy. The sum of the observed electrons and photons should also increase linearly with energy, a hypothesis which is tested and confirmed by the tritium spectrum comparison of Fig. \ref{fig:tritium-spectrum}.
+\subsection{Recombination at 180~V/cm and 105~V/cm}
+
+We understand the variation of the light and charge yields as being due to recombination, the process by which newly liberated ionization electrons are captured by Xe$^+$ ions, creating additional Xe$^*$ excitons, and ultimately scintillation photons. We model recombination as follows. Starting with a $W$-value of 13.7~eV, we assume that $\alpha$, the initial ratio of excitons-to-ions prior to recombination, is 0.2 independent of energy and electric field~\cite{Doke_alpha}. Then the initial number of ions prior to recombination ($N_{ion}$, equivalent to the initial number of electrons), and the initial number of excitons prior to recombination ($N_{ex}$), and their sum (the total number of quanta), all increase linearly with energy as shown by the solid lines in Fig. \ref{fig:quanta-vs-energy}. Also shown in Fig. \ref{fig:quanta-vs-energy} are the total observed number of electrons and scintillation photons after recombination measured with the LUX tritium data at 180~V/cm as a function of energy. The sum of the observed electrons and photons should also increase linearly with energy, a hypothesis which is tested and confirmed by the tritium spectrum comparison of Fig. \ref{fig:tritium-spectrum}.
 
 As shown in Fig. \ref{fig:quanta-vs-energy}, we fine that at very low energy, below 3~keV, the number of electrons and photons is similar to $N_{ion}$ and $N_{ex}$, respectively, while above 4~keV the number of electrons drops below the number of photons, consistent with a large recombination effect at these energies and this electric field. The recombination fraction, calculated according to
 
@@ -94,6 +98,8 @@ is shown explicitly in Fig. \ref{fig:recombination}, measured with both the 180~
 \caption{Recombination fraction of ER events at 180~V/cm (black) and 105~V/cm (blue), assuming an exciton-to-ion ratio of 0.2.}
 \label{fig:recombination}
 \end{figure}
+
+\subsection{LUX electron recoil band}
 
 The LUX ER band is shown as log$_{10}$(S2/S1) vs S1 in Fig. \ref{fig:ER_band}(top).  Also shown is the NR band measured with neutron generator data\cite{DD-paper, lux-reanalysis}. The ER band has a characteristic rise at decreasing values of S1 which reflects the rapidly changing charge and light yields below $\sim$6~keV. The leakage fraction ($f$), defined as the fraction of ER events observed below the mean of the NR band, is shown in Fig. \ref{fig:ER_band}(bottom) as a function of S1. The recoil discrimination efficiency ($1-f$) has an average value of 99.81 $\pm$ 0.02\% for events with S1 between 1 and 50 phd.
 
