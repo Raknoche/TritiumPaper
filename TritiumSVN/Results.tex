@@ -22,7 +22,7 @@ E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right),
 \end{equation}
 
 \noindent
-\fixit{where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have units of phd per quantum. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface and the average single electron size in phd. For the December 2013 tritium dataset presented here, $g_1$ and $g_2$ are measured to be $0.114 \pm 0.003$ phd/photon and $12.0 \pm 0.8$ phd/electron by fitting the data to the tritium spectrum.  In the LUX Run 3 WIMP search, $g_1$ and $g_2$ are measured with line source data and single electron events to be $0.117 \pm 0.003$ phd/photon and $12.05 \pm 0.80$ phd/electron\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here.} 
+where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have units of phd per quantum. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface and the average single electron size in phd. For the December 2013 tritium dataset presented here, $g_1$ and $g_2$ are measured to be $0.114 \pm 0.003$ phd/photon and $12.0 \pm 0.8$ phd/electron by fitting the data to the tritium spectrum.  In the LUX Run 3 WIMP search, $g_1$ and $g_2$ are measured with line source data and single electron events to be $0.117 \pm 0.003$ phd/photon and $12.05 \pm 0.80$ phd/electron\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here.
 
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/tritium_scatter.png}
@@ -39,10 +39,8 @@ E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right),
 \end{center}
 \end{figure}
 
-%S1 ($ \sigma(n_{\gamma}))$ and S2 ($\sigma(n_e)$)
 
 A scatter plot of $n_e$ vs $n_{\gamma}$ for the tritium data at 180~V/cm is shown in Fig. \ref{fig:tritium-scatter}, along with the projected histograms on each axis. Contours of constant energy in 1~keV intervals are also plotted, derived from Eq. \ref{platzman_eq}. 
-
 
 The tritium energy spectrum, obtained by projecting the data along the lines of constant energy, is shown in Fig. \ref{fig:tritium-spectrum}. The data are compared to an ideal tritium spectrum \cite{Tritium_Eq_Simpson}, with no detector effects, and a tritium spectrum with an energy smearing factor of $ \frac{\sigma_E}{W} = \sqrt{\sigma(n_{\gamma})^2 + \sigma(n_e)^2}$, where $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ represent the detector resolution for photon and electron counting. In the fit the models are normalized to the data. The ratio of the data to the smeared theoretical spectrum is shown in Fig. \ref{fig:ER-threshold}, along with an empirical fit to an error function. The effective 50\% energy threshold for ER events is found to be 1.30 $\pm$ 0.013~keV. The excellent agreement between data and theory from 3~keV to the endpoint of the tritium spectrum supports the combined energy model in Eq.~\ref{platzman_eq}.
 
@@ -52,9 +50,7 @@ The tritium energy spectrum, obtained by projecting the data along the lines of 
 \label{fig:ER-threshold}
 \end{figure}
 
-
 %Individual events on the plot are smeared by detector resolution and electron-ion pair recombination fluctuations. Detector resolution is comprised of statistical fluctuations in counting photons and electrons in the S1 and S2 channel. The finite resolution in S1 and S2 smear events along the vertical and horizontal axis, respectively. Recombination fluctuations ($ \sigma(R)$) smear events along the contours of constant energy, and thus cancel out in the combined energy model of Eq.\ref{platzman_eq}. 
-
 
 The mean light and charge yields of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180~V/cm and 105~V/cm in Fig. \ref{fig:ER-LY-QY} along with NEST v0.98 model predictions at each field \cite{NEST_2013}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the energy resolution and the spectral shape \cite{Dobi_Thesis}\footnote{We have verified with an internal $\rm ^{83m}Kr$ calibration source that the light yield of LXe is unaffected by the presence of CH$_4$ at concentrations up to $\sim$1 part per million. For the CH$_3$T measurements reported here the concentration was ($<$ $10\times10^{-12}$ g/g). }.  NEST v0.98 describes the data approximately, but predicts too much light yield and too little charge yield above 6~keV. Note that NEST v0.98 lacks direct input measurements in this energy range and electric field, so a modest disagreement is not unexpected. A more recent version of NEST (v1.0) has been tuned to reproduce the LUX tritium data shown here faithfully. The yields from tritium at 180 and 105 V/cm plotted can be found in Table \ref{table:Yields} and Table \ref{table:Yields_100}.
 
@@ -137,7 +133,7 @@ The light yield measurements are compared to similar measurements by other autho
 \end{figure}
 
 
-As shown in Fig. \ref{fig:ER-LY-QY}, we find that the light yield increases rapidly from 1 to 6~keV, and then becomes mostly energy independent over the remainder of the tritium spectrum. The charge yield exhibits the reverse behavior, lending support to the combined energy model. 
+As shown in Fig. \ref{fig:ER-LY-QY}, we find that the light yield increases rapidly from 1 to 6~keV, and then becomes less energy dependent over the remainder of the tritium spectrum. The charge yield exhibits the reverse behavior, lending support to the combined energy model. 
 
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/quanta-vs-energy.png}
