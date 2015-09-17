@@ -24,7 +24,7 @@ E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right),
 \end{equation}
 
 \noindent
-where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have units of phd per quantum. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface and the average single electron size in phd. For the December 2013 tritium dataset presented here, $g_1$ and $g_2$ are measured to be $0.115 \pm 0.005$ phd/photon and $12.1 \pm 0.9$ phd/electron. The constraint was set by allowing g1 and g2 to float and fitting the data to a true tritium spectrum \cite{Drexlin:2013lha}.  In the LUX Run 3 WIMP search, $g_1$ and $g_2$ are measured with line source data and single electron events to be $0.117 \pm 0.003$ phd/photon and $12.05 \pm 0.80$ phd/electron\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here. \fixit{Do we want to mention that with Kr calibrations g1=0.114 and g2=12.0 ?}
+where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have units of phd per quantum. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface and the average single electron size in phd. For the December 2013 tritium dataset presented here, $g_1$ and $g_2$ are measured to be $0.115 \pm 0.005$ phd/photon and $12.1 \pm 0.9$ phd/electron. The constraint was set by allowing g1 and g2 to float and fitting the data to a true tritium spectrum \cite{Drexlin:2013lha}.  In the LUX Run 3 WIMP search, $g_1$ and $g_2$ are measured with line source data and single electron events to be $0.117 \pm 0.003$ phd/photon and $12.05 \pm 0.80$ phd/electron\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here. \fixit{Do we want to mention that with Kr calibrations the WS g1 and g2 translate to g1=0.114 and g2=12.0 ?}
 
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/tritium_scatter.png}
@@ -36,7 +36,7 @@ where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have un
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=90mm]{fig/tritium-spectrum-linear.png}
-\caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to two models: a pure tritium spectrum (dashed blue), and a tritium spectrum convolved with detector resolution  ($\frac{\sigma_E}{W} = \sqrt{\sigma^2(n_{\gamma})+ \sigma^2(n_e)}$.) The reduced $\chi^2$ between data and model =1.35.}
+\caption{The tritium energy spectrum measured by LUX with the combined energy model (black) compared to two models: a pure tritium spectrum (dashed blue), and a tritium spectrum convolved with detector resolution  ($\frac{\sigma_E}{W} = \sqrt{\sigma^2(n_{\gamma})+ \sigma^2(n_e)}$.) The p-value between data and model from 3 to 18 keV is 0.70.}
 \label{fig:tritium-spectrum}
 \end{center}
 \end{figure}
@@ -59,7 +59,7 @@ The mean light and charge yields of ER events in LUX are obtained by dividing th
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/ER_LY.png}
 \includegraphics[width=90mm]{fig/ER_QY.png}
-\caption{The light yield (upper plot) and charge yield (lower plot) of tritium ER events in LUX at 180~V/cm (black) and 105~V/cm (blue) compared to NEST v0.98 (2013) \cite{NEST_2013}. The NEST curves are solid red and dashed magenta for 105 and 180 V/cm respectively, with triangle markers spaced every one keV. The bands indicate the systematic errors due to $g_1$ and $g_2$, which are fully anti-correlated between the charge yield and light yield across all energy bins. }
+\caption{The light yield (upper plot) and charge yield (lower plot) of tritium ER events in LUX at 180~V/cm (black) and 105~V/cm (blue) compared to NEST v0.98 (2013) \cite{NEST_2013}. The NEST curves are solid red and dashed magenta for 180 and 105 V/cm respectively, with triangle markers spaced every one keV. The bands indicate the systematic errors due to $g_1$ and $g_2$, which are fully anti-correlated between the charge yield and light yield across all energy bins. }
 \label{fig:ER-LY-QY}
 \end{figure}
 
