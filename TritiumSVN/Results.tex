@@ -4,7 +4,7 @@ At the conclusion of Run 3, in December of 2013, a total of 10 Bq of tritium was
 
 The LUX detector is described in detail in Ref. \cite{lux-nim}. Briefly, LUX is a cylindrical dual-phase TPC, with an array of 61 photomultiplier tubes (PMTs) immersed in the LXe at the bottom of the vessel, and an identical PMT array above the liquid-gas interface. Primary scintillation signals (S1) are detected on both arrays, while charge deposits drift vertically in the uniform drift field as established by anode and cathode wire grids. The charge deposits are extracted through the liquid-gas surface and create secondary scintillation (S2) before being collected by the anode. The spatial pattern of the S2 signals on the upper array localize the event in $x$ and $y$, while the drift time between S1 and S2 determines the $z$ coordinate.
 
-Data is selected for analysis using cuts similar to the WIMP search analysis\cite{lux-reanalysis, lux-prd}. Within an event window, single scatters are selected by pairing an S1 with a single S2.  The S1 is measured with a spike-counting method that requires a minimum two-fold coincidence from PMTs that are not in neighboring channels. We correct the S1 and S2 signals for spatial and temporal variations such as the light collection efficiency and the free electron lifetime with $ ^{83m}$Kr data.  The S2 signal is required to be greater than 150 phd ($\sim$6 extracted electrons) to ensure accurate $x$-$y$ position reconstruction. Events are required to be within a fiducial volume of \fixit{6 to 46 cm in the charge drift direction ($z$) \fixit{(change these numbers to drift time???)} and less than 20 cm radius.} In addition to the above selection cuts, which are applied to the WIMP search, in the tritium data we also reject events where the S2 signal is truncated by the end of an event buffer. This pathology is negligible in WIMP search data but is present at a small level in the tritium data due to the larger event rate.
+Data is selected for analysis using cuts similar to the WIMP search analysis\cite{lux-reanalysis, lux-prd}. Within an event window, single scatters are selected by pairing an S1 with a single S2.  The S1 is measured with a spike-counting method that requires a minimum two-fold coincidence from PMTs that are not in neighboring channels. We correct the S1 and S2 signals for spatial and temporal variations such as the light collection efficiency and the free electron lifetime with $ ^{83m}$Kr data.  The S2 signal is required to be greater than 150 phd ($\sim$6 extracted electrons) to ensure accurate $x$-$y$ position reconstruction. Events are required to be within a fiducial volume of \fixit{35  to 305 $\rm \mu s$ in drift time (6 to 46 cm in the charge drift direction ($z$))} and less than 20 cm radius. In addition to the above selection cuts, which are applied to the WIMP search, in the tritium data we also reject events where the S2 signal is truncated by the end of an event buffer. This pathology is negligible in WIMP search data but is present at a small level in the tritium data due to the larger event rate.
 
 \subsection{Tritium energy spectrum}
 
@@ -24,7 +24,7 @@ E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right),
 \end{equation}
 
 \noindent
-where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have units of phd per quantum. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface and the average single electron size in phd. For the December 2013 tritium dataset presented here, $g_1$ and $g_2$ are measured to be $0.114 \pm 0.003$ phd/photon and $12.0 \pm 0.8$ phd/electron by fitting the data to the tritium spectrum.  In the LUX Run 3 WIMP search, $g_1$ and $g_2$ are measured with line source data and single electron events to be $0.117 \pm 0.003$ phd/photon and $12.05 \pm 0.80$ phd/electron\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here.
+where S1 and S2 have units of photons detected (phd) and $g_1$ and $g_2$ have units of phd per quantum. $g_1$ is the average light collection efficiency times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas surface and the average single electron size in phd. For the December 2013 tritium dataset presented here, $g_1$ and $g_2$ are measured to be $0.115 \pm 0.005$ phd/photon and $12.1 \pm 0.9$ phd/electron. The constraint was set by allowing g1 and g2 to float and fitting the data to a true tritium spectrum \cite{Drexlin:2013lha}.  In the LUX Run 3 WIMP search, $g_1$ and $g_2$ are measured with line source data and single electron events to be $0.117 \pm 0.003$ phd/photon and $12.05 \pm 0.80$ phd/electron\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here. \fixit{Do we want to mention that with Kr calibrations g1=0.114 and g2=12.0 ?}
 
 \begin{figure}[h!]
 \includegraphics[width=90mm]{fig/tritium_scatter.png}
@@ -105,6 +105,7 @@ The LUX ER band is shown as log$_{10}$(S2/S1) vs S1 in Fig. \ref{fig:ER_band}(to
 
 \begin{figure}[h!]
 \includegraphics[width=80mm]{fig/CH3T_ER_Band.png}
+%\includegraphics[width=80mm]{fig/CH3T_ER_Band_log.png} .... log version
 \includegraphics[width=75mm]{fig/CH3T_Leakage_Run03.png}
 \caption{Top: The electron recoil band of LUX illuminated by 170,000 tritium events at the nominal LUX electric field of 180~V/cm.  The recoil discriminant variable, log(S2/S1), is shown vs. S1 between 1 and 120 phd in S1 (with contours of constant energy $1-20 \, keV_{ee}$). Also indicated in black are the mean and the 10\% and 90\% contours of the ER population. The solid red line represents the mean NR band determined with DD neutron generator data. The dashed red indicates the 10\% and 90\% contours of the NR band. Bottom: Observed LUX recoil discrimination vs. S1, defined as the fraction of events below the NR mean. Y-axis labels: left -  leakage fraction ($f$); right - discrimination ($1-f$).}
 \label{fig:ER_band}
@@ -130,12 +131,12 @@ We also expect to find about 0.5 low (S2/S1) events due to ion recoil from $^{21
 
 \onecolumngrid
 \break
-\begin{figure}[h!]
-%\begin{sidewaysfigure}[p!]
-\includegraphics[width=180mm]{fig/Gaussianity/GaussER_all.png}
+%begin{figure}[h!]
+\begin{sidewaysfigure}[p!]
+\includegraphics[width=220mm]{fig/Gaussianity/GaussER_all.png}
 \caption{Electron recoil population from tritium events about the centroid of the mean in 3 phd bins over over the WIMP region of interest (1 - 49 phd). We fit each bin to a Gaussian, and subtract the centroid of the Gaussian. The x-axis is measured in units of the fitted Gaussian width. The red dashed line represents the mean of the NR band in each bin. We observe non Gaussian behavior below three sigma of the ER band and two sigma above.  }
 \label{fig:ER-Gauss}
-%\end{sidewaysfigure}
-\end{figure}
+\end{sidewaysfigure}
+%\end{figure}
 \twocolumngrid
 
