@@ -15,7 +15,7 @@ The behavior of CH$_3$T in SS plumbing was studied in a bench-test with a custom
 \label{fig:ch4_removal}
 \end{figure}
 
-We also performed tests of CH$_3$T injection and removal from LXe with a small detector. One such experiment is shown in Fig.~\ref{fig:Density}, where 68,000 Hz of CH$_3$T was injected, counted, and subsequently removed from LXe. Samples of LUX polyethylene and teflon were immersed in the LXe in this experiment, and their outgassing is evident in Fig.~\ref{fig:Density}. These data placed constraints on the risk of CH$_3$T outgassing in LUX. In total over one million Hz of CH$_3$T activity was injected and successfully removed in these experiments.
+We also performed tests of CH$_3$T injection and removal from LXe with a small detector. One such experiment is shown in Fig.~\ref{fig:Density}, where 68,000 Hz of CH$_3$T was injected, counted, and subsequently removed from LXe. Samples of LUX polyethylene and teflon were immersed in the LXe in this experiment, and their outgassing is evident in Fig.~\ref{fig:Density}. These data placed constraints on the risk of CH$_3$T outgassing in LUX. In total over one million Hz of CH$_3$T activity was injected and successfully removed in these experiments. 
 
 \begin{figure}[h!]
 \includegraphics[width=80mm]{fig/TimeHisto_Analog2.eps}
@@ -23,6 +23,7 @@ We also performed tests of CH$_3$T injection and removal from LXe with a small d
 \label{fig:Density}
 \end{figure}
 
+As a final measure of risk mitigation, the CH$_3$T injection into LUX was performed at the end of Run 3 after the WIMP search data had been collected.
 
 \section{Model of CH$_3$T removal}
 \label{sec:appendix2}
@@ -33,7 +34,7 @@ We use a simple purification model to predict the CH$_3$T activity in LUX after 
 \frac{dC}{dt} = \frac{A}{V}J_{out} -\frac{C}{\tau},
 \end{equation}
 
-\noindent where  $C$ is the CH$_3$T concentration in the LXe,  $J_{out}$ is the flux of CH$_3$T out of the plastic components due to outgassing,  $A$ is the surface area of the plastic TPC cylinder, $V$ is the total volume of xenon in the active region, and $\tau$ is the characteristic removal time of CH$_3$T due to purification (5.9 hours). The model assumes perfect mixing of the fluid in the TPC. The initial concentration is the injection activity divided by the volume of the active region. We solve the model numerically with the Euler method while simultaneously solving the diffusion equation to determine $J_{out}$. The results predict the number of calibration events that may be collected and provide an estimate of when the CH$_3$T  decay rate will be small enough to allow the WIMP search to resume.
+\noindent where  $C$ is the CH$_3$T concentration in the LXe,  $J_{out}$ is the flux of CH$_3$T out of the plastic components due to outgassing,  $A$ is the surface area of the plastic TPC cylinder, $V$ is the total volume of xenon in the active region, and $\tau$ is the characteristic removal time of CH$_3$T due to purification (5.9 hours). The model assumes perfect mixing of the fluid in the TPC, similar to what has been observed in LUX. The initial concentration is the injection activity divided by the volume of the active region. We solve the model numerically with the Euler method while simultaneously solving the diffusion equation to determine $J_{out}$. The results predict the number of calibration events that may be collected and provide an estimate of when the CH$_3$T  decay rate will be small enough to allow the WIMP search to resume.
 
 We approximate the diffusion into and out of the plastics as one-dimensional, since most plastics in LUX can be approximated as a thin cylindrical shell with no dependence on the azimuthal or $z$ coordinates.  Fick's laws in one dimension are
 
@@ -56,7 +57,7 @@ J_{out}(t)= - G\left( \int \limits_0^t \frac{\frac{d}{dt'}C(t')}{\sqrt{t-t'}} dt
 \end{equation}
 
 \noindent
-where the sign is reversed because the flux of material is outward. This result can be derived by applying Duhamel's principle along the infinite half-line, and it shows that the outgassing flux is linear in $G$. We set an upper limit of $G<0.0016 \frac{cm}{\sqrt{day}}$ for LUX based upon the data in Fig.~\ref{fig:ch4_removal}. In that data the effect of $G$ would appear as an elbow in the CH$_4$ concentration versus time, as indicated by the blue line. The three data points near t = 3 days constrain the maximum value of $G$. We interpret this result as an upper limit because those data points are consistent with CH$_4$ backgrounds in the mass spectrometry system.
+where the sign is reversed because the flux of material is outward. This result can be derived by applying Duhamel's principle along the infinite half-line from zero to negative nfinity, and it shows that the outgassing flux is linear in $G$. We set an upper limit of $G<0.0016 \frac{cm}{\sqrt{day}}$ for LUX based upon the data in Fig.~\ref{fig:ch4_removal}. In that data the effect of $G$ would appear as an elbow in the CH$_4$ concentration versus time, as indicated by the blue line. The three data points near t = 3 days constrain the maximum value of $G$. We interpret this result as an upper limit because those data points are consistent with CH$_4$ backgrounds in the mass spectrometry system.
 
 \begin{figure}[h!]
 \includegraphics[width=0.95\textwidth]{fig/LUX_og_lim.eps}
@@ -107,7 +108,7 @@ $\rm (keV_{ee}$) & ($\rm n_\gamma$/keV)   & ($\rm n_e$/keV) & ($\rm n$/keV) \\ \
 
 \begin{table}[h!]
 \centering
-\caption{Light and charge yield (photons/keV and electrons/keV) measured with tritium decay at 105~V/cm. The uncertainty includes both statistical and the dominant systematic uncertainty, common for both, from the constraint on g1 and g2. }
+\caption{Light and charge yield (photons/keV and electrons/keV) measured with tritium decay at 105~V/cm. The uncertainty includes both statistical and the dominant systematic uncertainty, common for both, from the constraint on g1 and g2. The available statistics in this data is smaller than that of the 180~V/cm data , resulting in fewer energy bins.}
 \begin{tabular}{|c|c|c|c|} \hline
 Energy 	& 		LY	& 	QY	& $\sigma$ \\ 
 $\rm (keV_{ee}$) & ($\rm n_\gamma$/keV)   & ($\rm n_e$/keV) & ($\rm n$/keV) \\ \hline
