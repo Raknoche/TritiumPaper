@@ -26,14 +26,14 @@ E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right),
 \noindent
 where S1 and S2 have units of phd and $g_1$ and $g_2$ have units of phd/quantum. $g_1$ is the light collection efficiency referenced to the center of the detector times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas interface and the average size of the single electron response in phd. For the December 2013 tritium dataset presented here, $g_1$,$g_2$, and the extraction efficiency are measured to be $0.115 \pm 0.005$ phd/photon, $12.1 \pm 0.9$ phd/electron, and $50.9\% \pm 3.8\%$. The constraint was set by allowing $g_1$ and $g_2$ to float and fitting the data to a true tritium spectrum~\cite{Drexlin:2013lha}.  In the LUX Run 3 WIMP search, $g_1$, $g_2$, and the extraction efficiency are measured with mono-energetic source data and single electron events to be $0.117 \pm 0.003$ phd/photon, $12.1 \pm 0.8$ phd/electron, and $49.1\% \pm 3.2\%$~\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here. 
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \includegraphics[width=90mm]{fig/fig4.eps}
 \caption{Scatter plot of $n_e$ vs $n_{\gamma}$ for 170,000 fiducial tritium events at 180~V/cm. Lines of constant energy are indicated assuming a $W$-value of 13.7~eV. The data are projected onto $n_e$ and $n_{\gamma}$ histograms on each axis.}
 \label{fig:tritium-scatter}
 \end{figure}
 
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \begin{center}
 \includegraphics[width=90mm]{fig/fig5.eps}
 \caption{Top: The tritium energy spectrum measured by LUX with the combined energy model (black) compared to  a tritium spectrum convolved with detector resolution  ($\frac{\sigma_E}{W} = \sqrt{\sigma^2(n_{\gamma})+ \sigma^2(n_e)}$.) The p-value between data and model from 3 to 18 keV is 0.70. Bottom: Bin-by-bin fit residuals between data and theory, in units of $\sigma$. }
@@ -46,7 +46,7 @@ A scatter plot of $n_e$ vs $n_{\gamma}$ for the tritium data at 180~V/cm is show
 
 The tritium energy spectrum, obtained by projecting the data along the lines of constant energy, is shown in Fig.~\ref{fig:tritium-spectrum}. The data are compared to a tritium spectrum with an applied energy resolution of $ \sigma_E = W \cdot \sqrt{\sigma(n_{\gamma})^2 + \sigma(n_e)^2}$, where $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ represent the detector resolution for photon and electron counting. In the fit the model is normalized to the data. The ratio of the data to the smeared theoretical spectrum is shown in Fig.~\ref{fig:ER-threshold}, along with an empirical fit to an error function. The effective 50\% energy threshold for ER events is found to be 1.24 $\pm$ 0.026~keV. The excellent agreement between data and theory from 3~keV to the endpoint of the tritium spectrum provides powerful support for the combined energy model of Eq.~\ref{platzman_eq}.
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \includegraphics[width=90mm]{fig/fig6.eps}
 \caption{Ratio of the measured tritium energy spectrum and the true one convolved with the detector resolution. A fit to an error function is shown.}
 \label{fig:ER-threshold}
@@ -56,7 +56,7 @@ The tritium energy spectrum, obtained by projecting the data along the lines of 
 
 The mean light and charge yields of ER events in LUX are obtained by dividing the mean light and charge signals by the combined energy in each energy bin. The result is shown for 180~V/cm and 105~V/cm in Fig.~\ref{fig:ER-LY-QY}, along with NEST v0.98 model predictions at each field~\cite{NEST_2013}. For these plots a small correction has been applied to the data to account for smearing of tritium events across energy bins due to the energy resolution and the spectral shape~\cite{Dobi_Thesis}\footnote{We have verified with an internal $\rm ^{83m}Kr$ calibration source that the light yield of LXe is unaffected by the presence of CH$_4$ at concentrations up to $\sim$1 part per million. For the CH$_3$T measurements reported here the concentration was ($<$ $10\times10^{-12}$ g/g). }.  NEST v0.98 describes the data approximately, but predicts too much light yield and too little charge yield above 6~keV. Note that NEST v0.98 lacks direct input measurements in this energy range and electric field, so a modest disagreement is not unexpected. A version of NEST tuned to reproduce the LUX tritium data faithfully is used to model the ER response in the Run 3 re-analysis~\cite{lux-reanalysis}. The yield measurements at 180~V/cm and 105~V/cm are also listed in Tables~\ref{table:Yields} and~\ref{table:Yields_100} in Appendix~\ref{sec:appendix3}.
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \includegraphics[width=90mm]{fig/fig7a.pdf}
 \includegraphics[width=90mm]{fig/fig7b.pdf}
 \caption{The light yield (upper plot) and charge yield (lower plot) of tritium ER events in LUX at 180~V/cm (black circles) and 105~V/cm (blue circles) compared to NEST v0.98 (2013)~\cite{NEST_2013}. The NEST curves are solid red and dashed magenta for 180 and 105 V/cm respectively, with triangle markers spaced every one keV. The bands indicate the $1\sigma$ systematic uncertainties on the data due to $g_1$ and $g_2$, which are fully anti-correlated between the charge yield and light yield across all energy bins. Statistical uncertainties are negligible in comparison.}
@@ -65,13 +65,13 @@ The mean light and charge yields of ER events in LUX are obtained by dividing th
 
 The light yield measurements are compared to similar measurements by other authors in Fig.~\ref{fig:Re_LY}. To remove detector effects from this comparison, the light yield is normalized to that of the 32.1~keV electron capture decay of $\rm ^{83m} Kr$ at zero electric field. For LUX this light yield is measured to be $ 63.3 \pm 3$ photons/keV. Although the error bars on the comparison data are large, the findings are consistent with the expectation that the light yields at 105 and 180~V/cm lie between those at zero field and 450~V/cm from Refs.~\cite{Aprile_LY}~and~\cite{Baudis}. It is worth noting that Refs.~\cite{Aprile_LY}~and~\cite{Baudis} use Compton scatters as the source of ER events, while in tritium data the ER source is a beta decay. At low energy beta particles and Compton electrons will lead to similar track lengths and are expected to produce similar event characteristics~\cite{NEST_2013}. The comparison of Fig.~\ref{fig:Re_LY} provides modest support for this expectation, albeit with large experimental uncertainties.
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \includegraphics[width=88mm]{fig/fig8.pdf}
 \caption{Light yield measurement from LUX tritium data compared with results from other authors. Left vertical scale: light yield relative to that of the 32.1~keV decay of $\rm ^{83m}Kr $ at zero field. Right vertical scale: absolute light yield measurements. Shaded blue curve is tritium at 105~V/cm, shaded black curve is tritium at 180~V/cm. Magenta squares represent zero field measurements from \cite{Aprile_LY}, green triangles and red stars represent zero field and 450~V/cm from \cite{Baudis}. All non-tritium data is from Compton scatters. }
 \label{fig:Re_LY}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \includegraphics[width=90mm]{fig/fig9.pdf}
 \caption{Top: The mean number of electrons (red) and scintillation photons (blue) produced in LUX at 180~V/cm as a function of energy. The bands indicate the correlated systematic errors on $g_1$ and $g_2$. Also shown are the total number of quanta, primary ions, and primary excitons, assuming an exciton-to-ion ratio of $\alpha$ = 0.2. }
 \label{fig:quanta-vs-energy}
@@ -92,7 +92,7 @@ r = \frac{(n_{\gamma}/n_e) - \alpha}{(n_{\gamma}/n_e) + 1},
 \noindent
 is shown explicitly in Fig.~\ref{fig:recombination}, measured with both the 180~V/cm and 105~V/cm tritium data. We find only a small difference in the recombination between these two field values in this energy range. It is worth noting that recombination is small at the very lowest energies where the dark matter search is performed, rapidly approaching zero as the energy drops below 4~keV. As noted before, this behavior is of considerable importance for the efficiency of recoil discrimination in LXe~\cite{xed-discrimination}. Other authors have used $\alpha$ values between 0.06 and 0.2 (see Ref.~\cite{kaixuan} and references therein). Changing the value of $\alpha$ modestly affects the absolute magnitude of the resulting recombination fraction but has only a small effect on the shape as a function of energy. 
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \includegraphics[width=90mm]{fig/fig10.pdf}
 \caption{Recombination fraction of ER events in LXe at 180~V/cm (black) and 105~V/cm (blue), assuming an exciton-to-ion ratio of 0.2.}
 \label{fig:recombination}
@@ -100,9 +100,8 @@ is shown explicitly in Fig.~\ref{fig:recombination}, measured with both the 180~
 
 \subsection{LUX electron recoil band}
 
-The LUX ER band is shown as log$_{10}$(S2/S1) vs S1 in Fig.~\ref{fig:ER_band}(top).  It has a characteristic rise at decreasing values of S1 which reflects the rapidly changing charge and light yields below $\sim$6~keV.  Also shown in Fig.~\ref{fig:ER_band}(top) is the NR band measured with neutron generator data\cite{DD-paper, lux-reanalysis}. The width of the ER band is of considerable interest because it determines the recoil discrimination of the detector. The leakage fraction ($f$), defined as the fraction of ER events observed below the Gaussian mean of the NR band, is shown in Fig.~\ref{fig:ER_band}(bottom) as a function of S1. The recoil discrimination efficiency ($1-f$) has an average value of 99.81 \% $\pm$ 0.02\%$\rm (stat) \pm 0.1\%$(sys) for events with S1 between 1 and 50 phd, where the systematic error accounts for the uncertainty in the NR band mean and effects due to field non-uniformity.
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 %\includegraphics[width=80mm]{fig/CH3T_ER_Band.png} % linear S1 version
 \includegraphics[width=80mm]{fig/fig11a.eps} %.... log S1 version
 \includegraphics[width=75mm]{fig/fig11b.eps}
@@ -110,24 +109,24 @@ The LUX ER band is shown as log$_{10}$(S2/S1) vs S1 in Fig.~\ref{fig:ER_band}(to
 \label{fig:ER_band}
 \end{figure}
 
+The LUX ER band is shown as log$_{10}$(S2/S1) vs S1 in Fig.~\ref{fig:ER_band}(top).  It has a characteristic rise at decreasing values of S1 which reflects the rapidly changing charge and light yields below $\sim$6~keV.  Also shown in Fig.~\ref{fig:ER_band}(top) is the NR band measured with neutron generator data\cite{DD-paper, lux-reanalysis}. The width of the ER band is of considerable interest because it determines the recoil discrimination of the detector. The leakage fraction ($f$), defined as the fraction of ER events observed below the Gaussian mean of the NR band, is shown in Fig.~\ref{fig:ER_band}(bottom) as a function of S1. The recoil discrimination efficiency ($1-f$) has an average value of 99.81 \% $\pm$ 0.02\%$\rm (stat) \pm 0.1\%$(sys) for events with S1 between 1 and 50 phd, where the systematic error accounts for the uncertainty in the NR band mean and effects due to field non-uniformity.
 
-In general the ER band width should be comprised of three components: the uncertainties on  $n_{\gamma}$ and $n_e$  due to detector resolution ($ \sigma(n_{\gamma})$ and $ \sigma(n_e)$), and true event-to-event variations in recombination ($ \sigma(R)$). $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ are responsible for fluctuations in the vertical  and horizontal directions in Fig. \ref{fig:tritium-scatter},  while $ \sigma(R)$ causes fluctuations along the diagonal lines of constant energy. We have measured $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ as a function of energy and the result is shown in Fig.~\ref{fig:recomb-flucs} for LUX tritium data at 180~V/cm\cite{Dobi_Thesis}. Also shown in Fig.~\ref{fig:recomb-flucs} is the extracted value of $ \sigma(R)$ as a function of energy after controlling for $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ by a method described in Ref. \cite{Dobi_Thesis}. The amount of event-to-event recombination fluctuations ($ \sigma(R)$) grows linearly as a function of number of ions available for recombination (or energy). For energies between 2 to 16~keV the size of recombination fluctuations can be described by $\rm \sigma(R)=(0.067\pm0.005) \times N_{ion}$.
 
-\begin{figure}[h!]
+\begin{figure}[t!]
 \includegraphics[width=90mm]{fig/fig12.eps}
 \caption{Black: recombination fluctuations in LXe measured with LUX tritium data at 180~V/cm. Dot-dash blue: Detector resolution for counting photons. Dashed magenta: Detector resolution for counting electrons.}
 \label{fig:recomb-flucs}
 \end{figure}
 
+
+In general the ER band width should be comprised of three components: the uncertainties on  $n_{\gamma}$ and $n_e$  due to detector resolution ($ \sigma(n_{\gamma})$ and $ \sigma(n_e)$), and true event-to-event variations in recombination ($ \sigma(R)$). $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ are responsible for fluctuations in the vertical  and horizontal directions in Fig. \ref{fig:tritium-scatter},  while $ \sigma(R)$ causes fluctuations along the diagonal lines of constant energy. We have measured $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ as a function of energy and the result is shown in Fig.~\ref{fig:recomb-flucs} for LUX tritium data at 180~V/cm\cite{Dobi_Thesis}. Also shown in Fig.~\ref{fig:recomb-flucs} is the extracted value of $ \sigma(R)$ as a function of energy after controlling for $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ by a method described in Ref. \cite{Dobi_Thesis}. The amount of event-to-event recombination fluctuations ($ \sigma(R)$) grows linearly as a function of number of ions available for recombination (or energy). For energies between 2 to 16~keV the size of recombination fluctuations can be described by $\rm \sigma(R)=(0.067\pm0.005) \times N_{ion}$.
+
 We find that at 180~V/cm in LUX, $ \sigma(n_{\gamma})$ is the most important contributor to the ER band width over the entire tritium energy spectrum due to the relatively modest light collection ($g_1 = 0.115$). Between 2 and 6~keV, where the WIMP search is most sensitive, $ \sigma(n_e)$ and $ \sigma(R)$ are of comparable magnitude and secondary importance. We note that an ideal detector, with perfect light and charge collection, would have an ER band width determined solely by $ \sigma(R)$. 
 
-The statistical description of the width of the LUX ER band is relevant to the WIMP-search profile likelihood fit. To study the band width in more detail, in Fig.~\ref{fig:ER-Gauss} we histogram log$_{10}(S2/S1)$ in 16 bins of S1 from 1 to 49 phd with a bin-width of 3 phd. In each bin, we show a Gaussian fit to the data after subtracting the centroid and dividing by the Gaussian width. We find that the Gaussian fits describe the data well  in most S1 bins out to $2\sigma$ on the upper side and $3\sigma$ on the lower side, beyond which non-Gaussian tails are visible.  We have investigated the origin of these tails. On the lower side, which is most directly relevant to the WIMP search, the largest non-Gaussian tail is found in the lowest S1 bin (1 -- 3 phd). This tail is reproduced in simulation and originates from Poissionian fluctuations in the photon counting statistics. The origin of the non-Gaussian tails on the upper side is less clear, but fluctuations in the charge extraction efficiency at the liquid-gas interface are a possible explanation. It is worth noting that a similar effect has been seen in a previous experiment~\cite{zep3}.
-
-Several outlier events are also evident in Fig.~\ref{fig:ER-Gauss}, particularly at low values of log$_{10}(S2/S1)$. Although these events are rare in this dataset, their origin is of considerable interest for understanding the WIMP sensitivity of future LXe experiments.  Therefore, we have investigated whether these events are attributable to detector pathologies, to backgrounds, or to the fundamental recombination physics of the LXe . In this dataset we expect to find about 0.5 low (S2/S1) events due to background ion recoil from $^{210}$Pb decay on the interior TPC walls. These events can have an improperly reconstructed radial position that allows them to pass our fiducial cuts.  Another possible background is from accidental coincidences between two distinct tritium events. In this scenario, an S1 from a tritium event below the cathode, and thus not having an S2, is improperly paired with a low energy tritium S2 in the fiducial volume for which the S1 signal fell below threshold. The expected number of such events in the tritium dataset is 2.5. The tritium dataset used here contain 27.5 live hours of data, during which time we expect to have 15 non-tritium events from the LUX ER background rate between 1 and 18 keV. These events should occur near the mean of the tritium ER band and should not be observable in this dataset. The total background expectation for low (S2/S1) events is therefore $\sim$3, and in Fig.~\ref{fig:ER-Gauss} we find three highly isolated low (S2/S1) events. We conclude that the number of low (S2/S1) outlier events is consistent with the background expectation.
 
 \onecolumngrid
 \break
-\begin{figure}
+\begin{figure}[t!]
 %\begin{sidewaysfigure}[p!]
 \includegraphics[width=180mm]{fig/fig13.eps}
 \caption{Electron recoil population from tritium events in 3 phd bins over over the WIMP region of interest (1 -- 49 phd). We fit each bin to a Gaussian, and subtract the centroid of the Gaussian. The x-axis is measured in units of the fitted Gaussian width. The red dashed line represents the mean of the NR band in each bin. }
@@ -137,3 +136,7 @@ Several outlier events are also evident in Fig.~\ref{fig:ER-Gauss}, particularly
 %\break
 \twocolumngrid
 
+
+The statistical description of the width of the LUX ER band is relevant to the WIMP-search profile likelihood fit. To study the band width in more detail, in Fig.~\ref{fig:ER-Gauss} we histogram log$_{10}(S2/S1)$ in 16 bins of S1 from 1 to 49 phd with a bin-width of 3 phd. In each bin, we show a Gaussian fit to the data after subtracting the centroid and dividing by the Gaussian width. We find that the Gaussian fits describe the data well  in most S1 bins out to $2\sigma$ on the upper side and $3\sigma$ on the lower side, beyond which non-Gaussian tails are visible.  We have investigated the origin of these tails. On the lower side, which is most directly relevant to the WIMP search, the largest non-Gaussian tail is found in the lowest S1 bin (1 -- 3 phd). This tail is reproduced in simulation and originates from Poissionian fluctuations in the photon counting statistics. The origin of the non-Gaussian tails on the upper side is less clear, but fluctuations in the charge extraction efficiency at the liquid-gas interface are a possible explanation. It is worth noting that a similar effect has been seen in a previous experiment~\cite{zep3}.
+
+Several outlier events are also evident in Fig.~\ref{fig:ER-Gauss}, particularly at low values of log$_{10}(S2/S1)$. Although these events are rare in this dataset, their origin is of considerable interest for understanding the WIMP sensitivity of future LXe experiments.  Therefore, we have investigated whether these events are attributable to detector pathologies, to backgrounds, or to the fundamental recombination physics of the LXe . In this dataset we expect to find about 0.5 low (S2/S1) events due to background ion recoil from $^{210}$Pb decay on the interior TPC walls. These events can have an improperly reconstructed radial position that allows them to pass our fiducial cuts.  Another possible background is from accidental coincidences between two distinct tritium events. In this scenario, an S1 from a tritium event below the cathode, and thus not having an S2, is improperly paired with a low energy tritium S2 in the fiducial volume for which the S1 signal fell below threshold. The expected number of such events in the tritium dataset is 2.5. The tritium dataset used here contain 27.5 live hours of data, during which time we expect to have 15 non-tritium events from the LUX ER background rate between 1 and 18 keV. These events should occur near the mean of the tritium ER band and should not be observable in this dataset. The total background expectation for low (S2/S1) events is therefore $\sim$3, and in Fig.~\ref{fig:ER-Gauss} we find three highly isolated low (S2/S1) events. We conclude that the number of low (S2/S1) outlier events is consistent with the background expectation.
