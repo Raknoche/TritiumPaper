@@ -27,7 +27,7 @@ E_{total} = W \cdot \left(\frac{S1}{g_1} + \frac{S2}{g_2} \right),
 where S1 and S2 have units of phd and $g_1$ and $g_2$ have units of phd/quantum. $g_1$ is the light collection efficiency referenced to the center of the detector times the average quantum efficiency of the PMT arrays, while $g_2$ is the product of the electron extraction efficiency at the liquid-gas interface and the average size of the single electron response in phd. For the December 2013 tritium dataset presented here, $g_1$,$g_2$, and the extraction efficiency are measured to be $0.115 \pm 0.005$ phd/photon, $12.1 \pm 0.9$ phd/electron, and $50.9\% \pm 3.8\%$. The constraint was set by allowing $g_1$ and $g_2$ to float and fitting the data to a true tritium spectrum~\cite{Drexlin:2013lha}.  In the LUX Run 3 WIMP search, $g_1$, $g_2$, and the extraction efficiency are measured with mono-energetic source data and single electron events to be $0.117 \pm 0.003$ phd/photon, $12.1 \pm 0.8$ phd/electron, and $49.1\% \pm 3.2\%$~\cite{lux-reanalysis, lux-prd}, consistent with the values adopted here. 
 
 \begin{figure}[t!]
-\includegraphics[width=90mm]{fig4.eps}
+\includegraphics[width=90mm]{fig4.pdf}
 \caption{Scatter plot of $n_e$ vs $n_{\gamma}$ for 170,000 fiducial tritium events at 180~V/cm. Lines of constant energy are indicated assuming a $W$-value of 13.7~eV. The data are projected onto $n_e$ and $n_{\gamma}$ histograms on each axis.}
 \label{fig:tritium-scatter}
 \end{figure}
@@ -35,7 +35,7 @@ where S1 and S2 have units of phd and $g_1$ and $g_2$ have units of phd/quantum.
 
 \begin{figure}[t!]
 \begin{center}
-\includegraphics[width=90mm]{fig5.eps}
+\includegraphics[width=90mm]{fig5.pdf}
 \caption{Top: The tritium energy spectrum measured by LUX with the combined energy model (black) compared to  a tritium spectrum convolved with detector resolution  ($\frac{\sigma_E}{W} = \sqrt{\sigma^2(n_{\gamma})+ \sigma^2(n_e)}$.) The p-value between data and model from 3 to 18 keV is 0.70. Bottom: Bin-by-bin fit residuals between data and theory, in units of $\sigma$. }
 \label{fig:tritium-spectrum}
 \end{center}
@@ -47,7 +47,7 @@ A scatter plot of $n_e$ vs $n_{\gamma}$ for the tritium data at 180~V/cm is show
 The tritium energy spectrum, obtained by projecting the data along the lines of constant energy, is shown in Fig.~\ref{fig:tritium-spectrum}. The data are compared to a tritium spectrum with an applied energy resolution of $ \sigma_E = W \cdot \sqrt{\sigma(n_{\gamma})^2 + \sigma(n_e)^2}$, where $ \sigma(n_{\gamma})$ and $ \sigma(n_e)$ represent the detector resolution for photon and electron counting. In the fit the model is normalized to the data. The ratio of the data to the smeared theoretical spectrum is shown in Fig.~\ref{fig:ER-threshold}, along with an empirical fit to an error function. The effective 50\% energy threshold for ER events is found to be 1.24 $\pm$ 0.026~keV. The excellent agreement between data and theory from 3~keV to the endpoint of the tritium spectrum provides powerful support for the combined energy model of Eq.~\ref{platzman_eq}.
 
 \begin{figure}[t!]
-\includegraphics[width=90mm]{fig6.eps}
+\includegraphics[width=90mm]{fig6.pdf}
 \caption{Ratio of the measured tritium energy spectrum and the true one convolved with the detector resolution. A fit to an error function is shown.}
 \label{fig:ER-threshold}
 \end{figure}
@@ -103,8 +103,8 @@ is shown explicitly in Fig.~\ref{fig:recombination}, measured with both the 180~
 
 \begin{figure}[t!]
 %\includegraphics[width=80mm]{CH3T_ER_Band.png} % linear S1 version
-\includegraphics[width=80mm]{fig11a.eps} %.... log S1 version
-\includegraphics[width=75mm]{fig11b.eps}
+\includegraphics[width=80mm]{fig11a.pdf} %.... log S1 version
+\includegraphics[width=75mm]{fig11b.pdf}
 \caption{Top: The electron recoil band of LUX illuminated by 170,000 tritium events at the nominal LUX electric field of 180~V/cm.  The recoil discriminant variable, $\rm log_{10}(S2/S1)$, is shown vs. $S1$ between 1 and 120 phd in S1 (with contours of constant ER energy from 1 to 20~keV). Also indicated in black are the Gaussian means in bins of S1 (filled dots), an empirical power law description of those means (solid black line), and the 10\% and 90\% contours of the ER population (dashed black lines). The solid red line represents the mean NR band determined with DD neutron generator data. The dashed red indicates the 10\% and 90\% contours of the NR band. Bottom: Observed leakage fraction vs. S1 between 1 and 50 phd. Y-axis labels: left: leakage fraction ($f$); right: discrimination ($1-f$).}
 \label{fig:ER_band}
 \end{figure}
@@ -113,7 +113,7 @@ The LUX ER band is shown as log$_{10}$(S2/S1) vs S1 in Fig.~\ref{fig:ER_band}(to
 
 
 \begin{figure}[t!]
-\includegraphics[width=90mm]{fig12.eps}
+\includegraphics[width=90mm]{fig12.pdf}
 \caption{Black: recombination fluctuations in LXe measured with LUX tritium data at 180~V/cm. Dot-dash blue: Detector resolution for counting photons. Dashed magenta: Detector resolution for counting electrons.}
 \label{fig:recomb-flucs}
 \end{figure}
@@ -128,7 +128,7 @@ We find that at 180~V/cm in LUX, $ \sigma(n_{\gamma})$ is the most important con
 \break
 \begin{figure}[t!]
 %\begin{sidewaysfigure}[p!]
-\includegraphics[width=140mm]{fig13.eps}
+\includegraphics[width=140mm]{fig13.pdf}
 \caption{Electron recoil population from tritium events in 3 phd bins over over the WIMP region of interest (1 -- 49 phd). We fit each bin to a Gaussian, and subtract the centroid of the Gaussian. The x-axis is measured in units of the fitted Gaussian width. The red dashed line represents the mean of the NR band in each bin. }
 \label{fig:ER-Gauss}
 %\end{sidewaysfigure}
